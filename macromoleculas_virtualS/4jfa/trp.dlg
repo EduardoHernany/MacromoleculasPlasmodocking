@@ -1,0 +1,1318 @@
+AutoDock-GPU version: v1.5-release
+
+**********************************************************
+**    AutoDock-GPU AUTODOCKTOOLS-COMPATIBLE DLG FILE    **
+**********************************************************
+
+
+    DOCKING PARAMETERS
+    ________________________
+
+
+Ligand file:                               trp.pdbqt
+Grid fld file:                             4jfa_a.maps.fld
+
+Random seed:                               1695011956, 33858
+Number of runs:                            20
+Number of energy evaluations:              1132076
+Number of generations:                     42000
+Size of population:                        150
+Rate of crossover:                         80.000000%
+Tournament selection probability limit:    60.000000%
+Rate of mutation:                          2.000000%
+Maximal allowed delta movement:            +/- 6.000000A
+Maximal allowed delta angle:               +/- 90.000000
+
+Rate of local search:                      100.000000%
+Maximal number of local search iterations: 300
+Rho lower bound:                           0.010000
+Spread of local search delta movement:     2.000000A
+Spread of local search delta angle:        74.999999
+Limit of consecutive successes/failures:   4
+
+Handle symmetry during clustering:         YES
+RMSD tolerance:                            2.000000A
+
+Program call in command line was:          /home/eduardo/AutoDock-GPU-develop/bin/autodock_gpu_128wi --ffile 4jfa_a.maps.fld --lfile trp.pdbqt 
+
+
+    GRID PARAMETERS
+    ________________________
+
+
+Receptor name:                             4jfa_a
+Number of grid points (x, y, z):           27, 29, 31
+Grid center (x, y, z):                     15.178000, 16.624000, 21.443000A
+Grid size (x, y, z):                       9.750000, 10.500000, 11.250000A
+Grid spacing:                              0.375000A
+
+
+    LIGAND PARAMETERS
+    ________________________
+
+
+Ligand name:                               trp
+Number of atoms:                           15
+Number of rotatable bonds:                 3
+Number of atom types:                      5
+
+
+    DUMMY DATA (only for ADT-compatibility)
+    ________________________
+
+
+DPF> outlev 1
+DPF> ga_run 20
+DPF> fld 4jfa_a.maps.fld
+DPF> move trp.pdbqt
+
+
+    COUNTER STATES
+    ________________________
+
+
+Number of energy evaluations performed:    281463
+Number of generations used:                30
+
+
+    INPUT LIGAND PDBQT FILE:
+    ________________________
+
+
+INPUT-LIGAND-PDBQT: REMARK  3 active torsions:
+INPUT-LIGAND-PDBQT: REMARK  status: ('A' for Active; 'I' for Inactive)
+INPUT-LIGAND-PDBQT: REMARK    1  A    between atoms: C_2895  and  CA_2894 
+INPUT-LIGAND-PDBQT: REMARK    2  A    between atoms: CA_2894  and  CB_2897 
+INPUT-LIGAND-PDBQT: REMARK    3  A    between atoms: CB_2897  and  CG_2898 
+INPUT-LIGAND-PDBQT: ROOT
+INPUT-LIGAND-PDBQT: HETATM    1  CG  TRP A 701      14.511  16.483  20.777  1.00 24.27     0.001 A 
+INPUT-LIGAND-PDBQT: HETATM    2  CD1 TRP A 701      14.341  15.162  21.081  1.00 19.28     0.095 A 
+INPUT-LIGAND-PDBQT: HETATM    3  CD2 TRP A 701      14.023  16.652  19.438  1.00 22.71     0.015 A 
+INPUT-LIGAND-PDBQT: HETATM    4  NE1 TRP A 701      13.772  14.501  20.015  1.00 21.78    -0.244 NA
+INPUT-LIGAND-PDBQT: HETATM    5  CE2 TRP A 701      13.569  15.392  18.997  1.00 22.49     0.081 A 
+INPUT-LIGAND-PDBQT: HETATM    6  CE3 TRP A 701      13.923  17.746  18.576  1.00 18.27     0.001 A 
+INPUT-LIGAND-PDBQT: HETATM    7  CZ2 TRP A 701      13.021  15.203  17.725  1.00 24.42     0.019 A 
+INPUT-LIGAND-PDBQT: HETATM    8  CZ3 TRP A 701      13.383  17.555  17.320  1.00 15.37     0.000 A 
+INPUT-LIGAND-PDBQT: HETATM    9  CH2 TRP A 701      12.940  16.294  16.905  1.00 26.69     0.002 A 
+INPUT-LIGAND-PDBQT: ENDROOT
+INPUT-LIGAND-PDBQT: BRANCH   1  10
+INPUT-LIGAND-PDBQT: HETATM   10  CB  TRP A 701      15.098  17.550  21.656  1.00 21.11     0.079 C 
+INPUT-LIGAND-PDBQT: BRANCH  10  11
+INPUT-LIGAND-PDBQT: HETATM   11  CA  TRP A 701      16.506  17.971  21.229  1.00 26.91     0.392 C 
+INPUT-LIGAND-PDBQT: HETATM   12  N   TRP A 701      17.445  16.869  21.406  1.00 22.23     0.628 N 
+INPUT-LIGAND-PDBQT: BRANCH  11  13
+INPUT-LIGAND-PDBQT: HETATM   13  C   TRP A 701      16.948  19.205  22.007  1.00 29.06     0.224 C 
+INPUT-LIGAND-PDBQT: HETATM   14  O   TRP A 701      16.804  20.334  21.535  1.00 37.99    -0.646 OA
+INPUT-LIGAND-PDBQT: HETATM   15  OXT TRP A 701      17.464  19.105  23.121  1.00 36.42    -0.646 OA
+INPUT-LIGAND-PDBQT: ENDBRANCH  11  13
+INPUT-LIGAND-PDBQT: ENDBRANCH  10  11
+INPUT-LIGAND-PDBQT: ENDBRANCH   1  10
+INPUT-LIGAND-PDBQT: TORSDOF 3
+
+
+    FINAL DOCKED STATE:
+    ________________________
+
+
+Run:   1 / 20
+Time taken for this run:   0.018s
+
+DOCKED: MODEL        1
+DOCKED: USER    Run = 1
+DOCKED: USER
+DOCKED: USER    Estimated Free Energy of Binding    =  -7.11 kcal/mol  [=(1)+(2)+(3)-(4)]
+DOCKED: USER
+DOCKED: USER    (1) Final Intermolecular Energy     =  -8.01 kcal/mol
+DOCKED: USER        vdW + Hbond + desolv Energy     =  -6.50 kcal/mol
+DOCKED: USER        Electrostatic Energy            =  -1.51 kcal/mol
+DOCKED: USER        Moving Ligand-Fixed Receptor    =  -8.01 kcal/mol
+DOCKED: USER        Moving Ligand-Moving Receptor   =  +0.00 kcal/mol
+DOCKED: USER    (2) Final Total Internal Energy     =  -0.20 kcal/mol
+DOCKED: USER    (3) Torsional Free Energy           =  +0.89 kcal/mol
+DOCKED: USER    (4) Unbound System's Energy         =  -0.20 kcal/mol
+DOCKED: USER
+DOCKED: USER
+DOCKED: REMARK  3 active torsions:
+DOCKED: REMARK  status: ('A' for Active; 'I' for Inactive)
+DOCKED: REMARK    1  A    between atoms: C_2895  and  CA_2894 
+DOCKED: REMARK    2  A    between atoms: CA_2894  and  CB_2897 
+DOCKED: REMARK    3  A    between atoms: CB_2897  and  CG_2898 
+DOCKED: USER                              x       y       z     vdW  Elec       q    Type
+DOCKED: USER                           _______ _______ _______ _____ _____    ______ ____
+DOCKED: ROOT
+DOCKED: HETATM    1  CG  TRP A 701      14.814  16.141  21.106 -0.63 -0.00    +0.001 A  
+DOCKED: HETATM    2  CD1 TRP A 701      14.528  14.818  21.295 -0.61 -0.06    +0.095 A  
+DOCKED: HETATM    3  CD2 TRP A 701      14.279  16.486  19.820 -0.53 -0.00    +0.015 A  
+DOCKED: HETATM    4  NE1 TRP A 701      13.844  14.322  20.207 -0.45 +0.10    -0.244 NA 
+DOCKED: HETATM    5  CE2 TRP A 701      13.681  15.324  19.291 -0.58 -0.02    +0.081 A  
+DOCKED: HETATM    6  CE3 TRP A 701      14.246  17.664  19.071 -0.50 -0.00    +0.001 A  
+DOCKED: HETATM    7  CZ2 TRP A 701      13.054  15.314  18.041 -0.69 -0.00    +0.019 A  
+DOCKED: HETATM    8  CZ3 TRP A 701      13.628  17.650  17.837 -0.59 -0.00    +0.000 A  
+DOCKED: HETATM    9  CH2 TRP A 701      13.042  16.484  17.333 -0.67 -0.00    +0.002 A  
+DOCKED: ENDROOT
+DOCKED: BRANCH   1  10
+DOCKED: HETATM   10  CB  TRP A 701      15.547  17.056  22.045 -0.59 -0.06    +0.079 C  
+DOCKED: BRANCH  10  11
+DOCKED: HETATM   11  CA  TRP A 701      16.832  17.629  21.442 -0.30 -0.34    +0.392 C  
+DOCKED: HETATM   12  N   TRP A 701      17.890  16.626  21.446 -0.02 -1.14    +0.628 N  
+DOCKED: BRANCH  11  13
+DOCKED: HETATM   13  C   TRP A 701      17.256  18.884  22.195 -0.32 -0.08    +0.224 C  
+DOCKED: HETATM   14  O   TRP A 701      16.729  19.972  21.956 -0.01 +0.08    -0.646 OA 
+DOCKED: HETATM   15  OXT TRP A 701      18.136  18.844  23.056 -0.02 +0.01    -0.646 OA 
+DOCKED: ENDBRANCH  11  13
+DOCKED: ENDBRANCH  10  11
+DOCKED: ENDBRANCH   1  10
+DOCKED: TORSDOF 3
+DOCKED: TER
+DOCKED: ENDMDL
+________________________________________________________________________________
+
+
+    FINAL DOCKED STATE:
+    ________________________
+
+
+Run:   2 / 20
+Time taken for this run:   0.018s
+
+DOCKED: MODEL        2
+DOCKED: USER    Run = 2
+DOCKED: USER
+DOCKED: USER    Estimated Free Energy of Binding    =  -7.24 kcal/mol  [=(1)+(2)+(3)-(4)]
+DOCKED: USER
+DOCKED: USER    (1) Final Intermolecular Energy     =  -8.13 kcal/mol
+DOCKED: USER        vdW + Hbond + desolv Energy     =  -6.61 kcal/mol
+DOCKED: USER        Electrostatic Energy            =  -1.52 kcal/mol
+DOCKED: USER        Moving Ligand-Fixed Receptor    =  -8.13 kcal/mol
+DOCKED: USER        Moving Ligand-Moving Receptor   =  +0.00 kcal/mol
+DOCKED: USER    (2) Final Total Internal Energy     =  -0.20 kcal/mol
+DOCKED: USER    (3) Torsional Free Energy           =  +0.89 kcal/mol
+DOCKED: USER    (4) Unbound System's Energy         =  -0.20 kcal/mol
+DOCKED: USER
+DOCKED: USER
+DOCKED: REMARK  3 active torsions:
+DOCKED: REMARK  status: ('A' for Active; 'I' for Inactive)
+DOCKED: REMARK    1  A    between atoms: C_2895  and  CA_2894 
+DOCKED: REMARK    2  A    between atoms: CA_2894  and  CB_2897 
+DOCKED: REMARK    3  A    between atoms: CB_2897  and  CG_2898 
+DOCKED: USER                              x       y       z     vdW  Elec       q    Type
+DOCKED: USER                           _______ _______ _______ _____ _____    ______ ____
+DOCKED: ROOT
+DOCKED: HETATM    1  CG  TRP A 701      14.726  16.056  21.094 -0.64 -0.00    +0.001 A  
+DOCKED: HETATM    2  CD1 TRP A 701      14.335  14.750  21.180 -0.62 -0.06    +0.095 A  
+DOCKED: HETATM    3  CD2 TRP A 701      14.318  16.511  19.795 -0.53 -0.00    +0.015 A  
+DOCKED: HETATM    4  NE1 TRP A 701      13.705  14.367  20.017 -0.50 +0.09    -0.244 NA 
+DOCKED: HETATM    5  CE2 TRP A 701      13.683  15.427  19.154 -0.57 -0.01    +0.081 A  
+DOCKED: HETATM    6  CE3 TRP A 701      14.425  17.728  19.119 -0.49 -0.00    +0.001 A  
+DOCKED: HETATM    7  CZ2 TRP A 701      13.156  15.533  17.863 -0.68 -0.00    +0.019 A  
+DOCKED: HETATM    8  CZ3 TRP A 701      13.905  17.828  17.844 -0.56 -0.00    +0.000 A  
+DOCKED: HETATM    9  CH2 TRP A 701      13.280  16.738  17.228 -0.67 -0.00    +0.002 A  
+DOCKED: ENDROOT
+DOCKED: BRANCH   1  10
+DOCKED: HETATM   10  CB  TRP A 701      15.445  16.861  22.138 -0.59 -0.06    +0.079 C  
+DOCKED: BRANCH  10  11
+DOCKED: HETATM   11  CA  TRP A 701      16.622  17.660  21.573 -0.31 -0.31    +0.392 C  
+DOCKED: HETATM   12  N   TRP A 701      17.806  16.816  21.458 -0.06 -1.05    +0.628 N  
+DOCKED: BRANCH  11  13
+DOCKED: HETATM   13  C   TRP A 701      16.896  18.882  22.441 -0.33 -0.06    +0.224 C  
+DOCKED: HETATM   14  O   TRP A 701      16.220  19.905  22.323 -0.02 +0.02    -0.646 OA 
+DOCKED: HETATM   15  OXT TRP A 701      17.802  18.881  23.276 -0.05 -0.07    -0.646 OA 
+DOCKED: ENDBRANCH  11  13
+DOCKED: ENDBRANCH  10  11
+DOCKED: ENDBRANCH   1  10
+DOCKED: TORSDOF 3
+DOCKED: TER
+DOCKED: ENDMDL
+________________________________________________________________________________
+
+
+    FINAL DOCKED STATE:
+    ________________________
+
+
+Run:   3 / 20
+Time taken for this run:   0.018s
+
+DOCKED: MODEL        3
+DOCKED: USER    Run = 3
+DOCKED: USER
+DOCKED: USER    Estimated Free Energy of Binding    =  -7.23 kcal/mol  [=(1)+(2)+(3)-(4)]
+DOCKED: USER
+DOCKED: USER    (1) Final Intermolecular Energy     =  -8.12 kcal/mol
+DOCKED: USER        vdW + Hbond + desolv Energy     =  -6.58 kcal/mol
+DOCKED: USER        Electrostatic Energy            =  -1.55 kcal/mol
+DOCKED: USER        Moving Ligand-Fixed Receptor    =  -8.12 kcal/mol
+DOCKED: USER        Moving Ligand-Moving Receptor   =  +0.00 kcal/mol
+DOCKED: USER    (2) Final Total Internal Energy     =  -0.19 kcal/mol
+DOCKED: USER    (3) Torsional Free Energy           =  +0.89 kcal/mol
+DOCKED: USER    (4) Unbound System's Energy         =  -0.19 kcal/mol
+DOCKED: USER
+DOCKED: USER
+DOCKED: REMARK  3 active torsions:
+DOCKED: REMARK  status: ('A' for Active; 'I' for Inactive)
+DOCKED: REMARK    1  A    between atoms: C_2895  and  CA_2894 
+DOCKED: REMARK    2  A    between atoms: CA_2894  and  CB_2897 
+DOCKED: REMARK    3  A    between atoms: CB_2897  and  CG_2898 
+DOCKED: USER                              x       y       z     vdW  Elec       q    Type
+DOCKED: USER                           _______ _______ _______ _____ _____    ______ ____
+DOCKED: ROOT
+DOCKED: HETATM    1  CG  TRP A 701      14.806  16.156  21.284 -0.64 -0.00    +0.001 A  
+DOCKED: HETATM    2  CD1 TRP A 701      14.344  14.911  21.605 -0.65 -0.06    +0.095 A  
+DOCKED: HETATM    3  CD2 TRP A 701      14.389  16.403  19.933 -0.55 -0.00    +0.015 A  
+DOCKED: HETATM    4  NE1 TRP A 701      13.661  14.371  20.538 -0.46 +0.10    -0.244 NA 
+DOCKED: HETATM    5  CE2 TRP A 701      13.676  15.265  19.502 -0.57 -0.02    +0.081 A  
+DOCKED: HETATM    6  CE3 TRP A 701      14.546  17.475  19.053 -0.50 -0.00    +0.001 A  
+DOCKED: HETATM    7  CZ2 TRP A 701      13.121  15.176  18.223 -0.69 -0.00    +0.019 A  
+DOCKED: HETATM    8  CZ3 TRP A 701      13.997  17.383  17.790 -0.59 -0.00    +0.000 A  
+DOCKED: HETATM    9  CH2 TRP A 701      13.295  16.243  17.385 -0.67 -0.00    +0.002 A  
+DOCKED: ENDROOT
+DOCKED: BRANCH   1  10
+DOCKED: HETATM   10  CB  TRP A 701      15.598  17.085  22.159 -0.58 -0.06    +0.079 C  
+DOCKED: BRANCH  10  11
+DOCKED: HETATM   11  CA  TRP A 701      16.851  17.633  21.471 -0.30 -0.34    +0.392 C  
+DOCKED: HETATM   12  N   TRP A 701      17.902  16.621  21.442 -0.02 -1.14    +0.628 N  
+DOCKED: BRANCH  11  13
+DOCKED: HETATM   13  C   TRP A 701      17.325  18.903  22.168 -0.31 -0.08    +0.224 C  
+DOCKED: HETATM   14  O   TRP A 701      17.700  18.877  23.341 -0.05 -0.09    -0.646 OA 
+DOCKED: HETATM   15  OXT TRP A 701      17.339  19.985  21.579 +0.00 +0.15    -0.646 OA 
+DOCKED: ENDBRANCH  11  13
+DOCKED: ENDBRANCH  10  11
+DOCKED: ENDBRANCH   1  10
+DOCKED: TORSDOF 3
+DOCKED: TER
+DOCKED: ENDMDL
+________________________________________________________________________________
+
+
+    FINAL DOCKED STATE:
+    ________________________
+
+
+Run:   4 / 20
+Time taken for this run:   0.018s
+
+DOCKED: MODEL        4
+DOCKED: USER    Run = 4
+DOCKED: USER
+DOCKED: USER    Estimated Free Energy of Binding    =  -7.24 kcal/mol  [=(1)+(2)+(3)-(4)]
+DOCKED: USER
+DOCKED: USER    (1) Final Intermolecular Energy     =  -8.14 kcal/mol
+DOCKED: USER        vdW + Hbond + desolv Energy     =  -6.55 kcal/mol
+DOCKED: USER        Electrostatic Energy            =  -1.58 kcal/mol
+DOCKED: USER        Moving Ligand-Fixed Receptor    =  -8.14 kcal/mol
+DOCKED: USER        Moving Ligand-Moving Receptor   =  +0.00 kcal/mol
+DOCKED: USER    (2) Final Total Internal Energy     =  -0.19 kcal/mol
+DOCKED: USER    (3) Torsional Free Energy           =  +0.89 kcal/mol
+DOCKED: USER    (4) Unbound System's Energy         =  -0.19 kcal/mol
+DOCKED: USER
+DOCKED: USER
+DOCKED: REMARK  3 active torsions:
+DOCKED: REMARK  status: ('A' for Active; 'I' for Inactive)
+DOCKED: REMARK    1  A    between atoms: C_2895  and  CA_2894 
+DOCKED: REMARK    2  A    between atoms: CA_2894  and  CB_2897 
+DOCKED: REMARK    3  A    between atoms: CB_2897  and  CG_2898 
+DOCKED: USER                              x       y       z     vdW  Elec       q    Type
+DOCKED: USER                           _______ _______ _______ _____ _____    ______ ____
+DOCKED: ROOT
+DOCKED: HETATM    1  CG  TRP A 701      14.841  16.049  21.196 -0.64 -0.00    +0.001 A  
+DOCKED: HETATM    2  CD1 TRP A 701      14.353  14.790  21.401 -0.63 -0.06    +0.095 A  
+DOCKED: HETATM    3  CD2 TRP A 701      14.418  16.433  19.879 -0.55 -0.00    +0.015 A  
+DOCKED: HETATM    4  NE1 TRP A 701      13.648  14.370  20.295 -0.49 +0.10    -0.244 NA 
+DOCKED: HETATM    5  CE2 TRP A 701      13.675  15.358  19.349 -0.57 -0.02    +0.081 A  
+DOCKED: HETATM    6  CE3 TRP A 701      14.593  17.580  19.103 -0.49 -0.00    +0.001 A  
+DOCKED: HETATM    7  CZ2 TRP A 701      13.107  15.405  18.073 -0.68 -0.00    +0.019 A  
+DOCKED: HETATM    8  CZ3 TRP A 701      14.032  17.622  17.842 -0.56 -0.00    +0.000 A  
+DOCKED: HETATM    9  CH2 TRP A 701      13.299  16.542  17.339 -0.67 -0.00    +0.002 A  
+DOCKED: ENDROOT
+DOCKED: BRANCH   1  10
+DOCKED: HETATM   10  CB  TRP A 701      15.663  16.872  22.146 -0.59 -0.07    +0.079 C  
+DOCKED: BRANCH  10  11
+DOCKED: HETATM   11  CA  TRP A 701      16.861  17.545  21.473 -0.31 -0.36    +0.392 C  
+DOCKED: HETATM   12  N   TRP A 701      18.004  16.640  21.440 -0.00 -1.17    +0.628 N  
+DOCKED: BRANCH  11  13
+DOCKED: HETATM   13  C   TRP A 701      17.207  18.847  22.188 -0.32 -0.09    +0.224 C  
+DOCKED: HETATM   14  O   TRP A 701      17.483  18.854  23.389 -0.06 -0.07    -0.646 OA 
+DOCKED: HETATM   15  OXT TRP A 701      17.213  19.922  21.587 +0.00 +0.15    -0.646 OA 
+DOCKED: ENDBRANCH  11  13
+DOCKED: ENDBRANCH  10  11
+DOCKED: ENDBRANCH   1  10
+DOCKED: TORSDOF 3
+DOCKED: TER
+DOCKED: ENDMDL
+________________________________________________________________________________
+
+
+    FINAL DOCKED STATE:
+    ________________________
+
+
+Run:   5 / 20
+Time taken for this run:   0.018s
+
+DOCKED: MODEL        5
+DOCKED: USER    Run = 5
+DOCKED: USER
+DOCKED: USER    Estimated Free Energy of Binding    =  -7.25 kcal/mol  [=(1)+(2)+(3)-(4)]
+DOCKED: USER
+DOCKED: USER    (1) Final Intermolecular Energy     =  -8.15 kcal/mol
+DOCKED: USER        vdW + Hbond + desolv Energy     =  -6.57 kcal/mol
+DOCKED: USER        Electrostatic Energy            =  -1.57 kcal/mol
+DOCKED: USER        Moving Ligand-Fixed Receptor    =  -8.15 kcal/mol
+DOCKED: USER        Moving Ligand-Moving Receptor   =  +0.00 kcal/mol
+DOCKED: USER    (2) Final Total Internal Energy     =  -0.19 kcal/mol
+DOCKED: USER    (3) Torsional Free Energy           =  +0.89 kcal/mol
+DOCKED: USER    (4) Unbound System's Energy         =  -0.19 kcal/mol
+DOCKED: USER
+DOCKED: USER
+DOCKED: REMARK  3 active torsions:
+DOCKED: REMARK  status: ('A' for Active; 'I' for Inactive)
+DOCKED: REMARK    1  A    between atoms: C_2895  and  CA_2894 
+DOCKED: REMARK    2  A    between atoms: CA_2894  and  CB_2897 
+DOCKED: REMARK    3  A    between atoms: CB_2897  and  CG_2898 
+DOCKED: USER                              x       y       z     vdW  Elec       q    Type
+DOCKED: USER                           _______ _______ _______ _____ _____    ______ ____
+DOCKED: ROOT
+DOCKED: HETATM    1  CG  TRP A 701      14.824  16.047  21.184 -0.64 -0.00    +0.001 A  
+DOCKED: HETATM    2  CD1 TRP A 701      14.345  14.780  21.362 -0.63 -0.06    +0.095 A  
+DOCKED: HETATM    3  CD2 TRP A 701      14.413  16.450  19.869 -0.54 -0.00    +0.015 A  
+DOCKED: HETATM    4  NE1 TRP A 701      13.658  14.373  20.240 -0.49 +0.09    -0.244 NA 
+DOCKED: HETATM    5  CE2 TRP A 701      13.686  15.377  19.312 -0.57 -0.02    +0.081 A  
+DOCKED: HETATM    6  CE3 TRP A 701      14.586  17.612  19.115 -0.49 -0.00    +0.001 A  
+DOCKED: HETATM    7  CZ2 TRP A 701      13.132  15.441  18.030 -0.68 -0.00    +0.019 A  
+DOCKED: HETATM    8  CZ3 TRP A 701      14.039  17.670  17.849 -0.56 -0.00    +0.000 A  
+DOCKED: HETATM    9  CH2 TRP A 701      13.322  16.592  17.318 -0.67 -0.00    +0.002 A  
+DOCKED: ENDROOT
+DOCKED: BRANCH   1  10
+DOCKED: HETATM   10  CB  TRP A 701      15.627  16.861  22.157 -0.59 -0.07    +0.079 C  
+DOCKED: BRANCH  10  11
+DOCKED: HETATM   11  CA  TRP A 701      16.795  17.600  21.501 -0.30 -0.34    +0.392 C  
+DOCKED: HETATM   12  N   TRP A 701      17.972  16.741  21.434 -0.03 -1.12    +0.628 N  
+DOCKED: BRANCH  11  13
+DOCKED: HETATM   13  C   TRP A 701      17.095  18.891  22.254 -0.32 -0.08    +0.224 C  
+DOCKED: HETATM   14  O   TRP A 701      16.664  19.973  21.849 -0.01 +0.09    -0.646 OA 
+DOCKED: HETATM   15  OXT TRP A 701      17.778  18.887  23.278 -0.05 -0.07    -0.646 OA 
+DOCKED: ENDBRANCH  11  13
+DOCKED: ENDBRANCH  10  11
+DOCKED: ENDBRANCH   1  10
+DOCKED: TORSDOF 3
+DOCKED: TER
+DOCKED: ENDMDL
+________________________________________________________________________________
+
+
+    FINAL DOCKED STATE:
+    ________________________
+
+
+Run:   6 / 20
+Time taken for this run:   0.018s
+
+DOCKED: MODEL        6
+DOCKED: USER    Run = 6
+DOCKED: USER
+DOCKED: USER    Estimated Free Energy of Binding    =  -7.25 kcal/mol  [=(1)+(2)+(3)-(4)]
+DOCKED: USER
+DOCKED: USER    (1) Final Intermolecular Energy     =  -8.15 kcal/mol
+DOCKED: USER        vdW + Hbond + desolv Energy     =  -6.56 kcal/mol
+DOCKED: USER        Electrostatic Energy            =  -1.59 kcal/mol
+DOCKED: USER        Moving Ligand-Fixed Receptor    =  -8.15 kcal/mol
+DOCKED: USER        Moving Ligand-Moving Receptor   =  +0.00 kcal/mol
+DOCKED: USER    (2) Final Total Internal Energy     =  -0.19 kcal/mol
+DOCKED: USER    (3) Torsional Free Energy           =  +0.89 kcal/mol
+DOCKED: USER    (4) Unbound System's Energy         =  -0.19 kcal/mol
+DOCKED: USER
+DOCKED: USER
+DOCKED: REMARK  3 active torsions:
+DOCKED: REMARK  status: ('A' for Active; 'I' for Inactive)
+DOCKED: REMARK    1  A    between atoms: C_2895  and  CA_2894 
+DOCKED: REMARK    2  A    between atoms: CA_2894  and  CB_2897 
+DOCKED: REMARK    3  A    between atoms: CB_2897  and  CG_2898 
+DOCKED: USER                              x       y       z     vdW  Elec       q    Type
+DOCKED: USER                           _______ _______ _______ _____ _____    ______ ____
+DOCKED: ROOT
+DOCKED: HETATM    1  CG  TRP A 701      14.830  16.017  21.188 -0.65 -0.00    +0.001 A  
+DOCKED: HETATM    2  CD1 TRP A 701      14.352  14.746  21.341 -0.62 -0.06    +0.095 A  
+DOCKED: HETATM    3  CD2 TRP A 701      14.413  16.447  19.884 -0.54 -0.00    +0.015 A  
+DOCKED: HETATM    4  NE1 TRP A 701      13.660  14.362  20.214 -0.49 +0.09    -0.244 NA 
+DOCKED: HETATM    5  CE2 TRP A 701      13.684  15.387  19.307 -0.57 -0.02    +0.081 A  
+DOCKED: HETATM    6  CE3 TRP A 701      14.583  17.626  19.155 -0.49 -0.00    +0.001 A  
+DOCKED: HETATM    7  CZ2 TRP A 701      13.125  15.478  18.030 -0.68 -0.00    +0.019 A  
+DOCKED: HETATM    8  CZ3 TRP A 701      14.030  17.711  17.892 -0.56 -0.00    +0.000 A  
+DOCKED: HETATM    9  CH2 TRP A 701      13.311  16.645  17.341 -0.67 -0.00    +0.002 A  
+DOCKED: ENDROOT
+DOCKED: BRANCH   1  10
+DOCKED: HETATM   10  CB  TRP A 701      15.637  16.809  22.176 -0.58 -0.07    +0.079 C  
+DOCKED: BRANCH  10  11
+DOCKED: HETATM   11  CA  TRP A 701      16.785  17.586  21.526 -0.31 -0.34    +0.392 C  
+DOCKED: HETATM   12  N   TRP A 701      17.983  16.757  21.448 -0.02 -1.12    +0.628 N  
+DOCKED: BRANCH  11  13
+DOCKED: HETATM   13  C   TRP A 701      17.053  18.875  22.294 -0.32 -0.08    +0.224 C  
+DOCKED: HETATM   14  O   TRP A 701      17.774  18.877  23.292 -0.05 -0.07    -0.646 OA 
+DOCKED: HETATM   15  OXT TRP A 701      16.552  19.943  21.940 -0.01 +0.08    -0.646 OA 
+DOCKED: ENDBRANCH  11  13
+DOCKED: ENDBRANCH  10  11
+DOCKED: ENDBRANCH   1  10
+DOCKED: TORSDOF 3
+DOCKED: TER
+DOCKED: ENDMDL
+________________________________________________________________________________
+
+
+    FINAL DOCKED STATE:
+    ________________________
+
+
+Run:   7 / 20
+Time taken for this run:   0.018s
+
+DOCKED: MODEL        7
+DOCKED: USER    Run = 7
+DOCKED: USER
+DOCKED: USER    Estimated Free Energy of Binding    =  -7.24 kcal/mol  [=(1)+(2)+(3)-(4)]
+DOCKED: USER
+DOCKED: USER    (1) Final Intermolecular Energy     =  -8.14 kcal/mol
+DOCKED: USER        vdW + Hbond + desolv Energy     =  -6.56 kcal/mol
+DOCKED: USER        Electrostatic Energy            =  -1.57 kcal/mol
+DOCKED: USER        Moving Ligand-Fixed Receptor    =  -8.14 kcal/mol
+DOCKED: USER        Moving Ligand-Moving Receptor   =  +0.00 kcal/mol
+DOCKED: USER    (2) Final Total Internal Energy     =  -0.20 kcal/mol
+DOCKED: USER    (3) Torsional Free Energy           =  +0.89 kcal/mol
+DOCKED: USER    (4) Unbound System's Energy         =  -0.20 kcal/mol
+DOCKED: USER
+DOCKED: USER
+DOCKED: REMARK  3 active torsions:
+DOCKED: REMARK  status: ('A' for Active; 'I' for Inactive)
+DOCKED: REMARK    1  A    between atoms: C_2895  and  CA_2894 
+DOCKED: REMARK    2  A    between atoms: CA_2894  and  CB_2897 
+DOCKED: REMARK    3  A    between atoms: CB_2897  and  CG_2898 
+DOCKED: USER                              x       y       z     vdW  Elec       q    Type
+DOCKED: USER                           _______ _______ _______ _____ _____    ______ ____
+DOCKED: ROOT
+DOCKED: HETATM    1  CG  TRP A 701      14.841  16.063  21.195 -0.64 -0.00    +0.001 A  
+DOCKED: HETATM    2  CD1 TRP A 701      14.366  14.798  21.394 -0.63 -0.06    +0.095 A  
+DOCKED: HETATM    3  CD2 TRP A 701      14.414  16.450  19.881 -0.54 -0.00    +0.015 A  
+DOCKED: HETATM    4  NE1 TRP A 701      13.665  14.377  20.285 -0.49 +0.10    -0.244 NA 
+DOCKED: HETATM    5  CE2 TRP A 701      13.682  15.371  19.346 -0.57 -0.02    +0.081 A  
+DOCKED: HETATM    6  CE3 TRP A 701      14.577  17.604  19.112 -0.49 -0.00    +0.001 A  
+DOCKED: HETATM    7  CZ2 TRP A 701      13.112  15.419  18.070 -0.68 -0.00    +0.019 A  
+DOCKED: HETATM    8  CZ3 TRP A 701      14.015  17.647  17.852 -0.56 -0.00    +0.000 A  
+DOCKED: HETATM    9  CH2 TRP A 701      13.293  16.562  17.342 -0.67 -0.00    +0.002 A  
+DOCKED: ENDROOT
+DOCKED: BRANCH   1  10
+DOCKED: HETATM   10  CB  TRP A 701      15.655  16.889  22.150 -0.59 -0.07    +0.079 C  
+DOCKED: BRANCH  10  11
+DOCKED: HETATM   11  CA  TRP A 701      16.833  17.596  21.477 -0.30 -0.35    +0.392 C  
+DOCKED: HETATM   12  N   TRP A 701      17.999  16.720  21.433 -0.02 -1.13    +0.628 N  
+DOCKED: BRANCH  11  13
+DOCKED: HETATM   13  C   TRP A 701      17.149  18.902  22.198 -0.32 -0.08    +0.224 C  
+DOCKED: HETATM   14  O   TRP A 701      17.758  18.900  23.269 -0.05 -0.07    -0.646 OA 
+DOCKED: HETATM   15  OXT TRP A 701      16.799  19.987  21.732 -0.00 +0.11    -0.646 OA 
+DOCKED: ENDBRANCH  11  13
+DOCKED: ENDBRANCH  10  11
+DOCKED: ENDBRANCH   1  10
+DOCKED: TORSDOF 3
+DOCKED: TER
+DOCKED: ENDMDL
+________________________________________________________________________________
+
+
+    FINAL DOCKED STATE:
+    ________________________
+
+
+Run:   8 / 20
+Time taken for this run:   0.018s
+
+DOCKED: MODEL        8
+DOCKED: USER    Run = 8
+DOCKED: USER
+DOCKED: USER    Estimated Free Energy of Binding    =  -7.25 kcal/mol  [=(1)+(2)+(3)-(4)]
+DOCKED: USER
+DOCKED: USER    (1) Final Intermolecular Energy     =  -8.15 kcal/mol
+DOCKED: USER        vdW + Hbond + desolv Energy     =  -6.58 kcal/mol
+DOCKED: USER        Electrostatic Energy            =  -1.57 kcal/mol
+DOCKED: USER        Moving Ligand-Fixed Receptor    =  -8.15 kcal/mol
+DOCKED: USER        Moving Ligand-Moving Receptor   =  +0.00 kcal/mol
+DOCKED: USER    (2) Final Total Internal Energy     =  -0.18 kcal/mol
+DOCKED: USER    (3) Torsional Free Energy           =  +0.89 kcal/mol
+DOCKED: USER    (4) Unbound System's Energy         =  -0.18 kcal/mol
+DOCKED: USER
+DOCKED: USER
+DOCKED: REMARK  3 active torsions:
+DOCKED: REMARK  status: ('A' for Active; 'I' for Inactive)
+DOCKED: REMARK    1  A    between atoms: C_2895  and  CA_2894 
+DOCKED: REMARK    2  A    between atoms: CA_2894  and  CB_2897 
+DOCKED: REMARK    3  A    between atoms: CB_2897  and  CG_2898 
+DOCKED: USER                              x       y       z     vdW  Elec       q    Type
+DOCKED: USER                           _______ _______ _______ _____ _____    ______ ____
+DOCKED: ROOT
+DOCKED: HETATM    1  CG  TRP A 701      14.796  15.999  21.239 -0.65 -0.00    +0.001 A  
+DOCKED: HETATM    2  CD1 TRP A 701      14.219  14.783  21.476 -0.64 -0.06    +0.095 A  
+DOCKED: HETATM    3  CD2 TRP A 701      14.446  16.353  19.893 -0.55 -0.00    +0.015 A  
+DOCKED: HETATM    4  NE1 TRP A 701      13.527  14.363  20.362 -0.48 +0.09    -0.244 NA 
+DOCKED: HETATM    5  CE2 TRP A 701      13.653  15.306  19.379 -0.56 -0.02    +0.081 A  
+DOCKED: HETATM    6  CE3 TRP A 701      14.724  17.453  19.079 -0.49 -0.00    +0.001 A  
+DOCKED: HETATM    7  CZ2 TRP A 701      13.134  15.336  18.081 -0.69 -0.00    +0.019 A  
+DOCKED: HETATM    8  CZ3 TRP A 701      14.212  17.477  17.797 -0.55 -0.00    +0.000 A  
+DOCKED: HETATM    9  CH2 TRP A 701      13.427  16.426  17.310 -0.66 -0.00    +0.002 A  
+DOCKED: ENDROOT
+DOCKED: BRANCH   1  10
+DOCKED: HETATM   10  CB  TRP A 701      15.636  16.806  22.186 -0.58 -0.07    +0.079 C  
+DOCKED: BRANCH  10  11
+DOCKED: HETATM   11  CA  TRP A 701      16.788  17.536  21.492 -0.31 -0.35    +0.392 C  
+DOCKED: HETATM   12  N   TRP A 701      17.974  16.689  21.442 -0.02 -1.14    +0.628 N  
+DOCKED: BRANCH  11  13
+DOCKED: HETATM   13  C   TRP A 701      17.080  18.856  22.198 -0.32 -0.08    +0.224 C  
+DOCKED: HETATM   14  O   TRP A 701      17.699  18.878  23.263 -0.06 -0.05    -0.646 OA 
+DOCKED: HETATM   15  OXT TRP A 701      16.701  19.928  21.726 -0.00 +0.11    -0.646 OA 
+DOCKED: ENDBRANCH  11  13
+DOCKED: ENDBRANCH  10  11
+DOCKED: ENDBRANCH   1  10
+DOCKED: TORSDOF 3
+DOCKED: TER
+DOCKED: ENDMDL
+________________________________________________________________________________
+
+
+    FINAL DOCKED STATE:
+    ________________________
+
+
+Run:   9 / 20
+Time taken for this run:   0.018s
+
+DOCKED: MODEL        9
+DOCKED: USER    Run = 9
+DOCKED: USER
+DOCKED: USER    Estimated Free Energy of Binding    =  -7.26 kcal/mol  [=(1)+(2)+(3)-(4)]
+DOCKED: USER
+DOCKED: USER    (1) Final Intermolecular Energy     =  -8.15 kcal/mol
+DOCKED: USER        vdW + Hbond + desolv Energy     =  -6.57 kcal/mol
+DOCKED: USER        Electrostatic Energy            =  -1.58 kcal/mol
+DOCKED: USER        Moving Ligand-Fixed Receptor    =  -8.15 kcal/mol
+DOCKED: USER        Moving Ligand-Moving Receptor   =  +0.00 kcal/mol
+DOCKED: USER    (2) Final Total Internal Energy     =  -0.19 kcal/mol
+DOCKED: USER    (3) Torsional Free Energy           =  +0.89 kcal/mol
+DOCKED: USER    (4) Unbound System's Energy         =  -0.19 kcal/mol
+DOCKED: USER
+DOCKED: USER
+DOCKED: REMARK  3 active torsions:
+DOCKED: REMARK  status: ('A' for Active; 'I' for Inactive)
+DOCKED: REMARK    1  A    between atoms: C_2895  and  CA_2894 
+DOCKED: REMARK    2  A    between atoms: CA_2894  and  CB_2897 
+DOCKED: REMARK    3  A    between atoms: CB_2897  and  CG_2898 
+DOCKED: USER                              x       y       z     vdW  Elec       q    Type
+DOCKED: USER                           _______ _______ _______ _____ _____    ______ ____
+DOCKED: ROOT
+DOCKED: HETATM    1  CG  TRP A 701      14.828  16.027  21.183 -0.64 -0.00    +0.001 A  
+DOCKED: HETATM    2  CD1 TRP A 701      14.342  14.760  21.341 -0.63 -0.06    +0.095 A  
+DOCKED: HETATM    3  CD2 TRP A 701      14.413  16.455  19.877 -0.54 -0.00    +0.015 A  
+DOCKED: HETATM    4  NE1 TRP A 701      13.645  14.377  20.217 -0.49 +0.09    -0.244 NA 
+DOCKED: HETATM    5  CE2 TRP A 701      13.675  15.397  19.306 -0.57 -0.02    +0.081 A  
+DOCKED: HETATM    6  CE3 TRP A 701      14.590  17.629  19.143 -0.48 -0.00    +0.001 A  
+DOCKED: HETATM    7  CZ2 TRP A 701      13.115  15.487  18.029 -0.68 -0.00    +0.019 A  
+DOCKED: HETATM    8  CZ3 TRP A 701      14.036  17.713  17.881 -0.56 -0.00    +0.000 A  
+DOCKED: HETATM    9  CH2 TRP A 701      13.309  16.649  17.336 -0.67 -0.00    +0.002 A  
+DOCKED: ENDROOT
+DOCKED: BRANCH   1  10
+DOCKED: HETATM   10  CB  TRP A 701      15.643  16.818  22.166 -0.58 -0.07    +0.079 C  
+DOCKED: BRANCH  10  11
+DOCKED: HETATM   11  CA  TRP A 701      16.791  17.588  21.510 -0.31 -0.34    +0.392 C  
+DOCKED: HETATM   12  N   TRP A 701      17.989  16.758  21.440 -0.03 -1.12    +0.628 N  
+DOCKED: BRANCH  11  13
+DOCKED: HETATM   13  C   TRP A 701      17.060  18.883  22.268 -0.32 -0.08    +0.224 C  
+DOCKED: HETATM   14  O   TRP A 701      17.758  18.888  23.283 -0.05 -0.07    -0.646 OA 
+DOCKED: HETATM   15  OXT TRP A 701      16.582  19.953  21.889 -0.01 +0.08    -0.646 OA 
+DOCKED: ENDBRANCH  11  13
+DOCKED: ENDBRANCH  10  11
+DOCKED: ENDBRANCH   1  10
+DOCKED: TORSDOF 3
+DOCKED: TER
+DOCKED: ENDMDL
+________________________________________________________________________________
+
+
+    FINAL DOCKED STATE:
+    ________________________
+
+
+Run:   10 / 20
+Time taken for this run:   0.018s
+
+DOCKED: MODEL        10
+DOCKED: USER    Run = 10
+DOCKED: USER
+DOCKED: USER    Estimated Free Energy of Binding    =  -7.24 kcal/mol  [=(1)+(2)+(3)-(4)]
+DOCKED: USER
+DOCKED: USER    (1) Final Intermolecular Energy     =  -8.14 kcal/mol
+DOCKED: USER        vdW + Hbond + desolv Energy     =  -6.61 kcal/mol
+DOCKED: USER        Electrostatic Energy            =  -1.52 kcal/mol
+DOCKED: USER        Moving Ligand-Fixed Receptor    =  -8.14 kcal/mol
+DOCKED: USER        Moving Ligand-Moving Receptor   =  +0.00 kcal/mol
+DOCKED: USER    (2) Final Total Internal Energy     =  -0.19 kcal/mol
+DOCKED: USER    (3) Torsional Free Energy           =  +0.89 kcal/mol
+DOCKED: USER    (4) Unbound System's Energy         =  -0.19 kcal/mol
+DOCKED: USER
+DOCKED: USER
+DOCKED: REMARK  3 active torsions:
+DOCKED: REMARK  status: ('A' for Active; 'I' for Inactive)
+DOCKED: REMARK    1  A    between atoms: C_2895  and  CA_2894 
+DOCKED: REMARK    2  A    between atoms: CA_2894  and  CB_2897 
+DOCKED: REMARK    3  A    between atoms: CB_2897  and  CG_2898 
+DOCKED: USER                              x       y       z     vdW  Elec       q    Type
+DOCKED: USER                           _______ _______ _______ _____ _____    ______ ____
+DOCKED: ROOT
+DOCKED: HETATM    1  CG  TRP A 701      14.704  16.051  21.128 -0.64 -0.00    +0.001 A  
+DOCKED: HETATM    2  CD1 TRP A 701      14.282  14.756  21.229 -0.62 -0.05    +0.095 A  
+DOCKED: HETATM    3  CD2 TRP A 701      14.322  16.496  19.817 -0.53 -0.00    +0.015 A  
+DOCKED: HETATM    4  NE1 TRP A 701      13.656  14.370  20.065 -0.50 +0.09    -0.244 NA 
+DOCKED: HETATM    5  CE2 TRP A 701      13.669  15.418  19.185 -0.57 -0.01    +0.081 A  
+DOCKED: HETATM    6  CE3 TRP A 701      14.466  17.699  19.124 -0.49 -0.00    +0.001 A  
+DOCKED: HETATM    7  CZ2 TRP A 701      13.160  15.516  17.887 -0.68 -0.00    +0.019 A  
+DOCKED: HETATM    8  CZ3 TRP A 701      13.964  17.792  17.842 -0.55 -0.00    +0.000 A  
+DOCKED: HETATM    9  CH2 TRP A 701      13.320  16.707  17.235 -0.67 -0.00    +0.002 A  
+DOCKED: ENDROOT
+DOCKED: BRANCH   1  10
+DOCKED: HETATM   10  CB  TRP A 701      15.431  16.855  22.168 -0.59 -0.06    +0.079 C  
+DOCKED: BRANCH  10  11
+DOCKED: HETATM   11  CA  TRP A 701      16.599  17.660  21.595 -0.31 -0.31    +0.392 C  
+DOCKED: HETATM   12  N   TRP A 701      17.784  16.820  21.465 -0.05 -1.05    +0.628 N  
+DOCKED: BRANCH  11  13
+DOCKED: HETATM   13  C   TRP A 701      16.878  18.880  22.465 -0.33 -0.06    +0.224 C  
+DOCKED: HETATM   14  O   TRP A 701      16.190  19.897  22.366 -0.03 +0.02    -0.646 OA 
+DOCKED: HETATM   15  OXT TRP A 701      17.799  18.882  23.283 -0.05 -0.07    -0.646 OA 
+DOCKED: ENDBRANCH  11  13
+DOCKED: ENDBRANCH  10  11
+DOCKED: ENDBRANCH   1  10
+DOCKED: TORSDOF 3
+DOCKED: TER
+DOCKED: ENDMDL
+________________________________________________________________________________
+
+
+    FINAL DOCKED STATE:
+    ________________________
+
+
+Run:   11 / 20
+Time taken for this run:   0.018s
+
+DOCKED: MODEL        11
+DOCKED: USER    Run = 11
+DOCKED: USER
+DOCKED: USER    Estimated Free Energy of Binding    =  -7.25 kcal/mol  [=(1)+(2)+(3)-(4)]
+DOCKED: USER
+DOCKED: USER    (1) Final Intermolecular Energy     =  -8.14 kcal/mol
+DOCKED: USER        vdW + Hbond + desolv Energy     =  -6.59 kcal/mol
+DOCKED: USER        Electrostatic Energy            =  -1.55 kcal/mol
+DOCKED: USER        Moving Ligand-Fixed Receptor    =  -8.14 kcal/mol
+DOCKED: USER        Moving Ligand-Moving Receptor   =  +0.00 kcal/mol
+DOCKED: USER    (2) Final Total Internal Energy     =  -0.19 kcal/mol
+DOCKED: USER    (3) Torsional Free Energy           =  +0.89 kcal/mol
+DOCKED: USER    (4) Unbound System's Energy         =  -0.19 kcal/mol
+DOCKED: USER
+DOCKED: USER
+DOCKED: REMARK  3 active torsions:
+DOCKED: REMARK  status: ('A' for Active; 'I' for Inactive)
+DOCKED: REMARK    1  A    between atoms: C_2895  and  CA_2894 
+DOCKED: REMARK    2  A    between atoms: CA_2894  and  CB_2897 
+DOCKED: REMARK    3  A    between atoms: CB_2897  and  CG_2898 
+DOCKED: USER                              x       y       z     vdW  Elec       q    Type
+DOCKED: USER                           _______ _______ _______ _____ _____    ______ ____
+DOCKED: ROOT
+DOCKED: HETATM    1  CG  TRP A 701      14.795  16.056  21.181 -0.64 -0.00    +0.001 A  
+DOCKED: HETATM    2  CD1 TRP A 701      14.325  14.787  21.364 -0.63 -0.06    +0.095 A  
+DOCKED: HETATM    3  CD2 TRP A 701      14.401  16.442  19.856 -0.54 -0.00    +0.015 A  
+DOCKED: HETATM    4  NE1 TRP A 701      13.658  14.362  20.236 -0.49 +0.09    -0.244 NA 
+DOCKED: HETATM    5  CE2 TRP A 701      13.692  15.358  19.299 -0.57 -0.02    +0.081 A  
+DOCKED: HETATM    6  CE3 TRP A 701      14.575  17.599  19.094 -0.49 -0.00    +0.001 A  
+DOCKED: HETATM    7  CZ2 TRP A 701      13.157  15.405  18.008 -0.68 -0.00    +0.019 A  
+DOCKED: HETATM    8  CZ3 TRP A 701      14.047  17.641  17.819 -0.56 -0.00    +0.000 A  
+DOCKED: HETATM    9  CH2 TRP A 701      13.348  16.551  17.288 -0.67 -0.00    +0.002 A  
+DOCKED: ENDROOT
+DOCKED: BRANCH   1  10
+DOCKED: HETATM   10  CB  TRP A 701      15.576  16.886  22.159 -0.59 -0.06    +0.079 C  
+DOCKED: BRANCH  10  11
+DOCKED: HETATM   11  CA  TRP A 701      16.750  17.627  21.514 -0.30 -0.33    +0.392 C  
+DOCKED: HETATM   12  N   TRP A 701      17.921  16.761  21.438 -0.04 -1.10    +0.628 N  
+DOCKED: BRANCH  11  13
+DOCKED: HETATM   13  C   TRP A 701      17.056  18.906  22.284 -0.32 -0.07    +0.224 C  
+DOCKED: HETATM   14  O   TRP A 701      16.584  19.986  21.927 -0.01 +0.07    -0.646 OA 
+DOCKED: HETATM   15  OXT TRP A 701      17.786  18.893  23.276 -0.05 -0.07    -0.646 OA 
+DOCKED: ENDBRANCH  11  13
+DOCKED: ENDBRANCH  10  11
+DOCKED: ENDBRANCH   1  10
+DOCKED: TORSDOF 3
+DOCKED: TER
+DOCKED: ENDMDL
+________________________________________________________________________________
+
+
+    FINAL DOCKED STATE:
+    ________________________
+
+
+Run:   12 / 20
+Time taken for this run:   0.018s
+
+DOCKED: MODEL        12
+DOCKED: USER    Run = 12
+DOCKED: USER
+DOCKED: USER    Estimated Free Energy of Binding    =  -7.25 kcal/mol  [=(1)+(2)+(3)-(4)]
+DOCKED: USER
+DOCKED: USER    (1) Final Intermolecular Energy     =  -8.14 kcal/mol
+DOCKED: USER        vdW + Hbond + desolv Energy     =  -6.58 kcal/mol
+DOCKED: USER        Electrostatic Energy            =  -1.56 kcal/mol
+DOCKED: USER        Moving Ligand-Fixed Receptor    =  -8.14 kcal/mol
+DOCKED: USER        Moving Ligand-Moving Receptor   =  +0.00 kcal/mol
+DOCKED: USER    (2) Final Total Internal Energy     =  -0.20 kcal/mol
+DOCKED: USER    (3) Torsional Free Energy           =  +0.89 kcal/mol
+DOCKED: USER    (4) Unbound System's Energy         =  -0.20 kcal/mol
+DOCKED: USER
+DOCKED: USER
+DOCKED: REMARK  3 active torsions:
+DOCKED: REMARK  status: ('A' for Active; 'I' for Inactive)
+DOCKED: REMARK    1  A    between atoms: C_2895  and  CA_2894 
+DOCKED: REMARK    2  A    between atoms: CA_2894  and  CB_2897 
+DOCKED: REMARK    3  A    between atoms: CB_2897  and  CG_2898 
+DOCKED: USER                              x       y       z     vdW  Elec       q    Type
+DOCKED: USER                           _______ _______ _______ _____ _____    ______ ____
+DOCKED: ROOT
+DOCKED: HETATM    1  CG  TRP A 701      14.810  16.029  21.152 -0.64 -0.00    +0.001 A  
+DOCKED: HETATM    2  CD1 TRP A 701      14.353  14.749  21.292 -0.62 -0.06    +0.095 A  
+DOCKED: HETATM    3  CD2 TRP A 701      14.388  16.464  19.851 -0.54 -0.00    +0.015 A  
+DOCKED: HETATM    4  NE1 TRP A 701      13.667  14.365  20.161 -0.49 +0.09    -0.244 NA 
+DOCKED: HETATM    5  CE2 TRP A 701      13.676  15.398  19.264 -0.57 -0.02    +0.081 A  
+DOCKED: HETATM    6  CE3 TRP A 701      14.540  17.652  19.133 -0.49 -0.00    +0.001 A  
+DOCKED: HETATM    7  CZ2 TRP A 701      13.116  15.492  17.987 -0.68 -0.00    +0.019 A  
+DOCKED: HETATM    8  CZ3 TRP A 701      13.987  17.740  17.871 -0.56 -0.00    +0.000 A  
+DOCKED: HETATM    9  CH2 TRP A 701      13.286  16.667  17.309 -0.67 -0.00    +0.002 A  
+DOCKED: ENDROOT
+DOCKED: BRANCH   1  10
+DOCKED: HETATM   10  CB  TRP A 701      15.604  16.825  22.147 -0.59 -0.07    +0.079 C  
+DOCKED: BRANCH  10  11
+DOCKED: HETATM   11  CA  TRP A 701      16.757  17.604  21.509 -0.31 -0.34    +0.392 C  
+DOCKED: HETATM   12  N   TRP A 701      17.956  16.776  21.438 -0.04 -1.10    +0.628 N  
+DOCKED: BRANCH  11  13
+DOCKED: HETATM   13  C   TRP A 701      17.018  18.891  22.284 -0.32 -0.07    +0.224 C  
+DOCKED: HETATM   14  O   TRP A 701      17.770  18.899  23.260 -0.05 -0.07    -0.646 OA 
+DOCKED: HETATM   15  OXT TRP A 701      16.481  19.950  21.958 -0.01 +0.07    -0.646 OA 
+DOCKED: ENDBRANCH  11  13
+DOCKED: ENDBRANCH  10  11
+DOCKED: ENDBRANCH   1  10
+DOCKED: TORSDOF 3
+DOCKED: TER
+DOCKED: ENDMDL
+________________________________________________________________________________
+
+
+    FINAL DOCKED STATE:
+    ________________________
+
+
+Run:   13 / 20
+Time taken for this run:   0.018s
+
+DOCKED: MODEL        13
+DOCKED: USER    Run = 13
+DOCKED: USER
+DOCKED: USER    Estimated Free Energy of Binding    =  -7.25 kcal/mol  [=(1)+(2)+(3)-(4)]
+DOCKED: USER
+DOCKED: USER    (1) Final Intermolecular Energy     =  -8.14 kcal/mol
+DOCKED: USER        vdW + Hbond + desolv Energy     =  -6.62 kcal/mol
+DOCKED: USER        Electrostatic Energy            =  -1.52 kcal/mol
+DOCKED: USER        Moving Ligand-Fixed Receptor    =  -8.14 kcal/mol
+DOCKED: USER        Moving Ligand-Moving Receptor   =  +0.00 kcal/mol
+DOCKED: USER    (2) Final Total Internal Energy     =  -0.19 kcal/mol
+DOCKED: USER    (3) Torsional Free Energy           =  +0.89 kcal/mol
+DOCKED: USER    (4) Unbound System's Energy         =  -0.19 kcal/mol
+DOCKED: USER
+DOCKED: USER
+DOCKED: REMARK  3 active torsions:
+DOCKED: REMARK  status: ('A' for Active; 'I' for Inactive)
+DOCKED: REMARK    1  A    between atoms: C_2895  and  CA_2894 
+DOCKED: REMARK    2  A    between atoms: CA_2894  and  CB_2897 
+DOCKED: REMARK    3  A    between atoms: CB_2897  and  CG_2898 
+DOCKED: USER                              x       y       z     vdW  Elec       q    Type
+DOCKED: USER                           _______ _______ _______ _____ _____    ______ ____
+DOCKED: ROOT
+DOCKED: HETATM    1  CG  TRP A 701      14.751  16.042  21.116 -0.64 -0.00    +0.001 A  
+DOCKED: HETATM    2  CD1 TRP A 701      14.302  14.757  21.227 -0.62 -0.06    +0.095 A  
+DOCKED: HETATM    3  CD2 TRP A 701      14.362  16.490  19.809 -0.54 -0.00    +0.015 A  
+DOCKED: HETATM    4  NE1 TRP A 701      13.653  14.381  20.072 -0.50 +0.09    -0.244 NA 
+DOCKED: HETATM    5  CE2 TRP A 701      13.678  15.425  19.189 -0.57 -0.02    +0.081 A  
+DOCKED: HETATM    6  CE3 TRP A 701      14.523  17.688  19.110 -0.49 -0.00    +0.001 A  
+DOCKED: HETATM    7  CZ2 TRP A 701      13.154  15.530  17.897 -0.68 -0.00    +0.019 A  
+DOCKED: HETATM    8  CZ3 TRP A 701      14.006  17.787  17.834 -0.55 -0.00    +0.000 A  
+DOCKED: HETATM    9  CH2 TRP A 701      13.331  16.715  17.239 -0.67 -0.00    +0.002 A  
+DOCKED: ENDROOT
+DOCKED: BRANCH   1  10
+DOCKED: HETATM   10  CB  TRP A 701      15.509  16.833  22.143 -0.59 -0.06    +0.079 C  
+DOCKED: BRANCH  10  11
+DOCKED: HETATM   11  CA  TRP A 701      16.662  17.644  21.546 -0.31 -0.32    +0.392 C  
+DOCKED: HETATM   12  N   TRP A 701      17.862  16.822  21.438 -0.06 -1.06    +0.628 N  
+DOCKED: BRANCH  11  13
+DOCKED: HETATM   13  C   TRP A 701      16.919  18.892  22.381 -0.33 -0.07    +0.224 C  
+DOCKED: HETATM   14  O   TRP A 701      17.783  18.898  23.260 -0.05 -0.07    -0.646 OA 
+DOCKED: HETATM   15  OXT TRP A 701      16.268  19.923  22.204 -0.02 +0.04    -0.646 OA 
+DOCKED: ENDBRANCH  11  13
+DOCKED: ENDBRANCH  10  11
+DOCKED: ENDBRANCH   1  10
+DOCKED: TORSDOF 3
+DOCKED: TER
+DOCKED: ENDMDL
+________________________________________________________________________________
+
+
+    FINAL DOCKED STATE:
+    ________________________
+
+
+Run:   14 / 20
+Time taken for this run:   0.018s
+
+DOCKED: MODEL        14
+DOCKED: USER    Run = 14
+DOCKED: USER
+DOCKED: USER    Estimated Free Energy of Binding    =  -7.24 kcal/mol  [=(1)+(2)+(3)-(4)]
+DOCKED: USER
+DOCKED: USER    (1) Final Intermolecular Energy     =  -8.14 kcal/mol
+DOCKED: USER        vdW + Hbond + desolv Energy     =  -6.56 kcal/mol
+DOCKED: USER        Electrostatic Energy            =  -1.58 kcal/mol
+DOCKED: USER        Moving Ligand-Fixed Receptor    =  -8.14 kcal/mol
+DOCKED: USER        Moving Ligand-Moving Receptor   =  +0.00 kcal/mol
+DOCKED: USER    (2) Final Total Internal Energy     =  -0.20 kcal/mol
+DOCKED: USER    (3) Torsional Free Energy           =  +0.89 kcal/mol
+DOCKED: USER    (4) Unbound System's Energy         =  -0.20 kcal/mol
+DOCKED: USER
+DOCKED: USER
+DOCKED: REMARK  3 active torsions:
+DOCKED: REMARK  status: ('A' for Active; 'I' for Inactive)
+DOCKED: REMARK    1  A    between atoms: C_2895  and  CA_2894 
+DOCKED: REMARK    2  A    between atoms: CA_2894  and  CB_2897 
+DOCKED: REMARK    3  A    between atoms: CB_2897  and  CG_2898 
+DOCKED: USER                              x       y       z     vdW  Elec       q    Type
+DOCKED: USER                           _______ _______ _______ _____ _____    ______ ____
+DOCKED: ROOT
+DOCKED: HETATM    1  CG  TRP A 701      14.806  16.040  21.170 -0.64 -0.00    +0.001 A  
+DOCKED: HETATM    2  CD1 TRP A 701      14.359  14.757  21.314 -0.63 -0.06    +0.095 A  
+DOCKED: HETATM    3  CD2 TRP A 701      14.381  16.469  19.868 -0.54 -0.00    +0.015 A  
+DOCKED: HETATM    4  NE1 TRP A 701      13.677  14.365  20.184 -0.49 +0.09    -0.244 NA 
+DOCKED: HETATM    5  CE2 TRP A 701      13.678  15.395  19.284 -0.57 -0.02    +0.081 A  
+DOCKED: HETATM    6  CE3 TRP A 701      14.523  17.656  19.147 -0.49 -0.00    +0.001 A  
+DOCKED: HETATM    7  CZ2 TRP A 701      13.119  15.481  18.006 -0.68 -0.00    +0.019 A  
+DOCKED: HETATM    8  CZ3 TRP A 701      13.971  17.736  17.884 -0.56 -0.00    +0.000 A  
+DOCKED: HETATM    9  CH2 TRP A 701      13.279  16.656  17.325 -0.67 -0.00    +0.002 A  
+DOCKED: ENDROOT
+DOCKED: BRANCH   1  10
+DOCKED: HETATM   10  CB  TRP A 701      15.593  16.846  22.164 -0.59 -0.06    +0.079 C  
+DOCKED: BRANCH  10  11
+DOCKED: HETATM   11  CA  TRP A 701      16.755  17.612  21.529 -0.31 -0.34    +0.392 C  
+DOCKED: HETATM   12  N   TRP A 701      17.943  16.770  21.456 -0.02 -1.11    +0.628 N  
+DOCKED: BRANCH  11  13
+DOCKED: HETATM   13  C   TRP A 701      17.032  18.893  22.307 -0.32 -0.07    +0.224 C  
+DOCKED: HETATM   14  O   TRP A 701      17.765  18.885  23.298 -0.05 -0.08    -0.646 OA 
+DOCKED: HETATM   15  OXT TRP A 701      16.526  19.965  21.971 -0.01 +0.07    -0.646 OA 
+DOCKED: ENDBRANCH  11  13
+DOCKED: ENDBRANCH  10  11
+DOCKED: ENDBRANCH   1  10
+DOCKED: TORSDOF 3
+DOCKED: TER
+DOCKED: ENDMDL
+________________________________________________________________________________
+
+
+    FINAL DOCKED STATE:
+    ________________________
+
+
+Run:   15 / 20
+Time taken for this run:   0.018s
+
+DOCKED: MODEL        15
+DOCKED: USER    Run = 15
+DOCKED: USER
+DOCKED: USER    Estimated Free Energy of Binding    =  -7.25 kcal/mol  [=(1)+(2)+(3)-(4)]
+DOCKED: USER
+DOCKED: USER    (1) Final Intermolecular Energy     =  -8.14 kcal/mol
+DOCKED: USER        vdW + Hbond + desolv Energy     =  -6.62 kcal/mol
+DOCKED: USER        Electrostatic Energy            =  -1.52 kcal/mol
+DOCKED: USER        Moving Ligand-Fixed Receptor    =  -8.14 kcal/mol
+DOCKED: USER        Moving Ligand-Moving Receptor   =  +0.00 kcal/mol
+DOCKED: USER    (2) Final Total Internal Energy     =  -0.19 kcal/mol
+DOCKED: USER    (3) Torsional Free Energy           =  +0.89 kcal/mol
+DOCKED: USER    (4) Unbound System's Energy         =  -0.19 kcal/mol
+DOCKED: USER
+DOCKED: USER
+DOCKED: REMARK  3 active torsions:
+DOCKED: REMARK  status: ('A' for Active; 'I' for Inactive)
+DOCKED: REMARK    1  A    between atoms: C_2895  and  CA_2894 
+DOCKED: REMARK    2  A    between atoms: CA_2894  and  CB_2897 
+DOCKED: REMARK    3  A    between atoms: CB_2897  and  CG_2898 
+DOCKED: USER                              x       y       z     vdW  Elec       q    Type
+DOCKED: USER                           _______ _______ _______ _____ _____    ______ ____
+DOCKED: ROOT
+DOCKED: HETATM    1  CG  TRP A 701      14.726  16.020  21.142 -0.64 -0.00    +0.001 A  
+DOCKED: HETATM    2  CD1 TRP A 701      14.248  14.747  21.272 -0.63 -0.05    +0.095 A  
+DOCKED: HETATM    3  CD2 TRP A 701      14.362  16.452  19.823 -0.54 -0.00    +0.015 A  
+DOCKED: HETATM    4  NE1 TRP A 701      13.604  14.364  20.117 -0.50 +0.09    -0.244 NA 
+DOCKED: HETATM    5  CE2 TRP A 701      13.661  15.390  19.214 -0.57 -0.02    +0.081 A  
+DOCKED: HETATM    6  CE3 TRP A 701      14.556  17.633  19.104 -0.49 -0.00    +0.001 A  
+DOCKED: HETATM    7  CZ2 TRP A 701      13.155  15.482  17.915 -0.68 -0.00    +0.019 A  
+DOCKED: HETATM    8  CZ3 TRP A 701      14.056  17.720  17.820 -0.56 -0.00    +0.000 A  
+DOCKED: HETATM    9  CH2 TRP A 701      13.365  16.651  17.237 -0.67 -0.00    +0.002 A  
+DOCKED: ENDROOT
+DOCKED: BRANCH   1  10
+DOCKED: HETATM   10  CB  TRP A 701      15.489  16.814  22.164 -0.59 -0.06    +0.079 C  
+DOCKED: BRANCH  10  11
+DOCKED: HETATM   11  CA  TRP A 701      16.630  17.633  21.557 -0.31 -0.32    +0.392 C  
+DOCKED: HETATM   12  N   TRP A 701      17.840  16.825  21.451 -0.06 -1.05    +0.628 N  
+DOCKED: BRANCH  11  13
+DOCKED: HETATM   13  C   TRP A 701      16.875  18.891  22.382 -0.33 -0.07    +0.224 C  
+DOCKED: HETATM   14  O   TRP A 701      16.189  19.901  22.213 -0.02 +0.04    -0.646 OA 
+DOCKED: HETATM   15  OXT TRP A 701      17.766  18.933  23.231 -0.05 -0.07    -0.646 OA 
+DOCKED: ENDBRANCH  11  13
+DOCKED: ENDBRANCH  10  11
+DOCKED: ENDBRANCH   1  10
+DOCKED: TORSDOF 3
+DOCKED: TER
+DOCKED: ENDMDL
+________________________________________________________________________________
+
+
+    FINAL DOCKED STATE:
+    ________________________
+
+
+Run:   16 / 20
+Time taken for this run:   0.018s
+
+DOCKED: MODEL        16
+DOCKED: USER    Run = 16
+DOCKED: USER
+DOCKED: USER    Estimated Free Energy of Binding    =  -7.24 kcal/mol  [=(1)+(2)+(3)-(4)]
+DOCKED: USER
+DOCKED: USER    (1) Final Intermolecular Energy     =  -8.14 kcal/mol
+DOCKED: USER        vdW + Hbond + desolv Energy     =  -6.62 kcal/mol
+DOCKED: USER        Electrostatic Energy            =  -1.52 kcal/mol
+DOCKED: USER        Moving Ligand-Fixed Receptor    =  -8.14 kcal/mol
+DOCKED: USER        Moving Ligand-Moving Receptor   =  +0.00 kcal/mol
+DOCKED: USER    (2) Final Total Internal Energy     =  -0.19 kcal/mol
+DOCKED: USER    (3) Torsional Free Energy           =  +0.89 kcal/mol
+DOCKED: USER    (4) Unbound System's Energy         =  -0.19 kcal/mol
+DOCKED: USER
+DOCKED: USER
+DOCKED: REMARK  3 active torsions:
+DOCKED: REMARK  status: ('A' for Active; 'I' for Inactive)
+DOCKED: REMARK    1  A    between atoms: C_2895  and  CA_2894 
+DOCKED: REMARK    2  A    between atoms: CA_2894  and  CB_2897 
+DOCKED: REMARK    3  A    between atoms: CB_2897  and  CG_2898 
+DOCKED: USER                              x       y       z     vdW  Elec       q    Type
+DOCKED: USER                           _______ _______ _______ _____ _____    ______ ____
+DOCKED: ROOT
+DOCKED: HETATM    1  CG  TRP A 701      14.708  16.050  21.112 -0.64 -0.00    +0.001 A  
+DOCKED: HETATM    2  CD1 TRP A 701      14.282  14.756  21.217 -0.62 -0.05    +0.095 A  
+DOCKED: HETATM    3  CD2 TRP A 701      14.325  16.493  19.802 -0.53 -0.00    +0.015 A  
+DOCKED: HETATM    4  NE1 TRP A 701      13.653  14.370  20.054 -0.50 +0.09    -0.244 NA 
+DOCKED: HETATM    5  CE2 TRP A 701      13.668  15.417  19.173 -0.57 -0.01    +0.081 A  
+DOCKED: HETATM    6  CE3 TRP A 701      14.471  17.696  19.107 -0.49 -0.00    +0.001 A  
+DOCKED: HETATM    7  CZ2 TRP A 701      13.156  15.514  17.875 -0.68 -0.00    +0.019 A  
+DOCKED: HETATM    8  CZ3 TRP A 701      13.967  17.788  17.826 -0.56 -0.00    +0.000 A  
+DOCKED: HETATM    9  CH2 TRP A 701      13.318  16.704  17.222 -0.67 -0.00    +0.002 A  
+DOCKED: ENDROOT
+DOCKED: BRANCH   1  10
+DOCKED: HETATM   10  CB  TRP A 701      15.440  16.853  22.150 -0.59 -0.06    +0.079 C  
+DOCKED: BRANCH  10  11
+DOCKED: HETATM   11  CA  TRP A 701      16.611  17.652  21.574 -0.31 -0.31    +0.392 C  
+DOCKED: HETATM   12  N   TRP A 701      17.795  16.809  21.455 -0.06 -1.05    +0.628 N  
+DOCKED: BRANCH  11  13
+DOCKED: HETATM   13  C   TRP A 701      16.889  18.878  22.435 -0.33 -0.07    +0.224 C  
+DOCKED: HETATM   14  O   TRP A 701      16.211  19.900  22.316 -0.02 +0.03    -0.646 OA 
+DOCKED: HETATM   15  OXT TRP A 701      17.799  18.881  23.265 -0.05 -0.07    -0.646 OA 
+DOCKED: ENDBRANCH  11  13
+DOCKED: ENDBRANCH  10  11
+DOCKED: ENDBRANCH   1  10
+DOCKED: TORSDOF 3
+DOCKED: TER
+DOCKED: ENDMDL
+________________________________________________________________________________
+
+
+    FINAL DOCKED STATE:
+    ________________________
+
+
+Run:   17 / 20
+Time taken for this run:   0.018s
+
+DOCKED: MODEL        17
+DOCKED: USER    Run = 17
+DOCKED: USER
+DOCKED: USER    Estimated Free Energy of Binding    =  -7.24 kcal/mol  [=(1)+(2)+(3)-(4)]
+DOCKED: USER
+DOCKED: USER    (1) Final Intermolecular Energy     =  -8.13 kcal/mol
+DOCKED: USER        vdW + Hbond + desolv Energy     =  -6.56 kcal/mol
+DOCKED: USER        Electrostatic Energy            =  -1.57 kcal/mol
+DOCKED: USER        Moving Ligand-Fixed Receptor    =  -8.13 kcal/mol
+DOCKED: USER        Moving Ligand-Moving Receptor   =  +0.00 kcal/mol
+DOCKED: USER    (2) Final Total Internal Energy     =  -0.20 kcal/mol
+DOCKED: USER    (3) Torsional Free Energy           =  +0.89 kcal/mol
+DOCKED: USER    (4) Unbound System's Energy         =  -0.20 kcal/mol
+DOCKED: USER
+DOCKED: USER
+DOCKED: REMARK  3 active torsions:
+DOCKED: REMARK  status: ('A' for Active; 'I' for Inactive)
+DOCKED: REMARK    1  A    between atoms: C_2895  and  CA_2894 
+DOCKED: REMARK    2  A    between atoms: CA_2894  and  CB_2897 
+DOCKED: REMARK    3  A    between atoms: CB_2897  and  CG_2898 
+DOCKED: USER                              x       y       z     vdW  Elec       q    Type
+DOCKED: USER                           _______ _______ _______ _____ _____    ______ ____
+DOCKED: ROOT
+DOCKED: HETATM    1  CG  TRP A 701      14.830  16.041  21.163 -0.64 -0.00    +0.001 A  
+DOCKED: HETATM    2  CD1 TRP A 701      14.351  14.774  21.345 -0.63 -0.06    +0.095 A  
+DOCKED: HETATM    3  CD2 TRP A 701      14.411  16.443  19.851 -0.54 -0.00    +0.015 A  
+DOCKED: HETATM    4  NE1 TRP A 701      13.654  14.367  20.229 -0.49 +0.09    -0.244 NA 
+DOCKED: HETATM    5  CE2 TRP A 701      13.678  15.371  19.300 -0.57 -0.02    +0.081 A  
+DOCKED: HETATM    6  CE3 TRP A 701      14.581  17.604  19.095 -0.49 -0.00    +0.001 A  
+DOCKED: HETATM    7  CZ2 TRP A 701      13.115  15.435  18.022 -0.68 -0.00    +0.019 A  
+DOCKED: HETATM    8  CZ3 TRP A 701      14.025  17.663  17.832 -0.56 -0.00    +0.000 A  
+DOCKED: HETATM    9  CH2 TRP A 701      13.302  16.585  17.307 -0.67 -0.00    +0.002 A  
+DOCKED: ENDROOT
+DOCKED: BRANCH   1  10
+DOCKED: HETATM   10  CB  TRP A 701      15.642  16.854  22.130 -0.59 -0.07    +0.079 C  
+DOCKED: BRANCH  10  11
+DOCKED: HETATM   11  CA  TRP A 701      16.834  17.553  21.473 -0.31 -0.35    +0.392 C  
+DOCKED: HETATM   12  N   TRP A 701      17.992  16.667  21.441 -0.01 -1.15    +0.628 N  
+DOCKED: BRANCH  11  13
+DOCKED: HETATM   13  C   TRP A 701      17.152  18.853  22.202 -0.32 -0.08    +0.224 C  
+DOCKED: HETATM   14  O   TRP A 701      17.513  18.845  23.380 -0.06 -0.06    -0.646 OA 
+DOCKED: HETATM   15  OXT TRP A 701      17.051  19.942  21.635 +0.00 +0.13    -0.646 OA 
+DOCKED: ENDBRANCH  11  13
+DOCKED: ENDBRANCH  10  11
+DOCKED: ENDBRANCH   1  10
+DOCKED: TORSDOF 3
+DOCKED: TER
+DOCKED: ENDMDL
+________________________________________________________________________________
+
+
+    FINAL DOCKED STATE:
+    ________________________
+
+
+Run:   18 / 20
+Time taken for this run:   0.018s
+
+DOCKED: MODEL        18
+DOCKED: USER    Run = 18
+DOCKED: USER
+DOCKED: USER    Estimated Free Energy of Binding    =  -7.24 kcal/mol  [=(1)+(2)+(3)-(4)]
+DOCKED: USER
+DOCKED: USER    (1) Final Intermolecular Energy     =  -8.13 kcal/mol
+DOCKED: USER        vdW + Hbond + desolv Energy     =  -6.63 kcal/mol
+DOCKED: USER        Electrostatic Energy            =  -1.51 kcal/mol
+DOCKED: USER        Moving Ligand-Fixed Receptor    =  -8.13 kcal/mol
+DOCKED: USER        Moving Ligand-Moving Receptor   =  +0.00 kcal/mol
+DOCKED: USER    (2) Final Total Internal Energy     =  -0.20 kcal/mol
+DOCKED: USER    (3) Torsional Free Energy           =  +0.89 kcal/mol
+DOCKED: USER    (4) Unbound System's Energy         =  -0.20 kcal/mol
+DOCKED: USER
+DOCKED: USER
+DOCKED: REMARK  3 active torsions:
+DOCKED: REMARK  status: ('A' for Active; 'I' for Inactive)
+DOCKED: REMARK    1  A    between atoms: C_2895  and  CA_2894 
+DOCKED: REMARK    2  A    between atoms: CA_2894  and  CB_2897 
+DOCKED: REMARK    3  A    between atoms: CB_2897  and  CG_2898 
+DOCKED: USER                              x       y       z     vdW  Elec       q    Type
+DOCKED: USER                           _______ _______ _______ _____ _____    ______ ____
+DOCKED: ROOT
+DOCKED: HETATM    1  CG  TRP A 701      14.712  16.049  21.076 -0.64 -0.00    +0.001 A  
+DOCKED: HETATM    2  CD1 TRP A 701      14.318  14.744  21.161 -0.61 -0.05    +0.095 A  
+DOCKED: HETATM    3  CD2 TRP A 701      14.311  16.505  19.776 -0.53 -0.00    +0.015 A  
+DOCKED: HETATM    4  NE1 TRP A 701      13.692  14.362  19.995 -0.50 +0.09    -0.244 NA 
+DOCKED: HETATM    5  CE2 TRP A 701      13.677  15.423  19.132 -0.58 -0.01    +0.081 A  
+DOCKED: HETATM    6  CE3 TRP A 701      14.424  17.721  19.100 -0.49 -0.00    +0.001 A  
+DOCKED: HETATM    7  CZ2 TRP A 701      13.157  15.529  17.838 -0.68 -0.00    +0.019 A  
+DOCKED: HETATM    8  CZ3 TRP A 701      13.911  17.822  17.822 -0.56 -0.00    +0.000 A  
+DOCKED: HETATM    9  CH2 TRP A 701      13.286  16.733  17.204 -0.67 -0.00    +0.002 A  
+DOCKED: ENDROOT
+DOCKED: BRANCH   1  10
+DOCKED: HETATM   10  CB  TRP A 701      15.428  16.853  22.124 -0.59 -0.06    +0.079 C  
+DOCKED: BRANCH  10  11
+DOCKED: HETATM   11  CA  TRP A 701      16.607  17.652  21.563 -0.31 -0.31    +0.392 C  
+DOCKED: HETATM   12  N   TRP A 701      17.789  16.806  21.445 -0.07 -1.04    +0.628 N  
+DOCKED: BRANCH  11  13
+DOCKED: HETATM   13  C   TRP A 701      16.883  18.870  22.437 -0.33 -0.07    +0.224 C  
+DOCKED: HETATM   14  O   TRP A 701      16.192  19.885  22.342 -0.03 +0.02    -0.646 OA 
+DOCKED: HETATM   15  OXT TRP A 701      17.806  18.872  23.254 -0.05 -0.06    -0.646 OA 
+DOCKED: ENDBRANCH  11  13
+DOCKED: ENDBRANCH  10  11
+DOCKED: ENDBRANCH   1  10
+DOCKED: TORSDOF 3
+DOCKED: TER
+DOCKED: ENDMDL
+________________________________________________________________________________
+
+
+    FINAL DOCKED STATE:
+    ________________________
+
+
+Run:   19 / 20
+Time taken for this run:   0.018s
+
+DOCKED: MODEL        19
+DOCKED: USER    Run = 19
+DOCKED: USER
+DOCKED: USER    Estimated Free Energy of Binding    =  -7.24 kcal/mol  [=(1)+(2)+(3)-(4)]
+DOCKED: USER
+DOCKED: USER    (1) Final Intermolecular Energy     =  -8.13 kcal/mol
+DOCKED: USER        vdW + Hbond + desolv Energy     =  -6.48 kcal/mol
+DOCKED: USER        Electrostatic Energy            =  -1.65 kcal/mol
+DOCKED: USER        Moving Ligand-Fixed Receptor    =  -8.13 kcal/mol
+DOCKED: USER        Moving Ligand-Moving Receptor   =  +0.00 kcal/mol
+DOCKED: USER    (2) Final Total Internal Energy     =  -0.19 kcal/mol
+DOCKED: USER    (3) Torsional Free Energy           =  +0.89 kcal/mol
+DOCKED: USER    (4) Unbound System's Energy         =  -0.19 kcal/mol
+DOCKED: USER
+DOCKED: USER
+DOCKED: REMARK  3 active torsions:
+DOCKED: REMARK  status: ('A' for Active; 'I' for Inactive)
+DOCKED: REMARK    1  A    between atoms: C_2895  and  CA_2894 
+DOCKED: REMARK    2  A    between atoms: CA_2894  and  CB_2897 
+DOCKED: REMARK    3  A    between atoms: CB_2897  and  CG_2898 
+DOCKED: USER                              x       y       z     vdW  Elec       q    Type
+DOCKED: USER                           _______ _______ _______ _____ _____    ______ ____
+DOCKED: ROOT
+DOCKED: HETATM    1  CG  TRP A 701      14.860  16.336  21.431 -0.64 -0.00    +0.001 A  
+DOCKED: HETATM    2  CD1 TRP A 701      14.436  15.096  21.818 -0.67 -0.06    +0.095 A  
+DOCKED: HETATM    3  CD2 TRP A 701      14.451  16.491  20.064 -0.55 -0.00    +0.015 A  
+DOCKED: HETATM    4  NE1 TRP A 701      13.784  14.473  20.776 -0.46 +0.11    -0.244 NA 
+DOCKED: HETATM    5  CE2 TRP A 701      13.781  15.307  19.692 -0.55 -0.02    +0.081 A  
+DOCKED: HETATM    6  CE3 TRP A 701      14.583  17.516  19.125 -0.49 -0.00    +0.001 A  
+DOCKED: HETATM    7  CZ2 TRP A 701      13.244  15.128  18.414 -0.69 -0.00    +0.019 A  
+DOCKED: HETATM    8  CZ3 TRP A 701      14.053  17.334  17.864 -0.58 -0.00    +0.000 A  
+DOCKED: HETATM    9  CH2 TRP A 701      13.393  16.150  17.518 -0.66 -0.00    +0.002 A  
+DOCKED: ENDROOT
+DOCKED: BRANCH   1  10
+DOCKED: HETATM   10  CB  TRP A 701      15.611  17.339  22.259 -0.54 -0.05    +0.079 C  
+DOCKED: BRANCH  10  11
+DOCKED: HETATM   11  CA  TRP A 701      16.936  17.768  21.624 -0.29 -0.33    +0.392 C  
+DOCKED: HETATM   12  N   TRP A 701      17.813  16.617  21.443 -0.04 -1.12    +0.628 N  
+DOCKED: BRANCH  11  13
+DOCKED: HETATM   13  C   TRP A 701      17.604  18.845  22.470 -0.31 -0.08    +0.224 C  
+DOCKED: HETATM   14  O   TRP A 701      17.383  18.925  23.680 -0.00 -0.22    -0.646 OA 
+DOCKED: HETATM   15  OXT TRP A 701      18.374  19.665  21.968 -0.03 +0.13    -0.646 OA 
+DOCKED: ENDBRANCH  11  13
+DOCKED: ENDBRANCH  10  11
+DOCKED: ENDBRANCH   1  10
+DOCKED: TORSDOF 3
+DOCKED: TER
+DOCKED: ENDMDL
+________________________________________________________________________________
+
+
+    FINAL DOCKED STATE:
+    ________________________
+
+
+Run:   20 / 20
+Time taken for this run:   0.018s
+
+DOCKED: MODEL        20
+DOCKED: USER    Run = 20
+DOCKED: USER
+DOCKED: USER    Estimated Free Energy of Binding    =  -7.25 kcal/mol  [=(1)+(2)+(3)-(4)]
+DOCKED: USER
+DOCKED: USER    (1) Final Intermolecular Energy     =  -8.15 kcal/mol
+DOCKED: USER        vdW + Hbond + desolv Energy     =  -6.58 kcal/mol
+DOCKED: USER        Electrostatic Energy            =  -1.57 kcal/mol
+DOCKED: USER        Moving Ligand-Fixed Receptor    =  -8.15 kcal/mol
+DOCKED: USER        Moving Ligand-Moving Receptor   =  +0.00 kcal/mol
+DOCKED: USER    (2) Final Total Internal Energy     =  -0.19 kcal/mol
+DOCKED: USER    (3) Torsional Free Energy           =  +0.89 kcal/mol
+DOCKED: USER    (4) Unbound System's Energy         =  -0.19 kcal/mol
+DOCKED: USER
+DOCKED: USER
+DOCKED: REMARK  3 active torsions:
+DOCKED: REMARK  status: ('A' for Active; 'I' for Inactive)
+DOCKED: REMARK    1  A    between atoms: C_2895  and  CA_2894 
+DOCKED: REMARK    2  A    between atoms: CA_2894  and  CB_2897 
+DOCKED: REMARK    3  A    between atoms: CB_2897  and  CG_2898 
+DOCKED: USER                              x       y       z     vdW  Elec       q    Type
+DOCKED: USER                           _______ _______ _______ _____ _____    ______ ____
+DOCKED: ROOT
+DOCKED: HETATM    1  CG  TRP A 701      14.810  16.044  21.202 -0.65 -0.00    +0.001 A  
+DOCKED: HETATM    2  CD1 TRP A 701      14.311  14.789  21.406 -0.63 -0.06    +0.095 A  
+DOCKED: HETATM    3  CD2 TRP A 701      14.409  16.424  19.878 -0.55 -0.00    +0.015 A  
+DOCKED: HETATM    4  NE1 TRP A 701      13.619  14.368  20.292 -0.49 +0.09    -0.244 NA 
+DOCKED: HETATM    5  CE2 TRP A 701      13.666  15.352  19.343 -0.57 -0.02    +0.081 A  
+DOCKED: HETATM    6  CE3 TRP A 701      14.603  17.567  19.100 -0.49 -0.00    +0.001 A  
+DOCKED: HETATM    7  CZ2 TRP A 701      13.117  15.396  18.058 -0.68 -0.00    +0.019 A  
+DOCKED: HETATM    8  CZ3 TRP A 701      14.060  17.607  17.831 -0.56 -0.00    +0.000 A  
+DOCKED: HETATM    9  CH2 TRP A 701      13.327  16.529  17.321 -0.67 -0.00    +0.002 A  
+DOCKED: ENDROOT
+DOCKED: BRANCH   1  10
+DOCKED: HETATM   10  CB  TRP A 701      15.624  16.865  22.161 -0.59 -0.07    +0.079 C  
+DOCKED: BRANCH  10  11
+DOCKED: HETATM   11  CA  TRP A 701      16.800  17.579  21.490 -0.31 -0.34    +0.392 C  
+DOCKED: HETATM   12  N   TRP A 701      17.968  16.708  21.443 -0.02 -1.13    +0.628 N  
+DOCKED: BRANCH  11  13
+DOCKED: HETATM   13  C   TRP A 701      17.111  18.883  22.215 -0.32 -0.08    +0.224 C  
+DOCKED: HETATM   14  O   TRP A 701      16.723  19.963  21.767 -0.00 +0.10    -0.646 OA 
+DOCKED: HETATM   15  OXT TRP A 701      17.760  18.891  23.262 -0.05 -0.06    -0.646 OA 
+DOCKED: ENDBRANCH  11  13
+DOCKED: ENDBRANCH  10  11
+DOCKED: ENDBRANCH   1  10
+DOCKED: TORSDOF 3
+DOCKED: TER
+DOCKED: ENDMDL
+________________________________________________________________________________
+
+
+    CLUSTERING HISTOGRAM
+    ____________________
+
+
+________________________________________________________________________________
+     |           |     |           |     |
+Clus | Lowest    | Run | Mean      | Num | Histogram
+-ter | Binding   |     | Binding   | in  |
+Rank | Energy    |     | Energy    | Clus|    5    10   15   20   25   30   35
+_____|___________|_____|___________|_____|____:____|____:____|____:____|____:___
+   1 |     -7.26 |   9 |     -7.24 |  20 |####################
+_____|___________|_____|___________|_____|______________________________________
+
+
+    RMSD TABLE
+    __________
+
+
+_______________________________________________________________________
+     |      |      |           |         |                 |
+Rank | Sub- | Run  | Binding   | Cluster | Reference       | Grep
+     | Rank |      | Energy    | RMSD    | RMSD            | Pattern
+_____|______|______|___________|_________|_________________|___________
+   1      1      9       -7.26      0.00      0.61           RANKING
+   1      2      6       -7.25      0.02      0.62           RANKING
+   1      3      8       -7.25      0.16      0.65           RANKING
+   1      4     20       -7.25      0.09      0.60           RANKING
+   1      5      5       -7.25      0.04      0.59           RANKING
+   1      6     12       -7.25      0.05      0.59           RANKING
+   1      7     11       -7.25      0.06      0.58           RANKING
+   1      8     13       -7.25      0.17      0.60           RANKING
+   1      9     15       -7.25      0.18      0.61           RANKING
+   1     10     14       -7.24      0.05      0.59           RANKING
+   1     11     16       -7.24      0.21      0.60           RANKING
+   1     12     10       -7.24      0.22      0.61           RANKING
+   1     13      4       -7.24      0.21      0.62           RANKING
+   1     14      7       -7.24      0.09      0.59           RANKING
+   1     15      2       -7.24      0.22      0.59           RANKING
+   1     16     18       -7.24      0.24      0.59           RANKING
+   1     17     17       -7.24      0.16      0.59           RANKING
+   1     18     19       -7.24      0.61      0.82           RANKING
+   1     19      3       -7.23      0.33      0.62           RANKING
+   1     20      1       -7.11      0.25      0.53           RANKING
+
+Run time 0.372 sec
+Idle time 0.216 sec

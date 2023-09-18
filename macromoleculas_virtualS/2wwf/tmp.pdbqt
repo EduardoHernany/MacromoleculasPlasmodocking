@@ -1,0 +1,38 @@
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: O5'_1775  and  P_1771 
+REMARK    2  A    between atoms: C5'_1776  and  O5'_1775 
+REMARK    3  A    between atoms: C4'_1777  and  C5'_1776 
+REMARK    4  A    between atoms: C1'_1782  and  N1_1783 
+ROOT
+HETATM    1  C4' TMP A 211      10.712 -11.262  -4.965  1.00 12.58     0.178 C 
+HETATM    2  O4' TMP A 211       9.324 -11.355  -4.528  1.00 11.49    -0.333 OA
+HETATM    3  C3' TMP A 211      11.123 -12.714  -5.266  1.00 13.38     0.186 C 
+HETATM    4  O3' TMP A 211      11.924 -13.209  -4.142  1.00 12.56    -0.221 OA
+HETATM    5  C2' TMP A 211       9.797 -13.520  -5.373  1.00  8.99     0.090 C 
+HETATM    6  C1' TMP A 211       8.962 -12.754  -4.321  1.00 10.69     0.211 C 
+ENDROOT
+BRANCH   6   7
+HETATM    7  N1  TMP A 211       7.501 -12.777  -4.605  1.00 10.66    -0.256 N 
+HETATM    8  C2  TMP A 211       6.609 -13.185  -3.610  1.00 10.16     0.354 A 
+HETATM    9  O2  TMP A 211       6.991 -13.534  -2.483  1.00 11.88    -0.244 OA
+HETATM   10  N3  TMP A 211       5.214 -13.239  -3.861  1.00  9.92    -0.153 NA
+HETATM   11  C4  TMP A 211       4.745 -12.870  -5.129  1.00  8.99     0.280 A 
+HETATM   12  O4  TMP A 211       3.528 -12.924  -5.271  1.00  8.37    -0.265 OA
+HETATM   13  C5  TMP A 211       5.623 -12.470  -6.133  1.00  9.18     0.053 A 
+HETATM   14  C5M TMP A 211       5.095 -12.007  -7.578  1.00  5.64     0.038 C 
+HETATM   15  C6  TMP A 211       7.001 -12.423  -5.884  1.00  7.17     0.083 A 
+ENDBRANCH   6   7
+BRANCH   1  16
+HETATM   16  C5' TMP A 211      10.555 -10.583  -6.314  1.00  9.83     0.188 C 
+BRANCH  16  17
+HETATM   17  O5' TMP A 211      11.781 -10.228  -6.788  1.00 19.73    -0.261 OA
+BRANCH  17  18
+HETATM   18  P   TMP A 211      12.252 -10.541  -8.398  1.00 21.29     0.423 P 
+HETATM   19  O1P TMP A 211      11.291 -11.212  -9.136  1.00 21.31    -0.617 OA
+HETATM   20  O2P TMP A 211      13.054 -11.608  -7.838  1.00 27.85    -0.617 OA
+HETATM   21  O3P TMP A 211      13.239  -9.623  -8.676  1.00 19.05    -0.617 OA
+ENDBRANCH  17  18
+ENDBRANCH  16  17
+ENDBRANCH   1  16
+TORSDOF 4

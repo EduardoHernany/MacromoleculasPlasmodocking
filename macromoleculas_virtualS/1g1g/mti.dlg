@@ -1,0 +1,1424 @@
+AutoDock-GPU version: v1.5-release
+
+**********************************************************
+**    AutoDock-GPU AUTODOCKTOOLS-COMPATIBLE DLG FILE    **
+**********************************************************
+
+
+    DOCKING PARAMETERS
+    ________________________
+
+
+Ligand file:                               mti.pdbqt
+Grid fld file:                             1g1g_a.maps.fld
+
+Random seed:                               1695013510, 37068
+Number of runs:                            20
+Number of energy evaluations:              1132076
+Number of generations:                     42000
+Size of population:                        150
+Rate of crossover:                         80.000000%
+Tournament selection probability limit:    60.000000%
+Rate of mutation:                          2.000000%
+Maximal allowed delta movement:            +/- 6.000000A
+Maximal allowed delta angle:               +/- 90.000000
+
+Rate of local search:                      100.000000%
+Maximal number of local search iterations: 300
+Rho lower bound:                           0.010000
+Spread of local search delta movement:     2.000000A
+Spread of local search delta angle:        74.999999
+Limit of consecutive successes/failures:   4
+
+Handle symmetry during clustering:         YES
+RMSD tolerance:                            2.000000A
+
+Program call in command line was:          /home/eduardo/AutoDock-GPU-develop/bin/autodock_gpu_128wi --ffile 1g1g_a.maps.fld --lfile mti.pdbqt 
+
+
+    GRID PARAMETERS
+    ________________________
+
+
+Receptor name:                             1g1g_a
+Number of grid points (x, y, z):           31, 31, 33
+Grid center (x, y, z):                     8.147000, 5.374000, 91.635000A
+Grid size (x, y, z):                       11.250000, 11.250000, 12.000000A
+Grid spacing:                              0.375000A
+
+
+    LIGAND PARAMETERS
+    ________________________
+
+
+Ligand name:                               mti
+Number of atoms:                           20
+Number of rotatable bonds:                 3
+Number of atom types:                      6
+
+
+    DUMMY DATA (only for ADT-compatibility)
+    ________________________
+
+
+DPF> outlev 1
+DPF> ga_run 20
+DPF> fld 1g1g_a.maps.fld
+DPF> move mti.pdbqt
+
+
+    COUNTER STATES
+    ________________________
+
+
+Number of energy evaluations performed:    298785
+Number of generations used:                40
+
+
+    INPUT LIGAND PDBQT FILE:
+    ________________________
+
+
+INPUT-LIGAND-PDBQT: REMARK  3 active torsions:
+INPUT-LIGAND-PDBQT: REMARK  status: ('A' for Active; 'I' for Inactive)
+INPUT-LIGAND-PDBQT: REMARK    1  A    between atoms: C5'_1889  and  S5'_1888 
+INPUT-LIGAND-PDBQT: REMARK    2  A    between atoms: C4'_1890  and  C5'_1889 
+INPUT-LIGAND-PDBQT: REMARK    3  A    between atoms: C1'_1896  and  C9_1897 
+INPUT-LIGAND-PDBQT: ROOT
+INPUT-LIGAND-PDBQT: HETATM    1  C4' MTI A 301       8.210   2.073  92.167  1.00 27.62     0.300 C 
+INPUT-LIGAND-PDBQT: HETATM    2  N4' MTI A 301       7.245   3.096  91.751  1.00 25.15     0.346 N 
+INPUT-LIGAND-PDBQT: HETATM    3  C2' MTI A 301       9.356   3.778  90.852  1.00 23.32     0.223 C 
+INPUT-LIGAND-PDBQT: HETATM    4  O2' MTI A 301       9.704   3.935  89.430  1.00 23.06    -0.218 OA
+INPUT-LIGAND-PDBQT: HETATM    5  C3' MTI A 301       9.487   2.259  91.332  1.00 24.96     0.219 C 
+INPUT-LIGAND-PDBQT: HETATM    6  O3' MTI A 301       9.477   1.323  90.174  1.00 25.41    -0.218 OA
+INPUT-LIGAND-PDBQT: HETATM    7  C1' MTI A 301       7.887   4.253  91.140  1.00 23.11     0.315 C 
+INPUT-LIGAND-PDBQT: ENDROOT
+INPUT-LIGAND-PDBQT: BRANCH   7   8
+INPUT-LIGAND-PDBQT: HETATM    8  C9  MTI A 301       7.712   5.468  92.115  1.00 22.00     0.052 A 
+INPUT-LIGAND-PDBQT: HETATM    9  C4  MTI A 301       8.657   6.304  92.794  1.00 21.18     0.105 A 
+INPUT-LIGAND-PDBQT: HETATM   10  N3  MTI A 301      10.074   6.251  92.765  1.00 22.24    -0.223 NA
+INPUT-LIGAND-PDBQT: HETATM   11  C5  MTI A 301       7.892   7.227  93.532  1.00 20.23     0.156 A 
+INPUT-LIGAND-PDBQT: HETATM   12  C2  MTI A 301      10.716   7.209  93.533  1.00 20.52     0.202 A 
+INPUT-LIGAND-PDBQT: HETATM   13  N1  MTI A 301       9.996   8.159  94.286  1.00 21.65    -0.184 NA
+INPUT-LIGAND-PDBQT: HETATM   14  C6  MTI A 301       8.566   8.233  94.335  1.00 20.90     0.300 A 
+INPUT-LIGAND-PDBQT: HETATM   15  O6  MTI A 301       8.027   9.102  95.027  1.00 21.37    -0.263 OA
+INPUT-LIGAND-PDBQT: HETATM   16  N7  MTI A 301       6.541   7.001  93.341  1.00 19.57    -0.238 NA
+INPUT-LIGAND-PDBQT: HETATM   17  C8  MTI A 301       6.484   5.982  92.523  1.00 19.90     0.098 A 
+INPUT-LIGAND-PDBQT: ENDBRANCH   7   8
+INPUT-LIGAND-PDBQT: BRANCH   1  18
+INPUT-LIGAND-PDBQT: HETATM   18  C5' MTI A 301       8.442   2.227  93.669  1.00 29.72     0.096 C 
+INPUT-LIGAND-PDBQT: BRANCH  18  19
+INPUT-LIGAND-PDBQT: HETATM   19  S5' MTI A 301       9.169   0.752  94.440  1.00 36.62    -0.137 SA
+INPUT-LIGAND-PDBQT: HETATM   20  CS  MTI A 301      10.060   1.493  95.806  1.00 34.32     0.069 C 
+INPUT-LIGAND-PDBQT: ENDBRANCH  18  19
+INPUT-LIGAND-PDBQT: ENDBRANCH   1  18
+INPUT-LIGAND-PDBQT: TORSDOF 3
+
+
+    FINAL DOCKED STATE:
+    ________________________
+
+
+Run:   1 / 20
+Time taken for this run:   0.021s
+
+DOCKED: MODEL        1
+DOCKED: USER    Run = 1
+DOCKED: USER
+DOCKED: USER    Estimated Free Energy of Binding    =  -8.56 kcal/mol  [=(1)+(2)+(3)-(4)]
+DOCKED: USER
+DOCKED: USER    (1) Final Intermolecular Energy     =  -9.45 kcal/mol
+DOCKED: USER        vdW + Hbond + desolv Energy     =  -7.52 kcal/mol
+DOCKED: USER        Electrostatic Energy            =  -1.93 kcal/mol
+DOCKED: USER        Moving Ligand-Fixed Receptor    =  -9.45 kcal/mol
+DOCKED: USER        Moving Ligand-Moving Receptor   =  +0.00 kcal/mol
+DOCKED: USER    (2) Final Total Internal Energy     =  -0.79 kcal/mol
+DOCKED: USER    (3) Torsional Free Energy           =  +0.89 kcal/mol
+DOCKED: USER    (4) Unbound System's Energy         =  -0.79 kcal/mol
+DOCKED: USER
+DOCKED: USER
+DOCKED: REMARK  3 active torsions:
+DOCKED: REMARK  status: ('A' for Active; 'I' for Inactive)
+DOCKED: REMARK    1  A    between atoms: C5'_1889  and  S5'_1888 
+DOCKED: REMARK    2  A    between atoms: C4'_1890  and  C5'_1889 
+DOCKED: REMARK    3  A    between atoms: C1'_1896  and  C9_1897 
+DOCKED: USER                              x       y       z     vdW  Elec       q    Type
+DOCKED: USER                           _______ _______ _______ _____ _____    ______ ____
+DOCKED: ROOT
+DOCKED: HETATM    1  C4' MTI A 301       7.853   2.013  91.716 -0.20 -0.71    +0.300 C  
+DOCKED: HETATM    2  N4' MTI A 301       7.078   3.174  91.265 -0.18 -0.93    +0.346 N  
+DOCKED: HETATM    3  C2' MTI A 301       9.356   3.644  90.701 -0.46 -0.48    +0.223 C  
+DOCKED: HETATM    4  O2' MTI A 301       9.911   3.848  89.353 -0.54 +0.60    -0.218 OA 
+DOCKED: HETATM    5  C3' MTI A 301       9.245   2.092  91.069 -0.39 -0.53    +0.219 C  
+DOCKED: HETATM    6  O3' MTI A 301       9.285   1.242  89.847 -0.36 +0.80    -0.218 OA 
+DOCKED: HETATM    7  C1' MTI A 301       7.926   4.279  90.837 -0.33 -0.69    +0.315 C  
+DOCKED: ENDROOT
+DOCKED: BRANCH   7   8
+DOCKED: HETATM    8  C9  MTI A 301       7.761   5.440  91.877 -0.48 -0.08    +0.052 A  
+DOCKED: HETATM    9  C4  MTI A 301       8.708   6.303  92.518 -0.46 -0.13    +0.105 A  
+DOCKED: HETATM   10  N3  MTI A 301      10.119   6.336  92.378 -0.37 +0.23    -0.223 NA 
+DOCKED: HETATM   11  C5  MTI A 301       7.953   7.147  93.354 -0.43 -0.21    +0.156 A  
+DOCKED: HETATM   12  C2  MTI A 301      10.764   7.298  93.138 -0.42 -0.19    +0.202 A  
+DOCKED: HETATM   13  N1  MTI A 301      10.054   8.172  93.986 -0.40 +0.16    -0.184 NA 
+DOCKED: HETATM   14  C6  MTI A 301       8.630   8.158  94.148 -0.33 -0.33    +0.300 A  
+DOCKED: HETATM   15  O6  MTI A 301       8.100   8.964  94.918 -0.45 +0.28    -0.263 OA 
+DOCKED: HETATM   16  N7  MTI A 301       6.606   6.849  93.258 -0.36 +0.48    -0.238 NA 
+DOCKED: HETATM   17  C8  MTI A 301       6.542   5.862  92.401 -0.42 -0.19    +0.098 A  
+DOCKED: ENDBRANCH   7   8
+DOCKED: BRANCH   1  18
+DOCKED: HETATM   18  C5' MTI A 301       7.893   2.039  93.243 -0.24 -0.14    +0.096 C  
+DOCKED: BRANCH  18  19
+DOCKED: HETATM   19  S5' MTI A 301       9.561   2.297  93.914 -0.37 +0.16    -0.137 SA 
+DOCKED: HETATM   20  CS  MTI A 301       9.497   1.263  95.376 -0.34 -0.06    +0.069 C  
+DOCKED: ENDBRANCH  18  19
+DOCKED: ENDBRANCH   1  18
+DOCKED: TORSDOF 3
+DOCKED: TER
+DOCKED: ENDMDL
+________________________________________________________________________________
+
+
+    FINAL DOCKED STATE:
+    ________________________
+
+
+Run:   2 / 20
+Time taken for this run:   0.021s
+
+DOCKED: MODEL        2
+DOCKED: USER    Run = 2
+DOCKED: USER
+DOCKED: USER    Estimated Free Energy of Binding    =  -8.56 kcal/mol  [=(1)+(2)+(3)-(4)]
+DOCKED: USER
+DOCKED: USER    (1) Final Intermolecular Energy     =  -9.45 kcal/mol
+DOCKED: USER        vdW + Hbond + desolv Energy     =  -7.46 kcal/mol
+DOCKED: USER        Electrostatic Energy            =  -1.99 kcal/mol
+DOCKED: USER        Moving Ligand-Fixed Receptor    =  -9.45 kcal/mol
+DOCKED: USER        Moving Ligand-Moving Receptor   =  +0.00 kcal/mol
+DOCKED: USER    (2) Final Total Internal Energy     =  -0.83 kcal/mol
+DOCKED: USER    (3) Torsional Free Energy           =  +0.89 kcal/mol
+DOCKED: USER    (4) Unbound System's Energy         =  -0.83 kcal/mol
+DOCKED: USER
+DOCKED: USER
+DOCKED: REMARK  3 active torsions:
+DOCKED: REMARK  status: ('A' for Active; 'I' for Inactive)
+DOCKED: REMARK    1  A    between atoms: C5'_1889  and  S5'_1888 
+DOCKED: REMARK    2  A    between atoms: C4'_1890  and  C5'_1889 
+DOCKED: REMARK    3  A    between atoms: C1'_1896  and  C9_1897 
+DOCKED: USER                              x       y       z     vdW  Elec       q    Type
+DOCKED: USER                           _______ _______ _______ _____ _____    ______ ____
+DOCKED: ROOT
+DOCKED: HETATM    1  C4' MTI A 301       7.801   1.996  91.637 -0.20 -0.73    +0.300 C  
+DOCKED: HETATM    2  N4' MTI A 301       7.050   3.172  91.186 -0.14 -0.96    +0.346 N  
+DOCKED: HETATM    3  C2' MTI A 301       9.347   3.630  90.694 -0.46 -0.48    +0.223 C  
+DOCKED: HETATM    4  O2' MTI A 301       9.941   3.854  89.365 -0.54 +0.59    -0.218 OA 
+DOCKED: HETATM    5  C3' MTI A 301       9.211   2.073  91.030 -0.38 -0.54    +0.219 C  
+DOCKED: HETATM    6  O3' MTI A 301       9.278   1.245  89.794 -0.36 +0.82    -0.218 OA 
+DOCKED: HETATM    7  C1' MTI A 301       7.920   4.277  90.802 -0.32 -0.69    +0.315 C  
+DOCKED: ENDROOT
+DOCKED: BRANCH   7   8
+DOCKED: HETATM    8  C9  MTI A 301       7.737   5.420  91.858 -0.48 -0.08    +0.052 A  
+DOCKED: HETATM    9  C4  MTI A 301       8.670   6.292  92.508 -0.46 -0.13    +0.105 A  
+DOCKED: HETATM   10  N3  MTI A 301      10.079   6.354  92.363 -0.36 +0.23    -0.223 NA 
+DOCKED: HETATM   11  C5  MTI A 301       7.902   7.110  93.359 -0.43 -0.21    +0.156 A  
+DOCKED: HETATM   12  C2  MTI A 301      10.709   7.318  93.133 -0.42 -0.19    +0.202 A  
+DOCKED: HETATM   13  N1  MTI A 301       9.986   8.166  93.997 -0.40 +0.17    -0.184 NA 
+DOCKED: HETATM   14  C6  MTI A 301       8.563   8.123  94.164 -0.33 -0.33    +0.300 A  
+DOCKED: HETATM   15  O6  MTI A 301       8.020   8.908  94.947 -0.45 +0.29    -0.263 OA 
+DOCKED: HETATM   16  N7  MTI A 301       6.561   6.787  93.263 -0.35 +0.49    -0.238 NA 
+DOCKED: HETATM   17  C8  MTI A 301       6.512   5.812  92.393 -0.42 -0.19    +0.098 A  
+DOCKED: ENDBRANCH   7   8
+DOCKED: BRANCH   1  18
+DOCKED: HETATM   18  C5' MTI A 301       7.799   1.993  93.164 -0.24 -0.15    +0.096 C  
+DOCKED: BRANCH  18  19
+DOCKED: HETATM   19  S5' MTI A 301       9.294   2.729  93.887 -0.36 +0.16    -0.137 SA 
+DOCKED: HETATM   20  CS  MTI A 301       9.875   1.376  94.906 -0.36 -0.06    +0.069 C  
+DOCKED: ENDBRANCH  18  19
+DOCKED: ENDBRANCH   1  18
+DOCKED: TORSDOF 3
+DOCKED: TER
+DOCKED: ENDMDL
+________________________________________________________________________________
+
+
+    FINAL DOCKED STATE:
+    ________________________
+
+
+Run:   3 / 20
+Time taken for this run:   0.021s
+
+DOCKED: MODEL        3
+DOCKED: USER    Run = 3
+DOCKED: USER
+DOCKED: USER    Estimated Free Energy of Binding    =  -8.54 kcal/mol  [=(1)+(2)+(3)-(4)]
+DOCKED: USER
+DOCKED: USER    (1) Final Intermolecular Energy     =  -9.44 kcal/mol
+DOCKED: USER        vdW + Hbond + desolv Energy     =  -7.43 kcal/mol
+DOCKED: USER        Electrostatic Energy            =  -2.01 kcal/mol
+DOCKED: USER        Moving Ligand-Fixed Receptor    =  -9.44 kcal/mol
+DOCKED: USER        Moving Ligand-Moving Receptor   =  +0.00 kcal/mol
+DOCKED: USER    (2) Final Total Internal Energy     =  -0.84 kcal/mol
+DOCKED: USER    (3) Torsional Free Energy           =  +0.89 kcal/mol
+DOCKED: USER    (4) Unbound System's Energy         =  -0.84 kcal/mol
+DOCKED: USER
+DOCKED: USER
+DOCKED: REMARK  3 active torsions:
+DOCKED: REMARK  status: ('A' for Active; 'I' for Inactive)
+DOCKED: REMARK    1  A    between atoms: C5'_1889  and  S5'_1888 
+DOCKED: REMARK    2  A    between atoms: C4'_1890  and  C5'_1889 
+DOCKED: REMARK    3  A    between atoms: C1'_1896  and  C9_1897 
+DOCKED: USER                              x       y       z     vdW  Elec       q    Type
+DOCKED: USER                           _______ _______ _______ _____ _____    ______ ____
+DOCKED: ROOT
+DOCKED: HETATM    1  C4' MTI A 301       7.820   1.992  91.604 -0.19 -0.74    +0.300 C  
+DOCKED: HETATM    2  N4' MTI A 301       7.074   3.177  91.168 -0.14 -0.96    +0.346 N  
+DOCKED: HETATM    3  C2' MTI A 301       9.370   3.619  90.656 -0.46 -0.48    +0.223 C  
+DOCKED: HETATM    4  O2' MTI A 301       9.953   3.847  89.323 -0.52 +0.60    -0.218 OA 
+DOCKED: HETATM    5  C3' MTI A 301       9.225   2.062  90.984 -0.39 -0.55    +0.219 C  
+DOCKED: HETATM    6  O3' MTI A 301       9.273   1.241  89.742 -0.35 +0.83    -0.218 OA 
+DOCKED: HETATM    7  C1' MTI A 301       7.949   4.276  90.782 -0.32 -0.69    +0.315 C  
+DOCKED: ENDROOT
+DOCKED: BRANCH   7   8
+DOCKED: HETATM    8  C9  MTI A 301       7.785   5.415  91.848 -0.48 -0.08    +0.052 A  
+DOCKED: HETATM    9  C4  MTI A 301       8.733   6.269  92.500 -0.46 -0.13    +0.105 A  
+DOCKED: HETATM   10  N3  MTI A 301      10.142   6.313  92.351 -0.36 +0.23    -0.223 NA 
+DOCKED: HETATM   11  C5  MTI A 301       7.980   7.091  93.359 -0.43 -0.21    +0.156 A  
+DOCKED: HETATM   12  C2  MTI A 301      10.789   7.262  93.125 -0.42 -0.19    +0.202 A  
+DOCKED: HETATM   13  N1  MTI A 301      10.080   8.114  93.997 -0.40 +0.16    -0.184 NA 
+DOCKED: HETATM   14  C6  MTI A 301       8.658   8.089  94.169 -0.33 -0.32    +0.300 A  
+DOCKED: HETATM   15  O6  MTI A 301       8.129   8.876  94.960 -0.44 +0.28    -0.263 OA 
+DOCKED: HETATM   16  N7  MTI A 301       6.634   6.788  93.266 -0.36 +0.48    -0.238 NA 
+DOCKED: HETATM   17  C8  MTI A 301       6.568   5.819  92.389 -0.43 -0.18    +0.098 A  
+DOCKED: ENDBRANCH   7   8
+DOCKED: BRANCH   1  18
+DOCKED: HETATM   18  C5' MTI A 301       7.834   1.979  93.132 -0.24 -0.15    +0.096 C  
+DOCKED: BRANCH  18  19
+DOCKED: HETATM   19  S5' MTI A 301       9.326   2.732  93.844 -0.36 +0.16    -0.137 SA 
+DOCKED: HETATM   20  CS  MTI A 301       9.963   1.363  94.808 -0.36 -0.06    +0.069 C  
+DOCKED: ENDBRANCH  18  19
+DOCKED: ENDBRANCH   1  18
+DOCKED: TORSDOF 3
+DOCKED: TER
+DOCKED: ENDMDL
+________________________________________________________________________________
+
+
+    FINAL DOCKED STATE:
+    ________________________
+
+
+Run:   4 / 20
+Time taken for this run:   0.021s
+
+DOCKED: MODEL        4
+DOCKED: USER    Run = 4
+DOCKED: USER
+DOCKED: USER    Estimated Free Energy of Binding    =  -9.14 kcal/mol  [=(1)+(2)+(3)-(4)]
+DOCKED: USER
+DOCKED: USER    (1) Final Intermolecular Energy     = -10.03 kcal/mol
+DOCKED: USER        vdW + Hbond + desolv Energy     =  -8.52 kcal/mol
+DOCKED: USER        Electrostatic Energy            =  -1.51 kcal/mol
+DOCKED: USER        Moving Ligand-Fixed Receptor    = -10.03 kcal/mol
+DOCKED: USER        Moving Ligand-Moving Receptor   =  +0.00 kcal/mol
+DOCKED: USER    (2) Final Total Internal Energy     =  -0.58 kcal/mol
+DOCKED: USER    (3) Torsional Free Energy           =  +0.89 kcal/mol
+DOCKED: USER    (4) Unbound System's Energy         =  -0.58 kcal/mol
+DOCKED: USER
+DOCKED: USER
+DOCKED: REMARK  3 active torsions:
+DOCKED: REMARK  status: ('A' for Active; 'I' for Inactive)
+DOCKED: REMARK    1  A    between atoms: C5'_1889  and  S5'_1888 
+DOCKED: REMARK    2  A    between atoms: C4'_1890  and  C5'_1889 
+DOCKED: REMARK    3  A    between atoms: C1'_1896  and  C9_1897 
+DOCKED: USER                              x       y       z     vdW  Elec       q    Type
+DOCKED: USER                           _______ _______ _______ _____ _____    ______ ____
+DOCKED: ROOT
+DOCKED: HETATM    1  C4' MTI A 301       6.646   6.590  93.948 -0.30 -0.64    +0.300 C  
+DOCKED: HETATM    2  N4' MTI A 301       7.250   7.843  93.482 -0.19 -0.54    +0.346 N  
+DOCKED: HETATM    3  C2' MTI A 301       8.562   6.084  92.526 -0.42 -0.29    +0.223 C  
+DOCKED: HETATM    4  O2' MTI A 301       8.746   5.794  91.094 -0.45 +0.31    -0.218 OA 
+DOCKED: HETATM    5  C3' MTI A 301       7.210   5.445  93.092 -0.37 -0.37    +0.219 C  
+DOCKED: HETATM    6  O3' MTI A 301       6.262   5.120  91.991 -0.40 +0.44    -0.218 OA 
+DOCKED: HETATM    7  C1' MTI A 301       8.519   7.630  92.798 -0.34 -0.39    +0.315 C  
+DOCKED: ENDROOT
+DOCKED: BRANCH   7   8
+DOCKED: HETATM    8  C9  MTI A 301       9.655   8.222  93.702 -0.53 -0.05    +0.052 A  
+DOCKED: HETATM    9  C4  MTI A 301      11.072   8.013  93.732 -0.49 -0.09    +0.105 A  
+DOCKED: HETATM   10  N3  MTI A 301      11.865   7.170  92.912 -0.43 +0.21    -0.223 NA 
+DOCKED: HETATM   11  C5  MTI A 301      11.558   8.828  94.772 -0.43 -0.12    +0.156 A  
+DOCKED: HETATM   12  C2  MTI A 301      13.223   7.188  93.186 -0.48 -0.21    +0.202 A  
+DOCKED: HETATM   13  N1  MTI A 301      13.761   7.991  94.213 -0.41 +0.19    -0.184 NA 
+DOCKED: HETATM   14  C6  MTI A 301      12.983   8.849  95.057 -0.33 -0.25    +0.300 A  
+DOCKED: HETATM   15  O6  MTI A 301      13.547   9.513  95.931 -0.36 +0.22    -0.263 OA 
+DOCKED: HETATM   16  N7  MTI A 301      10.522   9.519  95.373 -0.36 +0.16    -0.238 NA 
+DOCKED: HETATM   17  C8  MTI A 301       9.448   9.140  94.729 -0.49 -0.08    +0.098 A  
+DOCKED: ENDBRANCH   7   8
+DOCKED: BRANCH   1  18
+DOCKED: HETATM   18  C5' MTI A 301       6.957   6.443  95.436 -0.40 -0.17    +0.096 C  
+DOCKED: BRANCH  18  19
+DOCKED: HETATM   19  S5' MTI A 301       5.895   7.464  96.498 -0.61 +0.27    -0.137 SA 
+DOCKED: HETATM   20  CS  MTI A 301       6.256   9.098  95.861 -0.72 -0.12    +0.069 C  
+DOCKED: ENDBRANCH  18  19
+DOCKED: ENDBRANCH   1  18
+DOCKED: TORSDOF 3
+DOCKED: TER
+DOCKED: ENDMDL
+________________________________________________________________________________
+
+
+    FINAL DOCKED STATE:
+    ________________________
+
+
+Run:   5 / 20
+Time taken for this run:   0.021s
+
+DOCKED: MODEL        5
+DOCKED: USER    Run = 5
+DOCKED: USER
+DOCKED: USER    Estimated Free Energy of Binding    =  -8.57 kcal/mol  [=(1)+(2)+(3)-(4)]
+DOCKED: USER
+DOCKED: USER    (1) Final Intermolecular Energy     =  -9.46 kcal/mol
+DOCKED: USER        vdW + Hbond + desolv Energy     =  -7.51 kcal/mol
+DOCKED: USER        Electrostatic Energy            =  -1.96 kcal/mol
+DOCKED: USER        Moving Ligand-Fixed Receptor    =  -9.46 kcal/mol
+DOCKED: USER        Moving Ligand-Moving Receptor   =  +0.00 kcal/mol
+DOCKED: USER    (2) Final Total Internal Energy     =  -0.80 kcal/mol
+DOCKED: USER    (3) Torsional Free Energy           =  +0.89 kcal/mol
+DOCKED: USER    (4) Unbound System's Energy         =  -0.80 kcal/mol
+DOCKED: USER
+DOCKED: USER
+DOCKED: REMARK  3 active torsions:
+DOCKED: REMARK  status: ('A' for Active; 'I' for Inactive)
+DOCKED: REMARK    1  A    between atoms: C5'_1889  and  S5'_1888 
+DOCKED: REMARK    2  A    between atoms: C4'_1890  and  C5'_1889 
+DOCKED: REMARK    3  A    between atoms: C1'_1896  and  C9_1897 
+DOCKED: USER                              x       y       z     vdW  Elec       q    Type
+DOCKED: USER                           _______ _______ _______ _____ _____    ______ ____
+DOCKED: ROOT
+DOCKED: HETATM    1  C4' MTI A 301       7.840   2.043  91.668 -0.20 -0.72    +0.300 C  
+DOCKED: HETATM    2  N4' MTI A 301       7.079   3.215  91.222 -0.16 -0.93    +0.346 N  
+DOCKED: HETATM    3  C2' MTI A 301       9.365   3.666  90.674 -0.46 -0.48    +0.223 C  
+DOCKED: HETATM    4  O2' MTI A 301       9.929   3.875  89.330 -0.53 +0.60    -0.218 OA 
+DOCKED: HETATM    5  C3' MTI A 301       9.236   2.112  91.029 -0.39 -0.54    +0.219 C  
+DOCKED: HETATM    6  O3' MTI A 301       9.274   1.272  89.800 -0.37 +0.81    -0.218 OA 
+DOCKED: HETATM    7  C1' MTI A 301       7.941   4.314  90.808 -0.32 -0.69    +0.315 C  
+DOCKED: ENDROOT
+DOCKED: BRANCH   7   8
+DOCKED: HETATM    8  C9  MTI A 301       7.782   5.469  91.856 -0.48 -0.08    +0.052 A  
+DOCKED: HETATM    9  C4  MTI A 301       8.734   6.322  92.504 -0.46 -0.13    +0.105 A  
+DOCKED: HETATM   10  N3  MTI A 301      10.145   6.349  92.362 -0.36 +0.23    -0.223 NA 
+DOCKED: HETATM   11  C5  MTI A 301       7.984   7.164  93.346 -0.43 -0.21    +0.156 A  
+DOCKED: HETATM   12  C2  MTI A 301      10.796   7.303  93.128 -0.42 -0.19    +0.202 A  
+DOCKED: HETATM   13  N1  MTI A 301      10.091   8.173  93.984 -0.40 +0.16    -0.184 NA 
+DOCKED: HETATM   14  C6  MTI A 301       8.668   8.165  94.147 -0.33 -0.32    +0.300 A  
+DOCKED: HETATM   15  O6  MTI A 301       8.142   8.968  94.923 -0.45 +0.27    -0.263 OA 
+DOCKED: HETATM   16  N7  MTI A 301       6.636   6.873  93.248 -0.36 +0.48    -0.238 NA 
+DOCKED: HETATM   17  C8  MTI A 301       6.566   5.893  92.384 -0.42 -0.18    +0.098 A  
+DOCKED: ENDBRANCH   7   8
+DOCKED: BRANCH   1  18
+DOCKED: HETATM   18  C5' MTI A 301       7.873   2.056  93.196 -0.24 -0.15    +0.096 C  
+DOCKED: BRANCH  18  19
+DOCKED: HETATM   19  S5' MTI A 301       9.524   2.386  93.877 -0.37 +0.16    -0.137 SA 
+DOCKED: HETATM   20  CS  MTI A 301       9.506   1.330  95.324 -0.34 -0.06    +0.069 C  
+DOCKED: ENDBRANCH  18  19
+DOCKED: ENDBRANCH   1  18
+DOCKED: TORSDOF 3
+DOCKED: TER
+DOCKED: ENDMDL
+________________________________________________________________________________
+
+
+    FINAL DOCKED STATE:
+    ________________________
+
+
+Run:   6 / 20
+Time taken for this run:   0.021s
+
+DOCKED: MODEL        6
+DOCKED: USER    Run = 6
+DOCKED: USER
+DOCKED: USER    Estimated Free Energy of Binding    =  -8.54 kcal/mol  [=(1)+(2)+(3)-(4)]
+DOCKED: USER
+DOCKED: USER    (1) Final Intermolecular Energy     =  -9.44 kcal/mol
+DOCKED: USER        vdW + Hbond + desolv Energy     =  -7.45 kcal/mol
+DOCKED: USER        Electrostatic Energy            =  -1.99 kcal/mol
+DOCKED: USER        Moving Ligand-Fixed Receptor    =  -9.44 kcal/mol
+DOCKED: USER        Moving Ligand-Moving Receptor   =  +0.00 kcal/mol
+DOCKED: USER    (2) Final Total Internal Energy     =  -0.84 kcal/mol
+DOCKED: USER    (3) Torsional Free Energy           =  +0.89 kcal/mol
+DOCKED: USER    (4) Unbound System's Energy         =  -0.84 kcal/mol
+DOCKED: USER
+DOCKED: USER
+DOCKED: REMARK  3 active torsions:
+DOCKED: REMARK  status: ('A' for Active; 'I' for Inactive)
+DOCKED: REMARK    1  A    between atoms: C5'_1889  and  S5'_1888 
+DOCKED: REMARK    2  A    between atoms: C4'_1890  and  C5'_1889 
+DOCKED: REMARK    3  A    between atoms: C1'_1896  and  C9_1897 
+DOCKED: USER                              x       y       z     vdW  Elec       q    Type
+DOCKED: USER                           _______ _______ _______ _____ _____    ______ ____
+DOCKED: ROOT
+DOCKED: HETATM    1  C4' MTI A 301       7.828   2.002  91.624 -0.20 -0.73    +0.300 C  
+DOCKED: HETATM    2  N4' MTI A 301       7.068   3.177  91.185 -0.15 -0.95    +0.346 N  
+DOCKED: HETATM    3  C2' MTI A 301       9.358   3.643  90.669 -0.46 -0.48    +0.223 C  
+DOCKED: HETATM    4  O2' MTI A 301       9.937   3.872  89.335 -0.53 +0.60    -0.218 OA 
+DOCKED: HETATM    5  C3' MTI A 301       9.231   2.085  91.002 -0.39 -0.54    +0.219 C  
+DOCKED: HETATM    6  O3' MTI A 301       9.286   1.261  89.763 -0.35 +0.82    -0.218 OA 
+DOCKED: HETATM    7  C1' MTI A 301       7.931   4.285  90.795 -0.32 -0.69    +0.315 C  
+DOCKED: ENDROOT
+DOCKED: BRANCH   7   8
+DOCKED: HETATM    8  C9  MTI A 301       7.756   5.425  91.857 -0.48 -0.08    +0.052 A  
+DOCKED: HETATM    9  C4  MTI A 301       8.694   6.291  92.506 -0.46 -0.13    +0.105 A  
+DOCKED: HETATM   10  N3  MTI A 301      10.103   6.350  92.354 -0.36 +0.23    -0.223 NA 
+DOCKED: HETATM   11  C5  MTI A 301       7.933   7.108  93.363 -0.43 -0.21    +0.156 A  
+DOCKED: HETATM   12  C2  MTI A 301      10.740   7.309  93.125 -0.42 -0.19    +0.202 A  
+DOCKED: HETATM   13  N1  MTI A 301      10.023   8.156  93.995 -0.40 +0.17    -0.184 NA 
+DOCKED: HETATM   14  C6  MTI A 301       8.602   8.116  94.169 -0.33 -0.33    +0.300 A  
+DOCKED: HETATM   15  O6  MTI A 301       8.065   8.899  94.958 -0.45 +0.28    -0.263 OA 
+DOCKED: HETATM   16  N7  MTI A 301       6.591   6.790  93.272 -0.36 +0.49    -0.238 NA 
+DOCKED: HETATM   17  C8  MTI A 301       6.535   5.818  92.398 -0.42 -0.19    +0.098 A  
+DOCKED: ENDBRANCH   7   8
+DOCKED: BRANCH   1  18
+DOCKED: HETATM   18  C5' MTI A 301       7.843   1.995  93.152 -0.24 -0.15    +0.096 C  
+DOCKED: BRANCH  18  19
+DOCKED: HETATM   19  S5' MTI A 301       9.316   2.787  93.860 -0.35 +0.16    -0.137 SA 
+DOCKED: HETATM   20  CS  MTI A 301       9.960   1.455  94.870 -0.36 -0.06    +0.069 C  
+DOCKED: ENDBRANCH  18  19
+DOCKED: ENDBRANCH   1  18
+DOCKED: TORSDOF 3
+DOCKED: TER
+DOCKED: ENDMDL
+________________________________________________________________________________
+
+
+    FINAL DOCKED STATE:
+    ________________________
+
+
+Run:   7 / 20
+Time taken for this run:   0.021s
+
+DOCKED: MODEL        7
+DOCKED: USER    Run = 7
+DOCKED: USER
+DOCKED: USER    Estimated Free Energy of Binding    =  -8.90 kcal/mol  [=(1)+(2)+(3)-(4)]
+DOCKED: USER
+DOCKED: USER    (1) Final Intermolecular Energy     =  -9.80 kcal/mol
+DOCKED: USER        vdW + Hbond + desolv Energy     =  -8.32 kcal/mol
+DOCKED: USER        Electrostatic Energy            =  -1.48 kcal/mol
+DOCKED: USER        Moving Ligand-Fixed Receptor    =  -9.80 kcal/mol
+DOCKED: USER        Moving Ligand-Moving Receptor   =  +0.00 kcal/mol
+DOCKED: USER    (2) Final Total Internal Energy     =  -0.61 kcal/mol
+DOCKED: USER    (3) Torsional Free Energy           =  +0.89 kcal/mol
+DOCKED: USER    (4) Unbound System's Energy         =  -0.61 kcal/mol
+DOCKED: USER
+DOCKED: USER
+DOCKED: REMARK  3 active torsions:
+DOCKED: REMARK  status: ('A' for Active; 'I' for Inactive)
+DOCKED: REMARK    1  A    between atoms: C5'_1889  and  S5'_1888 
+DOCKED: REMARK    2  A    between atoms: C4'_1890  and  C5'_1889 
+DOCKED: REMARK    3  A    between atoms: C1'_1896  and  C9_1897 
+DOCKED: USER                              x       y       z     vdW  Elec       q    Type
+DOCKED: USER                           _______ _______ _______ _____ _____    ______ ____
+DOCKED: ROOT
+DOCKED: HETATM    1  C4' MTI A 301       6.646   6.467  94.100 -0.30 -0.64    +0.300 C  
+DOCKED: HETATM    2  N4' MTI A 301       7.257   7.624  93.438 -0.25 -0.55    +0.346 N  
+DOCKED: HETATM    3  C2' MTI A 301       8.579   5.731  92.806 -0.37 -0.29    +0.223 C  
+DOCKED: HETATM    4  O2' MTI A 301       8.780   5.206  91.446 -0.41 +0.33    -0.218 OA 
+DOCKED: HETATM    5  C3' MTI A 301       7.220   5.195  93.456 -0.34 -0.37    +0.219 C  
+DOCKED: HETATM    6  O3' MTI A 301       6.286   4.688  92.413 -0.35 +0.45    -0.218 OA 
+DOCKED: HETATM    7  C1' MTI A 301       8.534   7.301  92.815 -0.38 -0.38    +0.315 C  
+DOCKED: ENDROOT
+DOCKED: BRANCH   7   8
+DOCKED: HETATM    8  C9  MTI A 301       9.659   8.039  93.621 -0.54 -0.05    +0.052 A  
+DOCKED: HETATM    9  C4  MTI A 301      11.078   7.853  93.687 -0.50 -0.09    +0.105 A  
+DOCKED: HETATM   10  N3  MTI A 301      11.884   6.903  93.009 -0.41 +0.21    -0.223 NA 
+DOCKED: HETATM   11  C5  MTI A 301      11.551   8.824  94.590 -0.42 -0.12    +0.156 A  
+DOCKED: HETATM   12  C2  MTI A 301      13.240   6.978  93.281 -0.42 -0.21    +0.202 A  
+DOCKED: HETATM   13  N1  MTI A 301      13.765   7.936  94.173 -0.41 +0.19    -0.184 NA 
+DOCKED: HETATM   14  C6  MTI A 301      12.974   8.904  94.873 -0.32 -0.25    +0.300 A  
+DOCKED: HETATM   15  O6  MTI A 301      13.526   9.702  95.636 -0.35 +0.21    -0.263 OA 
+DOCKED: HETATM   16  N7  MTI A 301      10.504   9.587  95.075 -0.34 +0.17    -0.238 NA 
+DOCKED: HETATM   17  C8  MTI A 301       9.438   9.100  94.494 -0.46 -0.08    +0.098 A  
+DOCKED: ENDBRANCH   7   8
+DOCKED: BRANCH   1  18
+DOCKED: HETATM   18  C5' MTI A 301       6.939   6.572  95.596 -0.40 -0.16    +0.096 C  
+DOCKED: BRANCH  18  19
+DOCKED: HETATM   19  S5' MTI A 301       5.864   7.755  96.458 -0.60 +0.27    -0.137 SA 
+DOCKED: HETATM   20  CS  MTI A 301       6.445   9.301  95.765 -0.76 -0.11    +0.069 C  
+DOCKED: ENDBRANCH  18  19
+DOCKED: ENDBRANCH   1  18
+DOCKED: TORSDOF 3
+DOCKED: TER
+DOCKED: ENDMDL
+________________________________________________________________________________
+
+
+    FINAL DOCKED STATE:
+    ________________________
+
+
+Run:   8 / 20
+Time taken for this run:   0.021s
+
+DOCKED: MODEL        8
+DOCKED: USER    Run = 8
+DOCKED: USER
+DOCKED: USER    Estimated Free Energy of Binding    =  -9.17 kcal/mol  [=(1)+(2)+(3)-(4)]
+DOCKED: USER
+DOCKED: USER    (1) Final Intermolecular Energy     = -10.06 kcal/mol
+DOCKED: USER        vdW + Hbond + desolv Energy     =  -8.55 kcal/mol
+DOCKED: USER        Electrostatic Energy            =  -1.51 kcal/mol
+DOCKED: USER        Moving Ligand-Fixed Receptor    = -10.06 kcal/mol
+DOCKED: USER        Moving Ligand-Moving Receptor   =  +0.00 kcal/mol
+DOCKED: USER    (2) Final Total Internal Energy     =  -0.57 kcal/mol
+DOCKED: USER    (3) Torsional Free Energy           =  +0.89 kcal/mol
+DOCKED: USER    (4) Unbound System's Energy         =  -0.57 kcal/mol
+DOCKED: USER
+DOCKED: USER
+DOCKED: REMARK  3 active torsions:
+DOCKED: REMARK  status: ('A' for Active; 'I' for Inactive)
+DOCKED: REMARK    1  A    between atoms: C5'_1889  and  S5'_1888 
+DOCKED: REMARK    2  A    between atoms: C4'_1890  and  C5'_1889 
+DOCKED: REMARK    3  A    between atoms: C1'_1896  and  C9_1897 
+DOCKED: USER                              x       y       z     vdW  Elec       q    Type
+DOCKED: USER                           _______ _______ _______ _____ _____    ______ ____
+DOCKED: ROOT
+DOCKED: HETATM    1  C4' MTI A 301       6.647   6.600  93.960 -0.31 -0.64    +0.300 C  
+DOCKED: HETATM    2  N4' MTI A 301       7.249   7.846  93.474 -0.19 -0.54    +0.346 N  
+DOCKED: HETATM    3  C2' MTI A 301       8.555   6.073  92.535 -0.42 -0.29    +0.223 C  
+DOCKED: HETATM    4  O2' MTI A 301       8.733   5.764  91.107 -0.45 +0.31    -0.218 OA 
+DOCKED: HETATM    5  C3' MTI A 301       7.206   5.443  93.117 -0.37 -0.37    +0.219 C  
+DOCKED: HETATM    6  O3' MTI A 301       6.253   5.104  92.025 -0.40 +0.44    -0.218 OA 
+DOCKED: HETATM    7  C1' MTI A 301       8.516   7.623  92.788 -0.34 -0.39    +0.315 C  
+DOCKED: ENDROOT
+DOCKED: BRANCH   7   8
+DOCKED: HETATM    8  C9  MTI A 301       9.656   8.226  93.678 -0.53 -0.05    +0.052 A  
+DOCKED: HETATM    9  C4  MTI A 301      11.075   8.028  93.694 -0.49 -0.09    +0.105 A  
+DOCKED: HETATM   10  N3  MTI A 301      11.865   7.189  92.868 -0.43 +0.21    -0.223 NA 
+DOCKED: HETATM   11  C5  MTI A 301      11.565   8.850  94.726 -0.43 -0.12    +0.156 A  
+DOCKED: HETATM   12  C2  MTI A 301      13.226   7.218  93.128 -0.49 -0.21    +0.202 A  
+DOCKED: HETATM   13  N1  MTI A 301      13.768   8.028  94.147 -0.42 +0.19    -0.184 NA 
+DOCKED: HETATM   14  C6  MTI A 301      12.992   8.883  94.996 -0.32 -0.25    +0.300 A  
+DOCKED: HETATM   15  O6  MTI A 301      13.561   9.554  95.863 -0.36 +0.22    -0.263 OA 
+DOCKED: HETATM   16  N7  MTI A 301      10.530   9.535  95.336 -0.36 +0.16    -0.238 NA 
+DOCKED: HETATM   17  C8  MTI A 301       9.453   9.145  94.704 -0.49 -0.08    +0.098 A  
+DOCKED: ENDBRANCH   7   8
+DOCKED: BRANCH   1  18
+DOCKED: HETATM   18  C5' MTI A 301       6.965   6.472  95.449 -0.41 -0.17    +0.096 C  
+DOCKED: BRANCH  18  19
+DOCKED: HETATM   19  S5' MTI A 301       5.913   7.514  96.501 -0.61 +0.27    -0.137 SA 
+DOCKED: HETATM   20  CS  MTI A 301       6.264   9.135  95.825 -0.74 -0.12    +0.069 C  
+DOCKED: ENDBRANCH  18  19
+DOCKED: ENDBRANCH   1  18
+DOCKED: TORSDOF 3
+DOCKED: TER
+DOCKED: ENDMDL
+________________________________________________________________________________
+
+
+    FINAL DOCKED STATE:
+    ________________________
+
+
+Run:   9 / 20
+Time taken for this run:   0.021s
+
+DOCKED: MODEL        9
+DOCKED: USER    Run = 9
+DOCKED: USER
+DOCKED: USER    Estimated Free Energy of Binding    =  -8.57 kcal/mol  [=(1)+(2)+(3)-(4)]
+DOCKED: USER
+DOCKED: USER    (1) Final Intermolecular Energy     =  -9.46 kcal/mol
+DOCKED: USER        vdW + Hbond + desolv Energy     =  -7.53 kcal/mol
+DOCKED: USER        Electrostatic Energy            =  -1.93 kcal/mol
+DOCKED: USER        Moving Ligand-Fixed Receptor    =  -9.46 kcal/mol
+DOCKED: USER        Moving Ligand-Moving Receptor   =  +0.00 kcal/mol
+DOCKED: USER    (2) Final Total Internal Energy     =  -0.77 kcal/mol
+DOCKED: USER    (3) Torsional Free Energy           =  +0.89 kcal/mol
+DOCKED: USER    (4) Unbound System's Energy         =  -0.77 kcal/mol
+DOCKED: USER
+DOCKED: USER
+DOCKED: REMARK  3 active torsions:
+DOCKED: REMARK  status: ('A' for Active; 'I' for Inactive)
+DOCKED: REMARK    1  A    between atoms: C5'_1889  and  S5'_1888 
+DOCKED: REMARK    2  A    between atoms: C4'_1890  and  C5'_1889 
+DOCKED: REMARK    3  A    between atoms: C1'_1896  and  C9_1897 
+DOCKED: USER                              x       y       z     vdW  Elec       q    Type
+DOCKED: USER                           _______ _______ _______ _____ _____    ______ ____
+DOCKED: ROOT
+DOCKED: HETATM    1  C4' MTI A 301       7.847   2.042  91.696 -0.20 -0.71    +0.300 C  
+DOCKED: HETATM    2  N4' MTI A 301       7.086   3.213  91.247 -0.17 -0.92    +0.346 N  
+DOCKED: HETATM    3  C2' MTI A 301       9.372   3.666  90.703 -0.45 -0.47    +0.223 C  
+DOCKED: HETATM    4  O2' MTI A 301       9.938   3.875  89.360 -0.54 +0.59    -0.218 OA 
+DOCKED: HETATM    5  C3' MTI A 301       9.244   2.113  91.058 -0.39 -0.53    +0.219 C  
+DOCKED: HETATM    6  O3' MTI A 301       9.285   1.271  89.831 -0.36 +0.81    -0.218 OA 
+DOCKED: HETATM    7  C1' MTI A 301       7.948   4.313  90.833 -0.33 -0.68    +0.315 C  
+DOCKED: ENDROOT
+DOCKED: BRANCH   7   8
+DOCKED: HETATM    8  C9  MTI A 301       7.786   5.468  91.881 -0.48 -0.08    +0.052 A  
+DOCKED: HETATM    9  C4  MTI A 301       8.736   6.322  92.529 -0.46 -0.13    +0.105 A  
+DOCKED: HETATM   10  N3  MTI A 301      10.147   6.350  92.391 -0.37 +0.23    -0.223 NA 
+DOCKED: HETATM   11  C5  MTI A 301       7.984   7.165  93.370 -0.43 -0.21    +0.156 A  
+DOCKED: HETATM   12  C2  MTI A 301      10.796   7.305  93.157 -0.42 -0.19    +0.202 A  
+DOCKED: HETATM   13  N1  MTI A 301      10.089   8.176  94.011 -0.40 +0.16    -0.184 NA 
+DOCKED: HETATM   14  C6  MTI A 301       8.665   8.167  94.171 -0.33 -0.32    +0.300 A  
+DOCKED: HETATM   15  O6  MTI A 301       8.137   8.970  94.946 -0.45 +0.27    -0.263 OA 
+DOCKED: HETATM   16  N7  MTI A 301       6.636   6.873  93.269 -0.36 +0.48    -0.238 NA 
+DOCKED: HETATM   17  C8  MTI A 301       6.568   5.893  92.406 -0.42 -0.18    +0.098 A  
+DOCKED: ENDBRANCH   7   8
+DOCKED: BRANCH   1  18
+DOCKED: HETATM   18  C5' MTI A 301       7.877   2.056  93.223 -0.24 -0.15    +0.096 C  
+DOCKED: BRANCH  18  19
+DOCKED: HETATM   19  S5' MTI A 301       9.558   2.103  93.909 -0.38 +0.16    -0.137 SA 
+DOCKED: HETATM   20  CS  MTI A 301       9.295   1.311  95.494 -0.33 -0.06    +0.069 C  
+DOCKED: ENDBRANCH  18  19
+DOCKED: ENDBRANCH   1  18
+DOCKED: TORSDOF 3
+DOCKED: TER
+DOCKED: ENDMDL
+________________________________________________________________________________
+
+
+    FINAL DOCKED STATE:
+    ________________________
+
+
+Run:   10 / 20
+Time taken for this run:   0.021s
+
+DOCKED: MODEL        10
+DOCKED: USER    Run = 10
+DOCKED: USER
+DOCKED: USER    Estimated Free Energy of Binding    =  -8.56 kcal/mol  [=(1)+(2)+(3)-(4)]
+DOCKED: USER
+DOCKED: USER    (1) Final Intermolecular Energy     =  -9.45 kcal/mol
+DOCKED: USER        vdW + Hbond + desolv Energy     =  -7.46 kcal/mol
+DOCKED: USER        Electrostatic Energy            =  -1.99 kcal/mol
+DOCKED: USER        Moving Ligand-Fixed Receptor    =  -9.45 kcal/mol
+DOCKED: USER        Moving Ligand-Moving Receptor   =  +0.00 kcal/mol
+DOCKED: USER    (2) Final Total Internal Energy     =  -0.83 kcal/mol
+DOCKED: USER    (3) Torsional Free Energy           =  +0.89 kcal/mol
+DOCKED: USER    (4) Unbound System's Energy         =  -0.83 kcal/mol
+DOCKED: USER
+DOCKED: USER
+DOCKED: REMARK  3 active torsions:
+DOCKED: REMARK  status: ('A' for Active; 'I' for Inactive)
+DOCKED: REMARK    1  A    between atoms: C5'_1889  and  S5'_1888 
+DOCKED: REMARK    2  A    between atoms: C4'_1890  and  C5'_1889 
+DOCKED: REMARK    3  A    between atoms: C1'_1896  and  C9_1897 
+DOCKED: USER                              x       y       z     vdW  Elec       q    Type
+DOCKED: USER                           _______ _______ _______ _____ _____    ______ ____
+DOCKED: ROOT
+DOCKED: HETATM    1  C4' MTI A 301       7.788   2.012  91.638 -0.20 -0.73    +0.300 C  
+DOCKED: HETATM    2  N4' MTI A 301       7.040   3.189  91.182 -0.14 -0.96    +0.346 N  
+DOCKED: HETATM    3  C2' MTI A 301       9.341   3.644  90.703 -0.46 -0.48    +0.223 C  
+DOCKED: HETATM    4  O2' MTI A 301       9.942   3.866  89.377 -0.54 +0.59    -0.218 OA 
+DOCKED: HETATM    5  C3' MTI A 301       9.201   2.087  91.039 -0.38 -0.54    +0.219 C  
+DOCKED: HETATM    6  O3' MTI A 301       9.274   1.258  89.804 -0.36 +0.81    -0.218 OA 
+DOCKED: HETATM    7  C1' MTI A 301       7.914   4.292  90.802 -0.32 -0.69    +0.315 C  
+DOCKED: ENDROOT
+DOCKED: BRANCH   7   8
+DOCKED: HETATM    8  C9  MTI A 301       7.726   5.436  91.856 -0.48 -0.08    +0.052 A  
+DOCKED: HETATM    9  C4  MTI A 301       8.656   6.307  92.511 -0.46 -0.13    +0.105 A  
+DOCKED: HETATM   10  N3  MTI A 301      10.066   6.368  92.374 -0.37 +0.23    -0.223 NA 
+DOCKED: HETATM   11  C5  MTI A 301       7.884   7.127  93.356 -0.43 -0.21    +0.156 A  
+DOCKED: HETATM   12  C2  MTI A 301      10.693   7.332  93.147 -0.42 -0.19    +0.202 A  
+DOCKED: HETATM   13  N1  MTI A 301       9.966   8.181  94.006 -0.40 +0.17    -0.184 NA 
+DOCKED: HETATM   14  C6  MTI A 301       8.542   8.140  94.164 -0.33 -0.33    +0.300 A  
+DOCKED: HETATM   15  O6  MTI A 301       7.996   8.926  94.944 -0.45 +0.29    -0.263 OA 
+DOCKED: HETATM   16  N7  MTI A 301       6.543   6.806  93.253 -0.35 +0.50    -0.238 NA 
+DOCKED: HETATM   17  C8  MTI A 301       6.498   5.830  92.383 -0.42 -0.19    +0.098 A  
+DOCKED: ENDBRANCH   7   8
+DOCKED: BRANCH   1  18
+DOCKED: HETATM   18  C5' MTI A 301       7.778   2.011  93.166 -0.24 -0.15    +0.096 C  
+DOCKED: BRANCH  18  19
+DOCKED: HETATM   19  S5' MTI A 301       9.274   2.738  93.896 -0.36 +0.16    -0.137 SA 
+DOCKED: HETATM   20  CS  MTI A 301       9.953   1.317  94.751 -0.35 -0.06    +0.069 C  
+DOCKED: ENDBRANCH  18  19
+DOCKED: ENDBRANCH   1  18
+DOCKED: TORSDOF 3
+DOCKED: TER
+DOCKED: ENDMDL
+________________________________________________________________________________
+
+
+    FINAL DOCKED STATE:
+    ________________________
+
+
+Run:   11 / 20
+Time taken for this run:   0.021s
+
+DOCKED: MODEL        11
+DOCKED: USER    Run = 11
+DOCKED: USER
+DOCKED: USER    Estimated Free Energy of Binding    =  -9.10 kcal/mol  [=(1)+(2)+(3)-(4)]
+DOCKED: USER
+DOCKED: USER    (1) Final Intermolecular Energy     = -10.00 kcal/mol
+DOCKED: USER        vdW + Hbond + desolv Energy     =  -8.48 kcal/mol
+DOCKED: USER        Electrostatic Energy            =  -1.51 kcal/mol
+DOCKED: USER        Moving Ligand-Fixed Receptor    = -10.00 kcal/mol
+DOCKED: USER        Moving Ligand-Moving Receptor   =  +0.00 kcal/mol
+DOCKED: USER    (2) Final Total Internal Energy     =  -0.59 kcal/mol
+DOCKED: USER    (3) Torsional Free Energy           =  +0.89 kcal/mol
+DOCKED: USER    (4) Unbound System's Energy         =  -0.59 kcal/mol
+DOCKED: USER
+DOCKED: USER
+DOCKED: REMARK  3 active torsions:
+DOCKED: REMARK  status: ('A' for Active; 'I' for Inactive)
+DOCKED: REMARK    1  A    between atoms: C5'_1889  and  S5'_1888 
+DOCKED: REMARK    2  A    between atoms: C4'_1890  and  C5'_1889 
+DOCKED: REMARK    3  A    between atoms: C1'_1896  and  C9_1897 
+DOCKED: USER                              x       y       z     vdW  Elec       q    Type
+DOCKED: USER                           _______ _______ _______ _____ _____    ______ ____
+DOCKED: ROOT
+DOCKED: HETATM    1  C4' MTI A 301       6.643   6.610  93.964 -0.30 -0.64    +0.300 C  
+DOCKED: HETATM    2  N4' MTI A 301       7.246   7.854  93.474 -0.18 -0.54    +0.346 N  
+DOCKED: HETATM    3  C2' MTI A 301       8.537   6.078  92.522 -0.42 -0.29    +0.223 C  
+DOCKED: HETATM    4  O2' MTI A 301       8.700   5.770  91.091 -0.45 +0.31    -0.218 OA 
+DOCKED: HETATM    5  C3' MTI A 301       7.191   5.452  93.115 -0.37 -0.37    +0.219 C  
+DOCKED: HETATM    6  O3' MTI A 301       6.227   5.117  92.031 -0.39 +0.44    -0.218 OA 
+DOCKED: HETATM    7  C1' MTI A 301       8.505   7.627  92.776 -0.34 -0.39    +0.315 C  
+DOCKED: ENDROOT
+DOCKED: BRANCH   7   8
+DOCKED: HETATM    8  C9  MTI A 301       9.655   8.226  93.657 -0.53 -0.05    +0.052 A  
+DOCKED: HETATM    9  C4  MTI A 301      11.073   8.020  93.663 -0.49 -0.09    +0.105 A  
+DOCKED: HETATM   10  N3  MTI A 301      11.853   7.175  92.833 -0.43 +0.21    -0.223 NA 
+DOCKED: HETATM   11  C5  MTI A 301      11.576   8.841  94.690 -0.43 -0.12    +0.156 A  
+DOCKED: HETATM   12  C2  MTI A 301      13.215   7.198  93.082 -0.47 -0.21    +0.202 A  
+DOCKED: HETATM   13  N1  MTI A 301      13.770   8.006  94.096 -0.43 +0.19    -0.184 NA 
+DOCKED: HETATM   14  C6  MTI A 301      13.005   8.866  94.950 -0.32 -0.25    +0.300 A  
+DOCKED: HETATM   15  O6  MTI A 301      13.584   9.535  95.811 -0.36 +0.22    -0.263 OA 
+DOCKED: HETATM   16  N7  MTI A 301      10.549   9.532  95.307 -0.36 +0.16    -0.238 NA 
+DOCKED: HETATM   17  C8  MTI A 301       9.465   9.147  94.684 -0.48 -0.08    +0.098 A  
+DOCKED: ENDBRANCH   7   8
+DOCKED: BRANCH   1  18
+DOCKED: HETATM   18  C5' MTI A 301       6.974   6.479  95.450 -0.41 -0.17    +0.096 C  
+DOCKED: BRANCH  18  19
+DOCKED: HETATM   19  S5' MTI A 301       5.921   7.506  96.515 -0.60 +0.27    -0.137 SA 
+DOCKED: HETATM   20  CS  MTI A 301       6.312   9.141  95.896 -0.71 -0.12    +0.069 C  
+DOCKED: ENDBRANCH  18  19
+DOCKED: ENDBRANCH   1  18
+DOCKED: TORSDOF 3
+DOCKED: TER
+DOCKED: ENDMDL
+________________________________________________________________________________
+
+
+    FINAL DOCKED STATE:
+    ________________________
+
+
+Run:   12 / 20
+Time taken for this run:   0.021s
+
+DOCKED: MODEL        12
+DOCKED: USER    Run = 12
+DOCKED: USER
+DOCKED: USER    Estimated Free Energy of Binding    =  -9.19 kcal/mol  [=(1)+(2)+(3)-(4)]
+DOCKED: USER
+DOCKED: USER    (1) Final Intermolecular Energy     = -10.09 kcal/mol
+DOCKED: USER        vdW + Hbond + desolv Energy     =  -8.59 kcal/mol
+DOCKED: USER        Electrostatic Energy            =  -1.50 kcal/mol
+DOCKED: USER        Moving Ligand-Fixed Receptor    = -10.09 kcal/mol
+DOCKED: USER        Moving Ligand-Moving Receptor   =  +0.00 kcal/mol
+DOCKED: USER    (2) Final Total Internal Energy     =  -0.55 kcal/mol
+DOCKED: USER    (3) Torsional Free Energy           =  +0.89 kcal/mol
+DOCKED: USER    (4) Unbound System's Energy         =  -0.55 kcal/mol
+DOCKED: USER
+DOCKED: USER
+DOCKED: REMARK  3 active torsions:
+DOCKED: REMARK  status: ('A' for Active; 'I' for Inactive)
+DOCKED: REMARK    1  A    between atoms: C5'_1889  and  S5'_1888 
+DOCKED: REMARK    2  A    between atoms: C4'_1890  and  C5'_1889 
+DOCKED: REMARK    3  A    between atoms: C1'_1896  and  C9_1897 
+DOCKED: USER                              x       y       z     vdW  Elec       q    Type
+DOCKED: USER                           _______ _______ _______ _____ _____    ______ ____
+DOCKED: ROOT
+DOCKED: HETATM    1  C4' MTI A 301       6.665   6.557  94.015 -0.31 -0.64    +0.300 C  
+DOCKED: HETATM    2  N4' MTI A 301       7.255   7.790  93.484 -0.21 -0.54    +0.346 N  
+DOCKED: HETATM    3  C2' MTI A 301       8.608   6.000  92.649 -0.40 -0.29    +0.223 C  
+DOCKED: HETATM    4  O2' MTI A 301       8.816   5.631  91.239 -0.45 +0.31    -0.218 OA 
+DOCKED: HETATM    5  C3' MTI A 301       7.259   5.373  93.235 -0.36 -0.37    +0.219 C  
+DOCKED: HETATM    6  O3' MTI A 301       6.331   4.969  92.143 -0.39 +0.44    -0.218 OA 
+DOCKED: HETATM    7  C1' MTI A 301       8.537   7.558  92.831 -0.35 -0.38    +0.315 C  
+DOCKED: ENDROOT
+DOCKED: BRANCH   7   8
+DOCKED: HETATM    8  C9  MTI A 301       9.651   8.221  93.713 -0.53 -0.05    +0.052 A  
+DOCKED: HETATM    9  C4  MTI A 301      11.077   8.081  93.733 -0.48 -0.09    +0.105 A  
+DOCKED: HETATM   10  N3  MTI A 301      11.902   7.262  92.920 -0.44 +0.21    -0.223 NA 
+DOCKED: HETATM   11  C5  MTI A 301      11.532   8.938  94.753 -0.42 -0.12    +0.156 A  
+DOCKED: HETATM   12  C2  MTI A 301      13.260   7.351  93.180 -0.51 -0.21    +0.202 A  
+DOCKED: HETATM   13  N1  MTI A 301      13.767   8.197  94.187 -0.42 +0.18    -0.184 NA 
+DOCKED: HETATM   14  C6  MTI A 301      12.957   9.032  95.023 -0.32 -0.24    +0.300 A  
+DOCKED: HETATM   15  O6  MTI A 301      13.496   9.739  95.880 -0.35 +0.21    -0.263 OA 
+DOCKED: HETATM   16  N7  MTI A 301      10.469   9.589  95.351 -0.36 +0.16    -0.238 NA 
+DOCKED: HETATM   17  C8  MTI A 301       9.410   9.146  94.725 -0.49 -0.08    +0.098 A  
+DOCKED: ENDBRANCH   7   8
+DOCKED: BRANCH   1  18
+DOCKED: HETATM   18  C5' MTI A 301       6.958   6.502  95.514 -0.40 -0.17    +0.096 C  
+DOCKED: BRANCH  18  19
+DOCKED: HETATM   19  S5' MTI A 301       5.897   7.601  96.496 -0.63 +0.27    -0.137 SA 
+DOCKED: HETATM   20  CS  MTI A 301       6.305   9.190  95.777 -0.76 -0.12    +0.069 C  
+DOCKED: ENDBRANCH  18  19
+DOCKED: ENDBRANCH   1  18
+DOCKED: TORSDOF 3
+DOCKED: TER
+DOCKED: ENDMDL
+________________________________________________________________________________
+
+
+    FINAL DOCKED STATE:
+    ________________________
+
+
+Run:   13 / 20
+Time taken for this run:   0.021s
+
+DOCKED: MODEL        13
+DOCKED: USER    Run = 13
+DOCKED: USER
+DOCKED: USER    Estimated Free Energy of Binding    =  -8.43 kcal/mol  [=(1)+(2)+(3)-(4)]
+DOCKED: USER
+DOCKED: USER    (1) Final Intermolecular Energy     =  -9.32 kcal/mol
+DOCKED: USER        vdW + Hbond + desolv Energy     =  -7.31 kcal/mol
+DOCKED: USER        Electrostatic Energy            =  -2.01 kcal/mol
+DOCKED: USER        Moving Ligand-Fixed Receptor    =  -9.32 kcal/mol
+DOCKED: USER        Moving Ligand-Moving Receptor   =  +0.00 kcal/mol
+DOCKED: USER    (2) Final Total Internal Energy     =  -0.84 kcal/mol
+DOCKED: USER    (3) Torsional Free Energy           =  +0.89 kcal/mol
+DOCKED: USER    (4) Unbound System's Energy         =  -0.84 kcal/mol
+DOCKED: USER
+DOCKED: USER
+DOCKED: REMARK  3 active torsions:
+DOCKED: REMARK  status: ('A' for Active; 'I' for Inactive)
+DOCKED: REMARK    1  A    between atoms: C5'_1889  and  S5'_1888 
+DOCKED: REMARK    2  A    between atoms: C4'_1890  and  C5'_1889 
+DOCKED: REMARK    3  A    between atoms: C1'_1896  and  C9_1897 
+DOCKED: USER                              x       y       z     vdW  Elec       q    Type
+DOCKED: USER                           _______ _______ _______ _____ _____    ______ ____
+DOCKED: ROOT
+DOCKED: HETATM    1  C4' MTI A 301       7.621   2.011  91.701 -0.18 -0.73    +0.300 C  
+DOCKED: HETATM    2  N4' MTI A 301       7.106   3.248  91.105 -0.13 -0.96    +0.346 N  
+DOCKED: HETATM    3  C2' MTI A 301       9.492   3.406  90.990 -0.42 -0.46    +0.223 C  
+DOCKED: HETATM    4  O2' MTI A 301      10.315   3.500  89.773 -0.49 +0.59    -0.218 OA 
+DOCKED: HETATM    5  C3' MTI A 301       9.109   1.892  91.333 -0.36 -0.50    +0.219 C  
+DOCKED: HETATM    6  O3' MTI A 301       9.270   1.011  90.145 -0.39 +0.74    -0.218 OA 
+DOCKED: HETATM    7  C1' MTI A 301       8.158   4.223  90.846 -0.36 -0.67    +0.315 C  
+DOCKED: ENDROOT
+DOCKED: BRANCH   7   8
+DOCKED: HETATM    8  C9  MTI A 301       7.951   5.424  91.831 -0.48 -0.08    +0.052 A  
+DOCKED: HETATM    9  C4  MTI A 301       8.872   6.313  92.475 -0.46 -0.13    +0.105 A  
+DOCKED: HETATM   10  N3  MTI A 301      10.288   6.344  92.389 -0.37 +0.23    -0.223 NA 
+DOCKED: HETATM   11  C5  MTI A 301       8.085   7.189  93.247 -0.43 -0.20    +0.156 A  
+DOCKED: HETATM   12  C2  MTI A 301      10.903   7.337  93.134 -0.42 -0.19    +0.202 A  
+DOCKED: HETATM   13  N1  MTI A 301      10.159   8.242  93.919 -0.41 +0.16    -0.184 NA 
+DOCKED: HETATM   14  C6  MTI A 301       8.730   8.232  94.026 -0.33 -0.32    +0.300 A  
+DOCKED: HETATM   15  O6  MTI A 301       8.169   9.067  94.742 -0.45 +0.27    -0.263 OA 
+DOCKED: HETATM   16  N7  MTI A 301       6.743   6.884  93.109 -0.36 +0.45    -0.238 NA 
+DOCKED: HETATM   17  C8  MTI A 301       6.713   5.865  92.290 -0.40 -0.18    +0.098 A  
+DOCKED: ENDBRANCH   7   8
+DOCKED: BRANCH   1  18
+DOCKED: HETATM   18  C5' MTI A 301       7.374   2.074  93.207 -0.23 -0.15    +0.096 C  
+DOCKED: BRANCH  18  19
+DOCKED: HETATM   19  S5' MTI A 301       5.775   2.816  93.643 -0.30 +0.24    -0.137 SA 
+DOCKED: HETATM   20  CS  MTI A 301       6.266   3.911  94.973 -0.32 -0.12    +0.069 C  
+DOCKED: ENDBRANCH  18  19
+DOCKED: ENDBRANCH   1  18
+DOCKED: TORSDOF 3
+DOCKED: TER
+DOCKED: ENDMDL
+________________________________________________________________________________
+
+
+    FINAL DOCKED STATE:
+    ________________________
+
+
+Run:   14 / 20
+Time taken for this run:   0.021s
+
+DOCKED: MODEL        14
+DOCKED: USER    Run = 14
+DOCKED: USER
+DOCKED: USER    Estimated Free Energy of Binding    =  -9.22 kcal/mol  [=(1)+(2)+(3)-(4)]
+DOCKED: USER
+DOCKED: USER    (1) Final Intermolecular Energy     = -10.12 kcal/mol
+DOCKED: USER        vdW + Hbond + desolv Energy     =  -8.60 kcal/mol
+DOCKED: USER        Electrostatic Energy            =  -1.52 kcal/mol
+DOCKED: USER        Moving Ligand-Fixed Receptor    = -10.12 kcal/mol
+DOCKED: USER        Moving Ligand-Moving Receptor   =  +0.00 kcal/mol
+DOCKED: USER    (2) Final Total Internal Energy     =  -0.54 kcal/mol
+DOCKED: USER    (3) Torsional Free Energy           =  +0.89 kcal/mol
+DOCKED: USER    (4) Unbound System's Energy         =  -0.54 kcal/mol
+DOCKED: USER
+DOCKED: USER
+DOCKED: REMARK  3 active torsions:
+DOCKED: REMARK  status: ('A' for Active; 'I' for Inactive)
+DOCKED: REMARK    1  A    between atoms: C5'_1889  and  S5'_1888 
+DOCKED: REMARK    2  A    between atoms: C4'_1890  and  C5'_1889 
+DOCKED: REMARK    3  A    between atoms: C1'_1896  and  C9_1897 
+DOCKED: USER                              x       y       z     vdW  Elec       q    Type
+DOCKED: USER                           _______ _______ _______ _____ _____    ______ ____
+DOCKED: ROOT
+DOCKED: HETATM    1  C4' MTI A 301       6.632   6.630  94.009 -0.28 -0.65    +0.300 C  
+DOCKED: HETATM    2  N4' MTI A 301       7.246   7.863  93.505 -0.20 -0.54    +0.346 N  
+DOCKED: HETATM    3  C2' MTI A 301       8.571   6.068  92.640 -0.41 -0.29    +0.223 C  
+DOCKED: HETATM    4  O2' MTI A 301       8.779   5.723  91.224 -0.45 +0.30    -0.218 OA 
+DOCKED: HETATM    5  C3' MTI A 301       7.209   5.452  93.208 -0.37 -0.37    +0.219 C  
+DOCKED: HETATM    6  O3' MTI A 301       6.280   5.085  92.104 -0.40 +0.44    -0.218 OA 
+DOCKED: HETATM    7  C1' MTI A 301       8.526   7.623  92.852 -0.35 -0.38    +0.315 C  
+DOCKED: ENDROOT
+DOCKED: BRANCH   7   8
+DOCKED: HETATM    8  C9  MTI A 301       9.647   8.249  93.751 -0.53 -0.05    +0.052 A  
+DOCKED: HETATM    9  C4  MTI A 301      11.072   8.095  93.765 -0.48 -0.09    +0.105 A  
+DOCKED: HETATM   10  N3  MTI A 301      11.888   7.293  92.928 -0.44 +0.21    -0.223 NA 
+DOCKED: HETATM   11  C5  MTI A 301      11.536   8.917  94.809 -0.43 -0.12    +0.156 A  
+DOCKED: HETATM   12  C2  MTI A 301      13.247   7.361  93.188 -0.51 -0.21    +0.202 A  
+DOCKED: HETATM   13  N1  MTI A 301      13.764   8.173  94.219 -0.41 +0.19    -0.184 NA 
+DOCKED: HETATM   14  C6  MTI A 301      12.962   8.990  95.080 -0.32 -0.25    +0.300 A  
+DOCKED: HETATM   15  O6  MTI A 301      13.509   9.666  95.957 -0.35 +0.21    -0.263 OA 
+DOCKED: HETATM   16  N7  MTI A 301      10.480   9.560  95.428 -0.36 +0.16    -0.238 NA 
+DOCKED: HETATM   17  C8  MTI A 301       9.416   9.146  94.791 -0.49 -0.08    +0.098 A  
+DOCKED: ENDBRANCH   7   8
+DOCKED: BRANCH   1  18
+DOCKED: HETATM   18  C5' MTI A 301       6.918   6.540  95.507 -0.43 -0.17    +0.096 C  
+DOCKED: BRANCH  18  19
+DOCKED: HETATM   19  S5' MTI A 301       5.889   7.657  96.504 -0.63 +0.27    -0.137 SA 
+DOCKED: HETATM   20  CS  MTI A 301       6.360   9.244  95.821 -0.74 -0.11    +0.069 C  
+DOCKED: ENDBRANCH  18  19
+DOCKED: ENDBRANCH   1  18
+DOCKED: TORSDOF 3
+DOCKED: TER
+DOCKED: ENDMDL
+________________________________________________________________________________
+
+
+    FINAL DOCKED STATE:
+    ________________________
+
+
+Run:   15 / 20
+Time taken for this run:   0.021s
+
+DOCKED: MODEL        15
+DOCKED: USER    Run = 15
+DOCKED: USER
+DOCKED: USER    Estimated Free Energy of Binding    =  -8.56 kcal/mol  [=(1)+(2)+(3)-(4)]
+DOCKED: USER
+DOCKED: USER    (1) Final Intermolecular Energy     =  -9.45 kcal/mol
+DOCKED: USER        vdW + Hbond + desolv Energy     =  -7.48 kcal/mol
+DOCKED: USER        Electrostatic Energy            =  -1.97 kcal/mol
+DOCKED: USER        Moving Ligand-Fixed Receptor    =  -9.45 kcal/mol
+DOCKED: USER        Moving Ligand-Moving Receptor   =  +0.00 kcal/mol
+DOCKED: USER    (2) Final Total Internal Energy     =  -0.84 kcal/mol
+DOCKED: USER    (3) Torsional Free Energy           =  +0.89 kcal/mol
+DOCKED: USER    (4) Unbound System's Energy         =  -0.84 kcal/mol
+DOCKED: USER
+DOCKED: USER
+DOCKED: REMARK  3 active torsions:
+DOCKED: REMARK  status: ('A' for Active; 'I' for Inactive)
+DOCKED: REMARK    1  A    between atoms: C5'_1889  and  S5'_1888 
+DOCKED: REMARK    2  A    between atoms: C4'_1890  and  C5'_1889 
+DOCKED: REMARK    3  A    between atoms: C1'_1896  and  C9_1897 
+DOCKED: USER                              x       y       z     vdW  Elec       q    Type
+DOCKED: USER                           _______ _______ _______ _____ _____    ______ ____
+DOCKED: ROOT
+DOCKED: HETATM    1  C4' MTI A 301       7.792   2.012  91.664 -0.20 -0.72    +0.300 C  
+DOCKED: HETATM    2  N4' MTI A 301       7.044   3.190  91.211 -0.15 -0.95    +0.346 N  
+DOCKED: HETATM    3  C2' MTI A 301       9.344   3.644  90.725 -0.45 -0.47    +0.223 C  
+DOCKED: HETATM    4  O2' MTI A 301       9.941   3.867  89.398 -0.55 +0.59    -0.218 OA 
+DOCKED: HETATM    5  C3' MTI A 301       9.204   2.087  91.060 -0.38 -0.54    +0.219 C  
+DOCKED: HETATM    6  O3' MTI A 301       9.272   1.260  89.824 -0.37 +0.81    -0.218 OA 
+DOCKED: HETATM    7  C1' MTI A 301       7.917   4.293  90.830 -0.33 -0.69    +0.315 C  
+DOCKED: ENDROOT
+DOCKED: BRANCH   7   8
+DOCKED: HETATM    8  C9  MTI A 301       7.734   5.436  91.887 -0.48 -0.08    +0.052 A  
+DOCKED: HETATM    9  C4  MTI A 301       8.666   6.312  92.533 -0.46 -0.13    +0.105 A  
+DOCKED: HETATM   10  N3  MTI A 301      10.075   6.379  92.383 -0.37 +0.23    -0.223 NA 
+DOCKED: HETATM   11  C5  MTI A 301       7.898   7.128  93.385 -0.43 -0.21    +0.156 A  
+DOCKED: HETATM   12  C2  MTI A 301      10.704   7.346  93.150 -0.42 -0.19    +0.202 A  
+DOCKED: HETATM   13  N1  MTI A 301       9.980   8.191  94.016 -0.40 +0.17    -0.184 NA 
+DOCKED: HETATM   14  C6  MTI A 301       8.559   8.143  94.188 -0.33 -0.33    +0.300 A  
+DOCKED: HETATM   15  O6  MTI A 301       8.016   8.926  94.973 -0.45 +0.28    -0.263 OA 
+DOCKED: HETATM   16  N7  MTI A 301       6.558   6.800  93.295 -0.35 +0.50    -0.238 NA 
+DOCKED: HETATM   17  C8  MTI A 301       6.510   5.824  92.425 -0.42 -0.19    +0.098 A  
+DOCKED: ENDBRANCH   7   8
+DOCKED: BRANCH   1  18
+DOCKED: HETATM   18  C5' MTI A 301       7.787   2.009  93.191 -0.24 -0.15    +0.096 C  
+DOCKED: BRANCH  18  19
+DOCKED: HETATM   19  S5' MTI A 301       9.281   2.744  93.917 -0.35 +0.16    -0.137 SA 
+DOCKED: HETATM   20  CS  MTI A 301       9.957   1.335  94.792 -0.36 -0.06    +0.069 C  
+DOCKED: ENDBRANCH  18  19
+DOCKED: ENDBRANCH   1  18
+DOCKED: TORSDOF 3
+DOCKED: TER
+DOCKED: ENDMDL
+________________________________________________________________________________
+
+
+    FINAL DOCKED STATE:
+    ________________________
+
+
+Run:   16 / 20
+Time taken for this run:   0.021s
+
+DOCKED: MODEL        16
+DOCKED: USER    Run = 16
+DOCKED: USER
+DOCKED: USER    Estimated Free Energy of Binding    =  -9.11 kcal/mol  [=(1)+(2)+(3)-(4)]
+DOCKED: USER
+DOCKED: USER    (1) Final Intermolecular Energy     = -10.00 kcal/mol
+DOCKED: USER        vdW + Hbond + desolv Energy     =  -8.47 kcal/mol
+DOCKED: USER        Electrostatic Energy            =  -1.53 kcal/mol
+DOCKED: USER        Moving Ligand-Fixed Receptor    = -10.00 kcal/mol
+DOCKED: USER        Moving Ligand-Moving Receptor   =  +0.00 kcal/mol
+DOCKED: USER    (2) Final Total Internal Energy     =  -0.59 kcal/mol
+DOCKED: USER    (3) Torsional Free Energy           =  +0.89 kcal/mol
+DOCKED: USER    (4) Unbound System's Energy         =  -0.59 kcal/mol
+DOCKED: USER
+DOCKED: USER
+DOCKED: REMARK  3 active torsions:
+DOCKED: REMARK  status: ('A' for Active; 'I' for Inactive)
+DOCKED: REMARK    1  A    between atoms: C5'_1889  and  S5'_1888 
+DOCKED: REMARK    2  A    between atoms: C4'_1890  and  C5'_1889 
+DOCKED: REMARK    3  A    between atoms: C1'_1896  and  C9_1897 
+DOCKED: USER                              x       y       z     vdW  Elec       q    Type
+DOCKED: USER                           _______ _______ _______ _____ _____    ______ ____
+DOCKED: ROOT
+DOCKED: HETATM    1  C4' MTI A 301       6.645   6.545  93.963 -0.30 -0.64    +0.300 C  
+DOCKED: HETATM    2  N4' MTI A 301       7.214   7.809  93.484 -0.20 -0.55    +0.346 N  
+DOCKED: HETATM    3  C2' MTI A 301       8.558   6.077  92.524 -0.42 -0.29    +0.223 C  
+DOCKED: HETATM    4  O2' MTI A 301       8.735   5.784  91.092 -0.45 +0.31    -0.218 OA 
+DOCKED: HETATM    5  C3' MTI A 301       7.228   5.409  93.107 -0.37 -0.37    +0.219 C  
+DOCKED: HETATM    6  O3' MTI A 301       6.277   5.055  92.017 -0.40 +0.44    -0.218 OA 
+DOCKED: HETATM    7  C1' MTI A 301       8.481   7.623  92.789 -0.34 -0.39    +0.315 C  
+DOCKED: ENDROOT
+DOCKED: BRANCH   7   8
+DOCKED: HETATM    8  C9  MTI A 301       9.611   8.247  93.679 -0.53 -0.05    +0.052 A  
+DOCKED: HETATM    9  C4  MTI A 301      11.033   8.069  93.699 -0.48 -0.09    +0.105 A  
+DOCKED: HETATM   10  N3  MTI A 301      11.837   7.238  92.878 -0.44 +0.21    -0.223 NA 
+DOCKED: HETATM   11  C5  MTI A 301      11.509   8.903  94.728 -0.43 -0.12    +0.156 A  
+DOCKED: HETATM   12  C2  MTI A 301      13.196   7.288  93.140 -0.51 -0.21    +0.202 A  
+DOCKED: HETATM   13  N1  MTI A 301      13.725   8.111  94.156 -0.43 +0.18    -0.184 NA 
+DOCKED: HETATM   14  C6  MTI A 301      12.935   8.957  95.001 -0.32 -0.25    +0.300 A  
+DOCKED: HETATM   15  O6  MTI A 301      13.492   9.640  95.865 -0.35 +0.21    -0.263 OA 
+DOCKED: HETATM   16  N7  MTI A 301      10.463   9.575  95.333 -0.36 +0.16    -0.238 NA 
+DOCKED: HETATM   17  C8  MTI A 301       9.393   9.167  94.701 -0.48 -0.08    +0.098 A  
+DOCKED: ENDBRANCH   7   8
+DOCKED: BRANCH   1  18
+DOCKED: HETATM   18  C5' MTI A 301       6.974   6.412  95.448 -0.37 -0.17    +0.096 C  
+DOCKED: BRANCH  18  19
+DOCKED: HETATM   19  S5' MTI A 301       5.896   7.411  96.516 -0.59 +0.27    -0.137 SA 
+DOCKED: HETATM   20  CS  MTI A 301       6.253   9.057  95.907 -0.71 -0.12    +0.069 C  
+DOCKED: ENDBRANCH  18  19
+DOCKED: ENDBRANCH   1  18
+DOCKED: TORSDOF 3
+DOCKED: TER
+DOCKED: ENDMDL
+________________________________________________________________________________
+
+
+    FINAL DOCKED STATE:
+    ________________________
+
+
+Run:   17 / 20
+Time taken for this run:   0.021s
+
+DOCKED: MODEL        17
+DOCKED: USER    Run = 17
+DOCKED: USER
+DOCKED: USER    Estimated Free Energy of Binding    =  -8.51 kcal/mol  [=(1)+(2)+(3)-(4)]
+DOCKED: USER
+DOCKED: USER    (1) Final Intermolecular Energy     =  -9.41 kcal/mol
+DOCKED: USER        vdW + Hbond + desolv Energy     =  -7.44 kcal/mol
+DOCKED: USER        Electrostatic Energy            =  -1.97 kcal/mol
+DOCKED: USER        Moving Ligand-Fixed Receptor    =  -9.41 kcal/mol
+DOCKED: USER        Moving Ligand-Moving Receptor   =  +0.00 kcal/mol
+DOCKED: USER    (2) Final Total Internal Energy     =  -0.84 kcal/mol
+DOCKED: USER    (3) Torsional Free Energy           =  +0.89 kcal/mol
+DOCKED: USER    (4) Unbound System's Energy         =  -0.84 kcal/mol
+DOCKED: USER
+DOCKED: USER
+DOCKED: REMARK  3 active torsions:
+DOCKED: REMARK  status: ('A' for Active; 'I' for Inactive)
+DOCKED: REMARK    1  A    between atoms: C5'_1889  and  S5'_1888 
+DOCKED: REMARK    2  A    between atoms: C4'_1890  and  C5'_1889 
+DOCKED: REMARK    3  A    between atoms: C1'_1896  and  C9_1897 
+DOCKED: USER                              x       y       z     vdW  Elec       q    Type
+DOCKED: USER                           _______ _______ _______ _____ _____    ______ ____
+DOCKED: ROOT
+DOCKED: HETATM    1  C4' MTI A 301       7.876   1.978  91.658 -0.20 -0.72    +0.300 C  
+DOCKED: HETATM    2  N4' MTI A 301       7.023   3.097  91.245 -0.16 -0.95    +0.346 N  
+DOCKED: HETATM    3  C2' MTI A 301       9.252   3.700  90.614 -0.47 -0.48    +0.223 C  
+DOCKED: HETATM    4  O2' MTI A 301       9.750   3.948  89.251 -0.55 +0.59    -0.218 OA 
+DOCKED: HETATM    5  C3' MTI A 301       9.239   2.141  90.968 -0.39 -0.55    +0.219 C  
+DOCKED: HETATM    6  O3' MTI A 301       9.288   1.306  89.736 -0.35 +0.83    -0.218 OA 
+DOCKED: HETATM    7  C1' MTI A 301       7.793   4.252  90.802 -0.31 -0.71    +0.315 C  
+DOCKED: ENDROOT
+DOCKED: BRANCH   7   8
+DOCKED: HETATM    8  C9  MTI A 301       7.597   5.392  91.859 -0.47 -0.08    +0.052 A  
+DOCKED: HETATM    9  C4  MTI A 301       8.520   6.273  92.511 -0.46 -0.13    +0.105 A  
+DOCKED: HETATM   10  N3  MTI A 301       9.929   6.351  92.367 -0.37 +0.24    -0.223 NA 
+DOCKED: HETATM   11  C5  MTI A 301       7.743   7.083  93.362 -0.43 -0.22    +0.156 A  
+DOCKED: HETATM   12  C2  MTI A 301      10.548   7.321  93.138 -0.42 -0.19    +0.202 A  
+DOCKED: HETATM   13  N1  MTI A 301       9.815   8.160  94.002 -0.40 +0.17    -0.184 NA 
+DOCKED: HETATM   14  C6  MTI A 301       8.393   8.101  94.168 -0.33 -0.34    +0.300 A  
+DOCKED: HETATM   15  O6  MTI A 301       7.841   8.880  94.952 -0.45 +0.30    -0.263 OA 
+DOCKED: HETATM   16  N7  MTI A 301       6.405   6.745  93.265 -0.33 +0.53    -0.238 NA 
+DOCKED: HETATM   17  C8  MTI A 301       6.368   5.770  92.394 -0.41 -0.19    +0.098 A  
+DOCKED: ENDBRANCH   7   8
+DOCKED: BRANCH   1  18
+DOCKED: HETATM   18  C5' MTI A 301       7.965   1.992  93.183 -0.25 -0.15    +0.096 C  
+DOCKED: BRANCH  18  19
+DOCKED: HETATM   19  S5' MTI A 301       9.490   2.753  93.808 -0.33 +0.16    -0.137 SA 
+DOCKED: HETATM   20  CS  MTI A 301      10.012   1.525  95.003 -0.37 -0.06    +0.069 C  
+DOCKED: ENDBRANCH  18  19
+DOCKED: ENDBRANCH   1  18
+DOCKED: TORSDOF 3
+DOCKED: TER
+DOCKED: ENDMDL
+________________________________________________________________________________
+
+
+    FINAL DOCKED STATE:
+    ________________________
+
+
+Run:   18 / 20
+Time taken for this run:   0.021s
+
+DOCKED: MODEL        18
+DOCKED: USER    Run = 18
+DOCKED: USER
+DOCKED: USER    Estimated Free Energy of Binding    =  -8.57 kcal/mol  [=(1)+(2)+(3)-(4)]
+DOCKED: USER
+DOCKED: USER    (1) Final Intermolecular Energy     =  -9.46 kcal/mol
+DOCKED: USER        vdW + Hbond + desolv Energy     =  -7.48 kcal/mol
+DOCKED: USER        Electrostatic Energy            =  -1.98 kcal/mol
+DOCKED: USER        Moving Ligand-Fixed Receptor    =  -9.46 kcal/mol
+DOCKED: USER        Moving Ligand-Moving Receptor   =  +0.00 kcal/mol
+DOCKED: USER    (2) Final Total Internal Energy     =  -0.84 kcal/mol
+DOCKED: USER    (3) Torsional Free Energy           =  +0.89 kcal/mol
+DOCKED: USER    (4) Unbound System's Energy         =  -0.84 kcal/mol
+DOCKED: USER
+DOCKED: USER
+DOCKED: REMARK  3 active torsions:
+DOCKED: REMARK  status: ('A' for Active; 'I' for Inactive)
+DOCKED: REMARK    1  A    between atoms: C5'_1889  and  S5'_1888 
+DOCKED: REMARK    2  A    between atoms: C4'_1890  and  C5'_1889 
+DOCKED: REMARK    3  A    between atoms: C1'_1896  and  C9_1897 
+DOCKED: USER                              x       y       z     vdW  Elec       q    Type
+DOCKED: USER                           _______ _______ _______ _____ _____    ______ ____
+DOCKED: ROOT
+DOCKED: HETATM    1  C4' MTI A 301       7.806   2.023  91.632 -0.20 -0.73    +0.300 C  
+DOCKED: HETATM    2  N4' MTI A 301       7.064   3.208  91.186 -0.15 -0.95    +0.346 N  
+DOCKED: HETATM    3  C2' MTI A 301       9.365   3.647  90.693 -0.46 -0.48    +0.223 C  
+DOCKED: HETATM    4  O2' MTI A 301       9.959   3.871  89.365 -0.54 +0.59    -0.218 OA 
+DOCKED: HETATM    5  C3' MTI A 301       9.216   2.090  91.023 -0.39 -0.54    +0.219 C  
+DOCKED: HETATM    6  O3' MTI A 301       9.273   1.267  89.784 -0.36 +0.82    -0.218 OA 
+DOCKED: HETATM    7  C1' MTI A 301       7.944   4.306  90.805 -0.32 -0.69    +0.315 C  
+DOCKED: ENDROOT
+DOCKED: BRANCH   7   8
+DOCKED: HETATM    8  C9  MTI A 301       7.772   5.447  91.867 -0.48 -0.08    +0.052 A  
+DOCKED: HETATM    9  C4  MTI A 301       8.713   6.307  92.519 -0.46 -0.13    +0.105 A  
+DOCKED: HETATM   10  N3  MTI A 301      10.123   6.356  92.374 -0.37 +0.23    -0.223 NA 
+DOCKED: HETATM   11  C5  MTI A 301       7.954   7.129  93.373 -0.43 -0.21    +0.156 A  
+DOCKED: HETATM   12  C2  MTI A 301      10.763   7.311  93.147 -0.42 -0.19    +0.202 A  
+DOCKED: HETATM   13  N1  MTI A 301      10.048   8.163  94.014 -0.40 +0.16    -0.184 NA 
+DOCKED: HETATM   14  C6  MTI A 301       8.625   8.132  94.182 -0.33 -0.33    +0.300 A  
+DOCKED: HETATM   15  O6  MTI A 301       8.090   8.919  94.969 -0.45 +0.28    -0.263 OA 
+DOCKED: HETATM   16  N7  MTI A 301       6.609   6.819  93.277 -0.36 +0.48    -0.238 NA 
+DOCKED: HETATM   17  C8  MTI A 301       6.551   5.848  92.403 -0.42 -0.19    +0.098 A  
+DOCKED: ENDBRANCH   7   8
+DOCKED: BRANCH   1  18
+DOCKED: HETATM   18  C5' MTI A 301       7.806   2.015  93.159 -0.24 -0.15    +0.096 C  
+DOCKED: BRANCH  18  19
+DOCKED: HETATM   19  S5' MTI A 301       9.298   2.758  93.883 -0.36 +0.16    -0.137 SA 
+DOCKED: HETATM   20  CS  MTI A 301       9.954   1.366  94.799 -0.36 -0.06    +0.069 C  
+DOCKED: ENDBRANCH  18  19
+DOCKED: ENDBRANCH   1  18
+DOCKED: TORSDOF 3
+DOCKED: TER
+DOCKED: ENDMDL
+________________________________________________________________________________
+
+
+    FINAL DOCKED STATE:
+    ________________________
+
+
+Run:   19 / 20
+Time taken for this run:   0.021s
+
+DOCKED: MODEL        19
+DOCKED: USER    Run = 19
+DOCKED: USER
+DOCKED: USER    Estimated Free Energy of Binding    =  -8.56 kcal/mol  [=(1)+(2)+(3)-(4)]
+DOCKED: USER
+DOCKED: USER    (1) Final Intermolecular Energy     =  -9.45 kcal/mol
+DOCKED: USER        vdW + Hbond + desolv Energy     =  -7.50 kcal/mol
+DOCKED: USER        Electrostatic Energy            =  -1.96 kcal/mol
+DOCKED: USER        Moving Ligand-Fixed Receptor    =  -9.45 kcal/mol
+DOCKED: USER        Moving Ligand-Moving Receptor   =  +0.00 kcal/mol
+DOCKED: USER    (2) Final Total Internal Energy     =  -0.84 kcal/mol
+DOCKED: USER    (3) Torsional Free Energy           =  +0.89 kcal/mol
+DOCKED: USER    (4) Unbound System's Energy         =  -0.84 kcal/mol
+DOCKED: USER
+DOCKED: USER
+DOCKED: REMARK  3 active torsions:
+DOCKED: REMARK  status: ('A' for Active; 'I' for Inactive)
+DOCKED: REMARK    1  A    between atoms: C5'_1889  and  S5'_1888 
+DOCKED: REMARK    2  A    between atoms: C4'_1890  and  C5'_1889 
+DOCKED: REMARK    3  A    between atoms: C1'_1896  and  C9_1897 
+DOCKED: USER                              x       y       z     vdW  Elec       q    Type
+DOCKED: USER                           _______ _______ _______ _____ _____    ______ ____
+DOCKED: ROOT
+DOCKED: HETATM    1  C4' MTI A 301       7.841   2.027  91.643 -0.20 -0.72    +0.300 C  
+DOCKED: HETATM    2  N4' MTI A 301       7.087   3.211  91.217 -0.16 -0.94    +0.346 N  
+DOCKED: HETATM    3  C2' MTI A 301       9.376   3.660  90.680 -0.46 -0.48    +0.223 C  
+DOCKED: HETATM    4  O2' MTI A 301       9.943   3.891  89.340 -0.53 +0.59    -0.218 OA 
+DOCKED: HETATM    5  C3' MTI A 301       9.239   2.102  91.006 -0.39 -0.54    +0.219 C  
+DOCKED: HETATM    6  O3' MTI A 301       9.274   1.283  89.763 -0.36 +0.82    -0.218 OA 
+DOCKED: HETATM    7  C1' MTI A 301       7.955   4.313  90.823 -0.33 -0.68    +0.315 C  
+DOCKED: ENDROOT
+DOCKED: BRANCH   7   8
+DOCKED: HETATM    8  C9  MTI A 301       7.800   5.450  91.891 -0.48 -0.08    +0.052 A  
+DOCKED: HETATM    9  C4  MTI A 301       8.753   6.302  92.538 -0.46 -0.13    +0.105 A  
+DOCKED: HETATM   10  N3  MTI A 301      10.161   6.345  92.378 -0.37 +0.23    -0.223 NA 
+DOCKED: HETATM   11  C5  MTI A 301       8.007   7.123  93.405 -0.43 -0.21    +0.156 A  
+DOCKED: HETATM   12  C2  MTI A 301      10.814   7.293  93.149 -0.42 -0.19    +0.202 A  
+DOCKED: HETATM   13  N1  MTI A 301      10.113   8.144  94.028 -0.40 +0.16    -0.184 NA 
+DOCKED: HETATM   14  C6  MTI A 301       8.692   8.119  94.211 -0.33 -0.32    +0.300 A  
+DOCKED: HETATM   15  O6  MTI A 301       8.169   8.905  95.008 -0.45 +0.27    -0.263 OA 
+DOCKED: HETATM   16  N7  MTI A 301       6.660   6.821  93.322 -0.37 +0.48    -0.238 NA 
+DOCKED: HETATM   17  C8  MTI A 301       6.587   5.854  92.443 -0.43 -0.18    +0.098 A  
+DOCKED: ENDBRANCH   7   8
+DOCKED: BRANCH   1  18
+DOCKED: HETATM   18  C5' MTI A 301       7.872   2.013  93.170 -0.24 -0.15    +0.096 C  
+DOCKED: BRANCH  18  19
+DOCKED: HETATM   19  S5' MTI A 301       9.373   2.763  93.866 -0.34 +0.16    -0.137 SA 
+DOCKED: HETATM   20  CS  MTI A 301       9.911   1.465  94.978 -0.36 -0.06    +0.069 C  
+DOCKED: ENDBRANCH  18  19
+DOCKED: ENDBRANCH   1  18
+DOCKED: TORSDOF 3
+DOCKED: TER
+DOCKED: ENDMDL
+________________________________________________________________________________
+
+
+    FINAL DOCKED STATE:
+    ________________________
+
+
+Run:   20 / 20
+Time taken for this run:   0.021s
+
+DOCKED: MODEL        20
+DOCKED: USER    Run = 20
+DOCKED: USER
+DOCKED: USER    Estimated Free Energy of Binding    =  -8.56 kcal/mol  [=(1)+(2)+(3)-(4)]
+DOCKED: USER
+DOCKED: USER    (1) Final Intermolecular Energy     =  -9.46 kcal/mol
+DOCKED: USER        vdW + Hbond + desolv Energy     =  -7.50 kcal/mol
+DOCKED: USER        Electrostatic Energy            =  -1.95 kcal/mol
+DOCKED: USER        Moving Ligand-Fixed Receptor    =  -9.46 kcal/mol
+DOCKED: USER        Moving Ligand-Moving Receptor   =  +0.00 kcal/mol
+DOCKED: USER    (2) Final Total Internal Energy     =  -0.83 kcal/mol
+DOCKED: USER    (3) Torsional Free Energy           =  +0.89 kcal/mol
+DOCKED: USER    (4) Unbound System's Energy         =  -0.83 kcal/mol
+DOCKED: USER
+DOCKED: USER
+DOCKED: REMARK  3 active torsions:
+DOCKED: REMARK  status: ('A' for Active; 'I' for Inactive)
+DOCKED: REMARK    1  A    between atoms: C5'_1889  and  S5'_1888 
+DOCKED: REMARK    2  A    between atoms: C4'_1890  and  C5'_1889 
+DOCKED: REMARK    3  A    between atoms: C1'_1896  and  C9_1897 
+DOCKED: USER                              x       y       z     vdW  Elec       q    Type
+DOCKED: USER                           _______ _______ _______ _____ _____    ______ ____
+DOCKED: ROOT
+DOCKED: HETATM    1  C4' MTI A 301       7.842   2.005  91.674 -0.20 -0.72    +0.300 C  
+DOCKED: HETATM    2  N4' MTI A 301       7.069   3.173  91.240 -0.17 -0.93    +0.346 N  
+DOCKED: HETATM    3  C2' MTI A 301       9.348   3.647  90.683 -0.46 -0.48    +0.223 C  
+DOCKED: HETATM    4  O2' MTI A 301       9.903   3.871  89.338 -0.54 +0.59    -0.218 OA 
+DOCKED: HETATM    5  C3' MTI A 301       9.234   2.091  91.028 -0.39 -0.54    +0.219 C  
+DOCKED: HETATM    6  O3' MTI A 301       9.272   1.259  89.793 -0.36 +0.82    -0.218 OA 
+DOCKED: HETATM    7  C1' MTI A 301       7.919   4.283  90.829 -0.33 -0.69    +0.315 C  
+DOCKED: ENDROOT
+DOCKED: BRANCH   7   8
+DOCKED: HETATM    8  C9  MTI A 301       7.756   5.429  91.887 -0.48 -0.08    +0.052 A  
+DOCKED: HETATM    9  C4  MTI A 301       8.704   6.289  92.530 -0.46 -0.13    +0.105 A  
+DOCKED: HETATM   10  N3  MTI A 301      10.113   6.335  92.376 -0.37 +0.23    -0.223 NA 
+DOCKED: HETATM   11  C5  MTI A 301       7.952   7.116  93.386 -0.43 -0.21    +0.156 A  
+DOCKED: HETATM   12  C2  MTI A 301      10.760   7.291  93.142 -0.42 -0.19    +0.202 A  
+DOCKED: HETATM   13  N1  MTI A 301      10.052   8.148  94.010 -0.40 +0.16    -0.184 NA 
+DOCKED: HETATM   14  C6  MTI A 301       8.630   8.121  94.187 -0.33 -0.33    +0.300 A  
+DOCKED: HETATM   15  O6  MTI A 301       8.102   8.912  94.973 -0.45 +0.28    -0.263 OA 
+DOCKED: HETATM   16  N7  MTI A 301       6.606   6.809  93.299 -0.36 +0.49    -0.238 NA 
+DOCKED: HETATM   17  C8  MTI A 301       6.540   5.835  92.429 -0.42 -0.19    +0.098 A  
+DOCKED: ENDBRANCH   7   8
+DOCKED: BRANCH   1  18
+DOCKED: HETATM   18  C5' MTI A 301       7.883   2.007  93.201 -0.24 -0.15    +0.096 C  
+DOCKED: BRANCH  18  19
+DOCKED: HETATM   19  S5' MTI A 301       9.408   2.723  93.879 -0.34 +0.16    -0.137 SA 
+DOCKED: HETATM   20  CS  MTI A 301       9.923   1.419  94.994 -0.36 -0.06    +0.069 C  
+DOCKED: ENDBRANCH  18  19
+DOCKED: ENDBRANCH   1  18
+DOCKED: TORSDOF 3
+DOCKED: TER
+DOCKED: ENDMDL
+________________________________________________________________________________
+
+
+    CLUSTERING HISTOGRAM
+    ____________________
+
+
+________________________________________________________________________________
+     |           |     |           |     |
+Clus | Lowest    | Run | Mean      | Num | Histogram
+-ter | Binding   |     | Binding   | in  |
+Rank | Energy    |     | Energy    | Clus|    5    10   15   20   25   30   35
+_____|___________|_____|___________|_____|____:____|____:____|____:____|____:___
+   1 |     -9.22 |  14 |     -9.12 |   7 |#######
+   2 |     -8.57 |   9 |     -8.54 |  13 |#############
+_____|___________|_____|___________|_____|______________________________________
+
+
+    RMSD TABLE
+    __________
+
+
+_______________________________________________________________________
+     |      |      |           |         |                 |
+Rank | Sub- | Run  | Binding   | Cluster | Reference       | Grep
+     | Rank |      | Energy    | RMSD    | RMSD            | Pattern
+_____|______|______|___________|_________|_________________|___________
+   1      1     14       -9.22      0.00      3.95           RANKING
+   1      2     12       -9.19      0.08      3.92           RANKING
+   1      3      8       -9.17      0.11      3.90           RANKING
+   1      4      4       -9.14      0.13      3.90           RANKING
+   1      5     16       -9.11      0.12      3.88           RANKING
+   1      6     11       -9.10      0.14      3.91           RANKING
+   1      7      7       -8.90      0.32      3.91           RANKING
+   2      1      9       -8.57      0.00      0.52           RANKING
+   2      2     18       -8.57      0.27      0.64           RANKING
+   2      3      5       -8.57      0.09      0.56           RANKING
+   2      4     20       -8.56      0.24      0.61           RANKING
+   2      5      1       -8.56      0.08      0.54           RANKING
+   2      6     10       -8.56      0.29      0.65           RANKING
+   2      7     15       -8.56      0.28      0.63           RANKING
+   2      8     19       -8.56      0.24      0.63           RANKING
+   2      9      2       -8.56      0.25      0.63           RANKING
+   2     10      3       -8.54      0.27      0.65           RANKING
+   2     11      6       -8.54      0.27      0.65           RANKING
+   2     12     17       -8.51      0.32      0.64           RANKING
+   2     13     13       -8.43      1.13      1.24           RANKING
+
+Run time 0.421 sec
+Idle time 0.307 sec

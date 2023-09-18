@@ -1,0 +1,23 @@
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: O1P_1987  and  P_1986 
+REMARK    2  A    between atoms: C2_1991  and  O1P_1987 
+REMARK    3  A    between atoms: C1_1992  and  C2_1991 
+ROOT
+HETATM    1  O1P PGA A 401      21.922  -2.191   7.702  1.00 19.07    -0.252 OA
+ENDROOT
+BRANCH   1   2
+HETATM    2  C2  PGA A 401      20.650  -2.203   8.365  1.00 24.65     0.252 C 
+BRANCH   2   3
+HETATM    3  C1  PGA A 401      20.981  -2.772   9.656  1.00 29.67     0.218 C 
+HETATM    4  O1  PGA A 401      22.098  -2.582  10.405  1.00 18.75    -0.646 OA
+HETATM    5  O2  PGA A 401      20.198  -3.636  10.339  1.00 25.60    -0.646 OA
+ENDBRANCH   2   3
+ENDBRANCH   1   2
+BRANCH   1   6
+HETATM    6  P   PGA A 401      22.125  -1.695   6.149  1.00 15.92     0.423 P 
+HETATM    7  O2P PGA A 401      21.802  -2.979   5.433  1.00 18.43    -0.617 OA
+HETATM    8  O3P PGA A 401      23.554  -1.262   6.055  1.00 15.00    -0.617 OA
+HETATM    9  O4P PGA A 401      21.101  -0.597   5.998  1.00 12.78    -0.617 OA
+ENDBRANCH   1   6
+TORSDOF 3

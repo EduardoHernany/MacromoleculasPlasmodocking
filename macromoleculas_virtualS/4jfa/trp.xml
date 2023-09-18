@@ -1,0 +1,261 @@
+<?xml version="1.0" ?>
+<autodock_gpu>
+	<version>v1.5-release</version>
+	<arguments>--ffile 4jfa_a.maps.fld --lfile trp.pdbqt</arguments>
+	<grid>4jfa_a.maps.fld</grid>
+	<ligand>trp.pdbqt</ligand>
+	<seed>1695011956 33858</seed>
+	<ls_method>ad</ls_method>
+	<autostop>yes</autostop>
+	<heuristics>yes</heuristics>
+	<run_requested>20</run_requested>
+	<runs>
+		<run id="9">
+			<free_NRG_binding>   -7.26</free_NRG_binding>
+			<final_intermol_NRG> -8.15</final_intermol_NRG>
+			<internal_ligand_NRG>-0.19</internal_ligand_NRG>
+			<torsonial_free_NRG> 0.89</torsonial_free_NRG>
+			<tran0>5.067874 5.192214 4.769886</tran0>
+			<axisangle0>-0.41774148 -0.00132890 0.90856496 344.674347</axisangle0>
+			<ndihe>3</ndihe>
+			<dihe0>177.879761 337.501831 31.956787
+			</dihe0>
+		</run>
+		<run id="6">
+			<free_NRG_binding>   -7.25</free_NRG_binding>
+			<final_intermol_NRG> -8.15</final_intermol_NRG>
+			<internal_ligand_NRG>-0.19</internal_ligand_NRG>
+			<torsonial_free_NRG> 0.89</torsonial_free_NRG>
+			<tran0>5.066548 5.188624 4.778288</tran0>
+			<axisangle0>0.44178359 -0.00054450 -0.89712149 15.057302</axisangle0>
+			<ndihe>3</ndihe>
+			<dihe0>179.396469 337.971985 31.706076
+			</dihe0>
+		</run>
+		<run id="8">
+			<free_NRG_binding>   -7.25</free_NRG_binding>
+			<final_intermol_NRG> -8.15</final_intermol_NRG>
+			<internal_ligand_NRG>-0.18</internal_ligand_NRG>
+			<torsonial_free_NRG> 0.89</torsonial_free_NRG>
+			<tran0>5.087429 5.079635 4.805668</tran0>
+			<axisangle0>0.12723657 -0.13360383 -0.98283308 18.030888</axisangle0>
+			<ndihe>3</ndihe>
+			<dihe0>172.109589 337.021210 36.584526
+			</dihe0>
+		</run>
+		<run id="20">
+			<free_NRG_binding>   -7.25</free_NRG_binding>
+			<final_intermol_NRG> -8.15</final_intermol_NRG>
+			<internal_ligand_NRG>-0.19</internal_ligand_NRG>
+			<torsonial_free_NRG> 0.89</torsonial_free_NRG>
+			<tran0>5.059597 5.180720 4.773649</tran0>
+			<axisangle0>0.28117990 -0.04959381 -0.95837274 15.040055</axisangle0>
+			<ndihe>3</ndihe>
+			<dihe0>354.560333 339.299530 30.954491
+			</dihe0>
+		</run>
+		<run id="5">
+			<free_NRG_binding>   -7.25</free_NRG_binding>
+			<final_intermol_NRG> -8.15</final_intermol_NRG>
+			<internal_ligand_NRG>-0.19</internal_ligand_NRG>
+			<torsonial_free_NRG> 0.89</torsonial_free_NRG>
+			<tran0>5.063441 5.206293 4.764552</tran0>
+			<axisangle0>0.37346406 -0.02761477 -0.92723353 14.568790</axisangle0>
+			<ndihe>3</ndihe>
+			<dihe0>356.701111 339.564240 30.540405
+			</dihe0>
+		</run>
+		<run id="12">
+			<free_NRG_binding>   -7.25</free_NRG_binding>
+			<final_intermol_NRG> -8.14</final_intermol_NRG>
+			<internal_ligand_NRG>-0.20</internal_ligand_NRG>
+			<torsonial_free_NRG> 0.89</torsonial_free_NRG>
+			<tran0>5.038764 5.214331 4.747359</tran0>
+			<axisangle0>0.49448575 0.00342372 -0.86917899 14.504984</axisangle0>
+			<ndihe>3</ndihe>
+			<dihe0>182.042496 338.326721 30.597279
+			</dihe0>
+		</run>
+		<run id="11">
+			<free_NRG_binding>   -7.25</free_NRG_binding>
+			<final_intermol_NRG> -8.14</final_intermol_NRG>
+			<internal_ligand_NRG>-0.19</internal_ligand_NRG>
+			<torsonial_free_NRG> 0.89</torsonial_free_NRG>
+			<tran0>5.038932 5.214397 4.765106</tran0>
+			<axisangle0>0.35887881 -0.09378660 -0.92866036 13.945580</axisangle0>
+			<ndihe>3</ndihe>
+			<dihe0>359.950653 341.354858 30.370522
+			</dihe0>
+		</run>
+		<run id="13">
+			<free_NRG_binding>   -7.25</free_NRG_binding>
+			<final_intermol_NRG> -8.14</final_intermol_NRG>
+			<internal_ligand_NRG>-0.19</internal_ligand_NRG>
+			<torsonial_free_NRG> 0.89</torsonial_free_NRG>
+			<tran0>4.991162 5.240274 4.733771</tran0>
+			<axisangle0>0.55581924 -0.10136292 -0.82510032 14.499824</axisangle0>
+			<ndihe>3</ndihe>
+			<dihe0>190.554794 340.554016 31.265747
+			</dihe0>
+		</run>
+		<run id="15">
+			<free_NRG_binding>   -7.25</free_NRG_binding>
+			<final_intermol_NRG> -8.14</final_intermol_NRG>
+			<internal_ligand_NRG>-0.19</internal_ligand_NRG>
+			<torsonial_free_NRG> 0.89</torsonial_free_NRG>
+			<tran0>4.984569 5.195837 4.756226</tran0>
+			<axisangle0>-0.46746571 0.15419967 0.87045865 344.905121</axisangle0>
+			<ndihe>3</ndihe>
+			<dihe0>12.398702 339.792114 33.642925
+			</dihe0>
+		</run>
+		<run id="14">
+			<free_NRG_binding>   -7.24</free_NRG_binding>
+			<final_intermol_NRG> -8.14</final_intermol_NRG>
+			<internal_ligand_NRG>-0.20</internal_ligand_NRG>
+			<torsonial_free_NRG> 0.89</torsonial_free_NRG>
+			<tran0>5.030288 5.228732 4.765055</tran0>
+			<axisangle0>0.50100008 0.00168935 -0.86544559 14.015092</axisangle0>
+			<ndihe>3</ndihe>
+			<dihe0>180.756424 339.494293 29.551949
+			</dihe0>
+		</run>
+		<run id="16">
+			<free_NRG_binding>   -7.24</free_NRG_binding>
+			<final_intermol_NRG> -8.14</final_intermol_NRG>
+			<internal_ligand_NRG>-0.19</internal_ligand_NRG>
+			<torsonial_free_NRG> 0.89</torsonial_free_NRG>
+			<tran0>4.943462 5.258997 4.737812</tran0>
+			<axisangle0>0.59886896 -0.14580753 -0.78746183 13.780893</axisangle0>
+			<ndihe>3</ndihe>
+			<dihe0>14.495272 343.078339 29.470848
+			</dihe0>
+		</run>
+		<run id="10">
+			<free_NRG_binding>   -7.24</free_NRG_binding>
+			<final_intermol_NRG> -8.14</final_intermol_NRG>
+			<internal_ligand_NRG>-0.19</internal_ligand_NRG>
+			<torsonial_free_NRG> 0.89</torsonial_free_NRG>
+			<tran0>4.938622 5.263032 4.754913</tran0>
+			<axisangle0>0.60855721 -0.15346018 -0.77852944 13.707965</axisangle0>
+			<ndihe>3</ndihe>
+			<dihe0>15.233740 343.537628 29.580709
+			</dihe0>
+		</run>
+		<run id="4">
+			<free_NRG_binding>   -7.24</free_NRG_binding>
+			<final_intermol_NRG> -8.14</final_intermol_NRG>
+			<internal_ligand_NRG>-0.19</internal_ligand_NRG>
+			<torsonial_free_NRG> 0.89</torsonial_free_NRG>
+			<tran0>5.077959 5.192567 4.761344</tran0>
+			<axisangle0>-0.29743063 -0.00806448 0.95470937 345.264343</axisangle0>
+			<ndihe>3</ndihe>
+			<dihe0>153.124344 340.099457 28.322290
+			</dihe0>
+		</run>
+		<run id="7">
+			<free_NRG_binding>   -7.24</free_NRG_binding>
+			<final_intermol_NRG> -8.14</final_intermol_NRG>
+			<internal_ligand_NRG>-0.20</internal_ligand_NRG>
+			<torsonial_free_NRG> 0.89</torsonial_free_NRG>
+			<tran0>5.072883 5.215589 4.763857</tran0>
+			<axisangle0>0.32962685 0.01448206 -0.94400022 14.282808</axisangle0>
+			<ndihe>3</ndihe>
+			<dihe0>172.297104 339.461060 29.244743
+			</dihe0>
+		</run>
+		<run id="2">
+			<free_NRG_binding>   -7.24</free_NRG_binding>
+			<final_intermol_NRG> -8.13</final_intermol_NRG>
+			<internal_ligand_NRG>-0.20</internal_ligand_NRG>
+			<torsonial_free_NRG> 0.89</torsonial_free_NRG>
+			<tran0>4.939538 5.288409 4.724041</tran0>
+			<axisangle0>0.69609324 -0.09518468 -0.71161371 13.189281</axisangle0>
+			<ndihe>3</ndihe>
+			<dihe0>14.598095 343.493744 27.343609
+			</dihe0>
+		</run>
+		<run id="18">
+			<free_NRG_binding>   -7.24</free_NRG_binding>
+			<final_intermol_NRG> -8.13</final_intermol_NRG>
+			<internal_ligand_NRG>-0.20</internal_ligand_NRG>
+			<torsonial_free_NRG> 0.89</torsonial_free_NRG>
+			<tran0>4.929667 5.280530 4.708930</tran0>
+			<axisangle0>0.69032500 -0.11572491 -0.71418425 13.299426</axisangle0>
+			<ndihe>3</ndihe>
+			<dihe0>16.070152 343.765076 27.506681
+			</dihe0>
+		</run>
+		<run id="17">
+			<free_NRG_binding>   -7.24</free_NRG_binding>
+			<final_intermol_NRG> -8.13</final_intermol_NRG>
+			<internal_ligand_NRG>-0.20</internal_ligand_NRG>
+			<torsonial_free_NRG> 0.89</torsonial_free_NRG>
+			<tran0>5.066367 5.198152 4.739698</tran0>
+			<axisangle0>0.36583801 -0.00063231 -0.93067833 14.642089</axisangle0>
+			<ndihe>3</ndihe>
+			<dihe0>158.442749 339.324280 28.619774
+			</dihe0>
+		</run>
+		<run id="19">
+			<free_NRG_binding>   -7.24</free_NRG_binding>
+			<final_intermol_NRG> -8.13</final_intermol_NRG>
+			<internal_ligand_NRG>-0.19</internal_ligand_NRG>
+			<torsonial_free_NRG> 0.89</torsonial_free_NRG>
+			<tran0>5.083465 5.410569 4.934248</tran0>
+			<axisangle0>-0.35493517 -0.17494019 -0.91837735 11.714059</axisangle0>
+			<ndihe>3</ndihe>
+			<dihe0>121.525543 6.010117 17.115709
+			</dihe0>
+		</run>
+		<run id="3">
+			<free_NRG_binding>   -7.23</free_NRG_binding>
+			<final_intermol_NRG> -8.12</final_intermol_NRG>
+			<internal_ligand_NRG>-0.19</internal_ligand_NRG>
+			<torsonial_free_NRG> 0.89</torsonial_free_NRG>
+			<tran0>5.037467 5.251482 4.808036</tran0>
+			<axisangle0>-0.07736107 -0.08222210 -0.99360696 12.772824</axisangle0>
+			<ndihe>3</ndihe>
+			<dihe0>158.382217 349.166138 23.704475
+			</dihe0>
+		</run>
+		<run id="1">
+			<free_NRG_binding>   -7.11</free_NRG_binding>
+			<final_intermol_NRG> -8.01</final_intermol_NRG>
+			<internal_ligand_NRG>-0.20</internal_ligand_NRG>
+			<torsonial_free_NRG> 0.89</torsonial_free_NRG>
+			<tran0>4.939510 5.372970 4.665021</tran0>
+			<axisangle0>-0.65322788 -0.36976275 0.66073356 351.554199</axisangle0>
+			<ndihe>3</ndihe>
+			<dihe0>14.455149 349.354095 12.738443
+			</dihe0>
+		</run>
+	</runs>
+	<result>
+		<clustering_histogram>
+			<cluster cluster_rank="1" lowest_binding_energy="-7.26" run="9" mean_binding_energy="-7.24" num_in_clus="20" />
+		</clustering_histogram>
+		<rmsd_table>
+			<run rank="1" sub_rank="1" run="9" binding_energy="-7.26" cluster_rmsd="0.00" reference_rmsd="0.61" />
+			<run rank="1" sub_rank="2" run="6" binding_energy="-7.25" cluster_rmsd="0.02" reference_rmsd="0.62" />
+			<run rank="1" sub_rank="3" run="8" binding_energy="-7.25" cluster_rmsd="0.16" reference_rmsd="0.65" />
+			<run rank="1" sub_rank="4" run="20" binding_energy="-7.25" cluster_rmsd="0.09" reference_rmsd="0.60" />
+			<run rank="1" sub_rank="5" run="5" binding_energy="-7.25" cluster_rmsd="0.04" reference_rmsd="0.59" />
+			<run rank="1" sub_rank="6" run="12" binding_energy="-7.25" cluster_rmsd="0.05" reference_rmsd="0.59" />
+			<run rank="1" sub_rank="7" run="11" binding_energy="-7.25" cluster_rmsd="0.06" reference_rmsd="0.58" />
+			<run rank="1" sub_rank="8" run="13" binding_energy="-7.25" cluster_rmsd="0.17" reference_rmsd="0.60" />
+			<run rank="1" sub_rank="9" run="15" binding_energy="-7.25" cluster_rmsd="0.18" reference_rmsd="0.61" />
+			<run rank="1" sub_rank="10" run="14" binding_energy="-7.24" cluster_rmsd="0.05" reference_rmsd="0.59" />
+			<run rank="1" sub_rank="11" run="16" binding_energy="-7.24" cluster_rmsd="0.21" reference_rmsd="0.60" />
+			<run rank="1" sub_rank="12" run="10" binding_energy="-7.24" cluster_rmsd="0.22" reference_rmsd="0.61" />
+			<run rank="1" sub_rank="13" run="4" binding_energy="-7.24" cluster_rmsd="0.21" reference_rmsd="0.62" />
+			<run rank="1" sub_rank="14" run="7" binding_energy="-7.24" cluster_rmsd="0.09" reference_rmsd="0.59" />
+			<run rank="1" sub_rank="15" run="2" binding_energy="-7.24" cluster_rmsd="0.22" reference_rmsd="0.59" />
+			<run rank="1" sub_rank="16" run="18" binding_energy="-7.24" cluster_rmsd="0.24" reference_rmsd="0.59" />
+			<run rank="1" sub_rank="17" run="17" binding_energy="-7.24" cluster_rmsd="0.16" reference_rmsd="0.59" />
+			<run rank="1" sub_rank="18" run="19" binding_energy="-7.24" cluster_rmsd="0.61" reference_rmsd="0.82" />
+			<run rank="1" sub_rank="19" run="3" binding_energy="-7.23" cluster_rmsd="0.33" reference_rmsd="0.62" />
+			<run rank="1" sub_rank="20" run="1" binding_energy="-7.11" cluster_rmsd="0.25" reference_rmsd="0.53" />
+		</rmsd_table>
+	</result>
+</autodock_gpu>
